@@ -1,0 +1,40 @@
+# CDC — WorldModule
+
+## Responsabilités
+
+- Import mondes via formulaire staff (TaxCapital, type, propriétaire, avantages, inconvénients, commentaire GM)
+- Régénération automatique terrain hors claim — chaque mardi à 10h
+- Gestion horaires monde minier (20h-23h, Jour 0 : 24h/24 pendant 48h)
+- Intégration AxMines pour zones de farm régénérables
+- Archivage des mondes inactifs
+- API interne : `getTaxRate`, `isWorldOpen`, `getType`, `getOwner`, `getSpawn`
+
+---
+
+## Commandes
+
+| Commande | Description | Permission |
+|---|---|---|
+| `/wm import <dossier>` | Formulaire : TaxCapital, type, propriétaire, avantage, inconvénient, commentaireGM | staff |
+| `/wm regenerate <monde>` | Force la régénération du terrain hors claim | staff |
+| `/wm archive <monde>` | Archive un monde (double confirmation) | staff |
+| `/wm info <monde>` | Paramètres + commentaire GM | GM |
+| `/wm list` | Liste tous les mondes avec statut | staff |
+| `/wm setmining <preset>` | Configure les minerais du monde minier pour la session | GM |
+| `/wm day0 activate` | Mode Jour 0 (48h ouverture complète) | GM |
+
+---
+
+## Configuration — worlds.yml
+
+| Variable | Défaut | Type | Description |
+|---|---|---|---|
+| `worlds.regen-day` | TUESDAY | String | Jour de régénération terrain hors claim |
+| `worlds.regen-time` | 10:00 | String | Heure de régénération |
+| `worlds.mining-open-start` | 20:00 | String | Heure ouverture monde minier |
+| `worlds.mining-open-end` | 23:00 | String | Heure fermeture monde minier |
+| `worlds.mining-day0-hours` | 48 | Int | Durée Jour 0 (heures) |
+
+---
+
+*WayRift — V3 — Confidentiel*
