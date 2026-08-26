@@ -1,41 +1,74 @@
-# WayRift — Documentation
+# ⚑ WayRift — Documentation
 
-Serveur Minecraft Semi-RP Multivers | Paper 1.21 | Java
-
-## Structure
-
-```
-Documentation/
-├── CDC/                          — Cahiers des charges par module
-│   ├── V3.CDC_WorldModule.docx
-│   ├── V3.CDC_PortalModule.docx
-│   ├── V3.CDC_PlayerModule.docx
-│   ├── V3.CDC_FactionModule.docx
-│   ├── V3.CDC_EcoModule.docx
-│   ├── V3.CDC_ReputationModule.docx
-│   ├── V3.CDC_DisplayModule.docx
-│   └── V3.CDC_Entreprises.docx
-├── Roadmaps/
-│   ├── V3.Roadmap_Complete.docx
-│   └── V3.Roadmap_V1.docx
-├── Lore/
-│   └── V3.Lore.docx
-├── Equipe/
-│   └── V3.Equipe.docx
-├── Archives/
-│   ├── V3.Archives_Techniques.docx
-│   └── V3.Devlog.docx
-├── V3.Groupes_Organisations_Nations.docx
-├── V3.Perspectives_Joueur.docx
-├── V3.Presentation.docx
-├── V3.Presentation_Joueur.docx
-└── V3.Recap_Projet.docx
-Scripts/                          — Scripts de génération des documents
-```
-
-## Convention de nommage
-
-Tous les documents suivent la convention `V3.Sujet.docx`.
+> Serveur Minecraft Semi-RP Multivers | Paper 1.21 | Java
 
 ---
-*Confidentiel — Usage interne uniquement*
+
+## 📋 Document de référence principal
+
+| Document | Description |
+|---|---|
+| [📖 Récapitulatif Complet](Documentation/Recap_Projet.md) | **Point d'entrée** — Tout le projet en un seul document |
+
+---
+
+## 🗺️ Roadmaps
+
+| Document | Description |
+|---|---|
+| [Roadmap Complète V1→V7](Documentation/Roadmaps/Roadmap_Complete.md) | Vue d'ensemble de toutes les versions |
+| [Roadmap V1](Documentation/Roadmaps/Roadmap_V1.md) | Détail complet des fonctionnalités à livrer pour l'ouverture |
+
+---
+
+## 📐 Cahiers des Charges — Modules à développer
+
+| Module | Description |
+|---|---|
+| [CDC — WorldModule](Documentation/CDC/CDC_WorldModule.md) | Gestion des mondes, import, horaires, régénération |
+| [CDC — PortalModule](Documentation/CDC/CDC_PortalModule.md) | Portails interconnectés, états joueur, exil |
+| [CDC — PlayerModule](Documentation/CDC/CDC_PlayerModule.md) | Identité RP, mort, coma, wipe, profil |
+| [CDC — FactionModule](Documentation/CDC/CDC_FactionModule.md) | Groupes, organisations, nations, claims, diplomatie, guerres |
+| [CDC — EcoModule](Documentation/CDC/CDC_EcoModule.md) | Monnaie, HDV, taxes, Rubies, commerce inter-entités |
+| [CDC — ReputationModule](Documentation/CDC/CDC_ReputationModule.md) | Réputation joueur, seuils, LuckPerms, affichages |
+| [CDC — DisplayModule](Documentation/CDC/CDC_DisplayModule.md) | Nametags, affichages RP automatiques, tête de mort |
+| [CDC — Entreprises](Documentation/CDC/CDC_Entreprises.md) | Types d'entreprises, contrats, production, vente B2B |
+
+---
+
+## 🌍 Lore & Univers
+
+| Document | Description |
+|---|---|
+| [Lore & Arc Narratif](Documentation/Lore/Lore.md) | Histoire du multivers, arc V1→V7, portails instables |
+| [Groupes, Organisations & Nations](Documentation/Groupes_Organisations_Nations.md) | Hiérarchie des entités, commerce inter-entités, caisses |
+| [Perspectives du Joueur](Documentation/Perspectives_Joueur.md) | Progression solo → groupe → organisation → nation |
+
+---
+
+## 👥 Équipe
+
+| Document | Description |
+|---|---|
+| [Structure de l'Équipe](Documentation/Equipe/Equipe.md) | Rôles, responsabilités, devs, builders, staff |
+
+---
+
+## 🗄️ Archives
+
+| Document | Description |
+|---|---|
+| [Archives Techniques](Documentation/Archives/V3.Archives_Techniques.docx) | Mécaniques abandonnées et raisons |
+| [Devlog](Documentation/Archives/V3.Devlog.docx) | Journal des décisions de conception |
+
+---
+
+## 📁 Convention de nommage
+
+Tous les documents suivent la convention `V3.Sujet` (.docx et .md en parallèle).  
+Les fichiers `.md` sont lisibles directement dans GitHub.  
+Les fichiers `.docx` sont téléchargeables pour consultation hors ligne.
+
+---
+
+*WayRift — Confidentiel — Usage interne uniquement*
