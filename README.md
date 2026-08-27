@@ -1,6 +1,6 @@
 # ⚑ WayRift — Documentation
 
-> Serveur Minecraft Semi-RP Multivers | Paper 1.21 | Java
+> Serveur Minecraft Semi-RP Multivers | Paper 1.21 | Java | Any-Way Studio
 
 ---
 
@@ -9,6 +9,15 @@
 | Document | Description |
 |---|---|
 | [📖 Récapitulatif Complet](Documentation/Recap_Projet.md) | **Point d'entrée** — Tout le projet en un seul document |
+
+---
+
+## 🎮 Présentation
+
+| Document | Description |
+|---|---|
+| [Présentation du Serveur](Documentation/Presentation.md) | Concept, mécaniques clés, arc narratif |
+| [Message Joueur](Documentation/Presentation_Joueur.md) | Textes de communication — version longue, courte, accroche |
 
 ---
 
@@ -40,7 +49,7 @@
 
 | Document | Description |
 |---|---|
-| [Lore & Arc Narratif](Documentation/Lore/Lore.md) | Histoire du multivers, arc V1→V7, portails instables |
+| [Lore & Arc Narratif](Documentation/Lore/Lore.md) | Histoire du multivers, arc V1→V7, types de portails |
 | [Groupes, Organisations & Nations](Documentation/Groupes_Organisations_Nations.md) | Hiérarchie des entités, commerce inter-entités, caisses |
 | [Perspectives du Joueur](Documentation/Perspectives_Joueur.md) | Progression solo → groupe → organisation → nation |
 
@@ -54,21 +63,21 @@
 
 ---
 
-## 🗄️ Archives
+## 🗄️ Archives & Historique
 
 | Document | Description |
 |---|---|
-| [Archives Techniques](Documentation/Archives/V3.Archives_Techniques.docx) | Mécaniques abandonnées et raisons |
-| [Devlog](Documentation/Archives/V3.Devlog.docx) | Journal des décisions de conception |
+| [Archives Techniques](Documentation/Archives/Archives_Techniques.md) | Mécaniques abandonnées et raisons |
+| [Devlog](Documentation/Archives/Devlog.md) | Journal chronologique des décisions de conception |
 
 ---
 
 ## 📁 Convention de nommage
 
-Tous les documents suivent la convention `V3.Sujet` (.docx et .md en parallèle).  
+Tous les documents suivent la convention `V3.Sujet`.  
 Les fichiers `.md` sont lisibles directement dans GitHub.  
 Les fichiers `.docx` sont téléchargeables pour consultation hors ligne.
 
 ---
 
-*WayRift — Confidentiel — Usage interne uniquement*
+*WayRift — filiale de Any-Way Studio — Confidentiel — Usage interne uniquement*
