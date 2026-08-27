@@ -86,6 +86,15 @@ Le projet démarre avec une demande simple : créer un serveur Minecraft Java en
 
 ## 3. Déplacements & Portails
 
+### Les 4 types de portails
+
+| Type | Comportement | Usage |
+|---|---|---|
+| **Instable** | Se referme après le passage d'un joueur | Usage unique — portails brisés du multivers |
+| **Stable** | Reste ouvert tant qu'il est activé | Navigation standard entre mondes |
+| **Temporel** | Accès permanent vers le passé | Monde minier uniquement — justification lore |
+| **Faille** | Créé par un joueur, durée limitée | Accès à un donjon (V5+) |
+
 ### Évolution du système
 
 | Version | Système | Statut |
@@ -264,7 +273,8 @@ GROUPE / ORGA / NATION ACHETEUR :
 
 ## 9. Guerres & KOTH
 
-- Guerres possibles à tous les niveaux — validées et suivies par un GM
+- **Guerres KOTH réservées aux Nations uniquement** — validées et suivies par un GM
+- Les Organisations ont des événements organisés par les chefs et les GM (pas de guerres formelles)
 - GM lance chaque manche avec une commande
 - **1 manche gagnée = 1 point. Premier à 3 points gagne.**
 - Si défaite écrasante : GM peut déclencher une attaque directe de la ville perdante

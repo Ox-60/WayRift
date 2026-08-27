@@ -4,10 +4,29 @@
 
 | Niveau | Membres max | Déblocage | Droits spéciaux |
 |---|---|---|---|
-| Groupe | XX | Création en jeu (100 000¢) | Claims, guerres GM |
-| Organisation simple | 25 | Ticket staff + 10 membres actifs + 7j activité | Item unique B2B, contenu GM |
-| Organisation avancée | 50 | Ticket staff + 15 membres actifs + hiérarchie complète | Caisses organisation |
-| Nation | 100 | Ressources + argent + ticket staff | Monde dédié, guerres inter-nations |
+| **Groupe** | XX | Création en jeu (100 000¢) | Claims, minage |
+| **Organisation simple** | 25 | Ticket staff + 10 membres actifs + 7j activité | Item unique B2B, événements GM, caisses orga |
+| **Organisation avancée** | 50 | Ticket staff + 15 membres actifs + hiérarchie complète | Idem + hiérarchie libre |
+| **Nation** | 100 | Ressources + argent + ticket staff | Monde dédié, **guerres KOTH**, caisses nation |
+
+> ⚠️ Les **guerres KOTH sont réservées aux Nations uniquement**.
+> Les Organisations ont accès à des **événements organisés par les chefs et les GM** — pas de guerres formelles.
+
+---
+
+## Guerres KOTH — Nations uniquement
+
+- Nations uniquement — validées et suivies par un GM
+- GM lance chaque manche avec une commande
+- **1 manche gagnée = 1 point. Premier à 3 points gagne.**
+- Si défaite écrasante : GM peut déclencher une attaque directe de la ville perdante
+- 1 position par monde : monde de l'attaquant, monde du défenseur, monde neutre
+
+---
+
+## Événements — Organisations
+
+Les organisations accèdent à des événements organisés conjointement par les chefs d'organisation et les GM. Ces événements remplacent les guerres formelles à ce niveau. Leur forme est libre (tournoi, course, défi RP, chasse au trésor...) et définie au cas par cas.
 
 ---
 
@@ -22,17 +41,29 @@
 |---|---|---|
 | Membre de la faction | Survie complète | Survie complète |
 | Non-membre (neutre) | Mode Aventure | Mode Aventure |
-| Ennemi (guerre GM) | Mode Aventure | Survie complète — casse et pose libre |
+| Ennemi (guerre GM — Nations) | Mode Aventure | Survie complète — casse et pose libre |
 
 ---
 
-## Guerres KOTH
+## Item unique — Organisations et Nations
 
-- Guerres possibles à tous les niveaux — validées et suivies par un GM
-- GM lance chaque manche avec une commande
-- **1 manche gagnée = 1 point. Premier à 3 points gagne.**
-- Si défaite écrasante : GM peut déclencher une attaque directe de la ville perdante
-- 1 position par monde : monde de l'attaquant, monde du défenseur, monde neutre
+- Demandé via ticket. Créé par l'équipe WayRift et intégré en jeu.
+- **Vendable uniquement à d'autres organisations ou nations** (jamais aux joueurs individuels).
+- Prix de vente : 75% à 125% du prix constructeur.
+- Les acheteurs (organisations/nations) peuvent revendre aux joueurs à 125-150% minimum.
+
+---
+
+## Répartition des revenus sur vente B2B
+
+```
+Ressource vendue par l'organisation :
+  30% -> Farmeur (producteur de la ressource)
+  25% -> Vendeur (qui a passé le contrat)
+  45% -> Organisation
+         (redistribuable : primes activité/production,
+          achats au marché, ou conservé en trésorerie)
+```
 
 ---
 
@@ -55,7 +86,7 @@ CALENDRIER :
 
 | Commande | Description | Permission |
 |---|---|---|
-| `/f invite <joueur>` | Invite un joueur dans la faction | chef/responsable |
+| `/f invite <joueur>` | Invite un joueur | chef/responsable |
 | `/f kick <joueur>` | Expulse un membre | chef/responsable |
 | `/f settax <montant> <jours>` | Définit les impôts | chef/responsable |
 | `/f pay <montant>` | Paie ses impôts (génère votes réputation) | membre |
@@ -65,7 +96,8 @@ CALENDRIER :
 | `/f resetclaim` | Reset le chunk farm (1x/semaine) | chef |
 | `/f top` | Classement factions par puissance | joueur |
 | `/faction admin validate <nom>` | Valide une faction/organisation | admin |
-| `/gm war activate <f1> <f2>` | Active physiquement la guerre | GM |
+| `/gm war activate <n1> <n2>` | Active physiquement la guerre (Nations) | GM |
+| `/gm event create <orga>` | Crée un événement pour une organisation | GM |
 
 ---
 
