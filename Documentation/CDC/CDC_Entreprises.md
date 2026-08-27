@@ -159,15 +159,42 @@ Chaque action sur le coffre génère un log horodaté :
 
 ---
 
+## Coffre de faction — interactions physiques
+
+Le coffre de faction est un **bloc physique** qui donne accès à une interface virtuelle.
+
+| Interaction | Action | Permission requise |
+|---|---|---|
+| **Clic gauche** | Dépose les items custom directement (sans ouvrir l'interface) | `crafter-items-custom` uniquement — pas besoin de `acceder-coffre-faction` |
+| **Clic droit** | Ouvre l'interface complète du coffre | `acceder-coffre-faction` |
+
+> Le clic gauche facilite le dépôt pour les crafteurs : ils n'ont pas besoin de voir le contenu du coffre, juste de déposer. Ils n'ont pas besoin de la permission d'ouverture du coffre.
+
+---
+
+## Items non activés — règles
+
+- Les items non activés **ne peuvent pas être échangés entre joueurs**
+- Le crafteur **ne peut pas les dropper**
+- Ils sont **obligatoirement amenés dans le coffre de faction** pour être déposés
+
+---
+
+## Contrats — expiration
+
+- Si le vendeur ne livre pas, l'acheteur ne valide pas
+- Le contrat expire automatiquement à la fin du délai d'expiration
+- À expiration : contrat annulé, aucune transaction effectuée
+
+---
+
 ## Points ouverts
 
 | # | Point | Priorité |
 |---|---|---|
-| 1 | Interface logs — GUI ou commande ? | Haute |
+| 1 | Délai d'expiration des contrats (valeur à définir) | Haute |
 | 2 | Limite nombre de contrats actifs simultanés | Moyenne |
-| 3 | Que se passe-t-il si le vendeur ne livre pas ? Délai d'expiration du contrat ? | Haute |
-| 4 | Les items non activés peuvent-ils être échangés entre joueurs ? | Moyenne |
-| 5 | Coffre de faction = bloc physique ou interface virtuelle ? | Haute |
+| 3 | Interface logs — GUI ou commande `/e logs` ? | Haute |
 
 ---
 

@@ -42,6 +42,7 @@
 | [CDC — ReputationModule](Documentation/CDC/CDC_ReputationModule.md) | Réputation joueur, seuils, LuckPerms, affichages |
 | [CDC — DisplayModule](Documentation/CDC/CDC_DisplayModule.md) | Nametags, affichages RP automatiques, tête de mort |
 | [CDC — Entreprises](Documentation/CDC/CDC_Entreprises.md) | Types d'entreprises, contrats, production, vente B2B |
+| [CDC — Tebex & Rangs VIP](Documentation/CDC/CDC_Tebex.md) | Rangs joueur/VIP/VIP+/VIP Premium — avantages, kart, housing, coffre banque |
 
 ---
 
