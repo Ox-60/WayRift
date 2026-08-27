@@ -186,3 +186,60 @@ Le kart est un wagon qui se déplace sur la terre ferme sans rails.
 ---
 
 *WayRift — V3 — À VÉRIFIER — Confidentiel*
+
+---
+
+## Prix des abonnements
+
+| Rang | Prix mensuel |
+|---|---|
+| VIP | 12$ / mois |
+| VIP+ | 25$ / mois |
+| VIP Premium | 45$ / mois |
+
+---
+
+## Avantages supplémentaires — En réflexion
+
+> Ces éléments sont en cours de réflexion et ne sont pas encore validés.
+
+### Effets visuels & Cosmétiques
+- **Glow effect** — halo lumineux autour du joueur (couleur selon le rang ?)
+- **Messages custom de connexion** — message personnalisé affiché au serveur lors du join
+- **Badges** — affichés dans le nameplate ou le chat selon le rang
+
+### Fly mode
+- **Fly dans les parcelles** — mode vol activable uniquement dans sa parcelle housing
+
+### Boosts temporaires (hebdomadaires)
+Boosts attribuables automatiquement chaque semaine selon le rang :
+
+| Type de boost | Effet | Durée | Fréquence |
+|---|---|---|---|
+| XP boost (compte) | x1.5 ou x2 selon rang | 1h | 1x par semaine |
+| XP boost (en jeu) | x1.5 ou x2 selon rang | 1h | 1x par semaine |
+| Gold XP | +1.2x sur les ventes et crafts (¢ supplémentaires) | À définir | À définir |
+
+### Principe économique du surplus VIP
+Le bonus de salaire VIP (ex: +10% sur le salaire passif) est **créé ex nihilo** — il n'est pas prélevé sur la trésorerie de la faction ou du serveur. C'est de la monnaie injectée directement dans l'économie en récompense de l'abonnement.
+
+---
+
+## Points ouverts mis à jour
+
+| # | Point | Priorité |
+|---|---|---|
+| 1 | Détail zones housing cat. 1/2/3 (taille parcelles, localisation) | À définir |
+| 2 | Skin VIP+ et Premium — un skin commun ou deux distincts ? | À clarifier |
+| 3 | Taux exact réduction taxes VIP et VIP+ | À clarifier |
+| 4 | Délai expiration contrats B2B non livrés | À définir |
+| 5 | Besoin de se nourrir réduit VIP Premium — valeur exacte | À définir |
+| 6 | Pets — liste des animaux par niveau (commun / rare / légendaire) | À définir |
+| 7 | Glow effect — couleurs par rang ? activable/désactivable ? | En réflexion |
+| 8 | Fly mode parcelles — tous les rangs ou VIP+ minimum ? | En réflexion |
+| 9 | Boosts hebdomadaires — multiplicateur exact par rang (x1.5 ou x2) | En réflexion |
+| 10 | Gold XP — durée et fréquence | En réflexion |
+
+---
+
+*WayRift — V3 — À VÉRIFIER — Confidentiel*
