@@ -5,6 +5,55 @@
 
 ---
 
+## Session 5 — 28 août 2026
+
+### Réputation — Nouvelles actions et calibrage final
+
+**Échelle 0-1000 adoptée** (neutre 500, Légendaire 800, Infâme < 100)
+
+Nouvelles actions ajoutées :
+
+| Action | Effet | Limite |
+|---|---|---|
+| Créer des potions positives | +1 pt | Max +5 pts/jour |
+| Nourrir des animaux | +1 pt | Max 3 fois/jour (1 fois/2h) |
+| Planter et récolter | +1 pt | Max 3 fois/jour |
+| Pêcher (Pêcheur V3+) | +1 pt | Max 3 fois/jour |
+| Contrat entreprise | +5 pts | Max 1 fois/jour |
+| Acheter une parcelle | +5 pts | Par achat (V3+) |
+| Attaque sans Down hors guerre | -1 pt | Max 3 fois/jour |
+
+- Plafond micro-actions combinées : **+10 pts/jour max**
+- Warn ×10 (-50 pts vers 500) / Mute ×10 (-100) / Ban ×10 (-200)
+- Revive : +4 pts / Don public : +6 pts
+
+**Logique factions Infâmes** — état assumé et voulu, pas une punition. Les Infâmes ont leurs propres avantages (Bas-Fonds V3, events malveillants GM, vol/racket sans malus entre eux).
+
+### Métier Pêcheur ajouté
+
+- Branche Culture, spécialisation 3
+- Disponible en V3+
+- Pêche de poissons rares, poissons custom ItemsAdder
+- Bonus réputation +1 (max 3/jour)
+
+### Vol & Racket — Mécaniques documentées
+
+**Règle centrale** : le malus s'applique uniquement si le **voleur/racketteur a une réputation > 300**.
+
+| Mécanique | Malus | Condition |
+|---|---|---|
+| Vol dans un claim | -3 pts (voleur) | Si voleur > 300 pts |
+| Racket sur Down (1 slot) | -3 pts (racketteur) | Si racketteur > 300 ET victime > 300 |
+| Racket via inspection (1 slot) | -3 pts (racketteur) | Si racketteur > 300 ET victime > 300 |
+
+**Inspection — conditions physiques** :
+- Inspecteur : SPYGLASS en main
+- Cible : dos à l'inspecteur, 2 blocs max, mains vides
+- 75% de l'inventaire révélé aléatoirement (quantités non affichées)
+- La cible peut accepter (1 slot pris) ou refuser (risque de se faire mettre en Down)
+
+---
+
 ## Session 4 — 27 août 2026
 
 ### CDC Tebex — Détails finalisés

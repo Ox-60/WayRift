@@ -71,4 +71,57 @@
 
 ---
 
+## Vol & Racket — Mécaniques criminelles
+
+### Conditions de malus réputation
+
+Le malus s'applique **uniquement si le voleur/racketteur a une réputation > 300**.
+En dessous de 300 (Infâme ou Neutre bas) : vol et racket sans malus de réputation.
+
+```
+Voleur/Racketteur > 300 pts -> malus de réputation appliqué
+Voleur/Racketteur < 300 pts -> aucun malus (les Infâmes opèrent librement)
+```
+
+---
+
+### Vol dans un claim
+
+- **-3 pts** pour le voleur (si réputation > 300)
+- Aucun lien avec la réputation de la victime
+- Détecté via CoreProtect → malus automatique
+
+---
+
+### Racket — 2 mécaniques
+
+**1. Racket sur joueur Down**
+
+- Le racketteur peut prendre **1 slot** sur le joueur Down
+- **-3 pts** pour le racketteur si réputation racketteur > 300 ET réputation victime > 300
+- Entre joueurs < 300 pts : aucun malus des deux côtés
+
+**2. Racket via inspection (joueur debout)**
+
+Conditions physiques requises pour inspecter :
+- Inspecteur : **SPYGLASS en main**
+- Cible : **dos à l'inspecteur**, à **2 blocs max**, **mains vides** (aucun item en main)
+- L'inspection est toujours possible si ces conditions sont remplies — la cible ne peut pas techniquement refuser l'inspection
+
+**Déroulement :**
+```
+1. Inspecteur se place dans les conditions physiques
+2. 75% de l'inventaire de la cible est révélé aléatoirement
+   -> Les quantités d'items ne sont PAS affichées
+   -> La cible voit qu'elle est inspectée (affichage RP)
+3. La cible peut :
+   a) Accepter -> l'inspecteur peut prendre 1 slot parmi les items révélés
+   b) Refuser  -> l'inspecteur peut tenter de la mettre en Down
+                  (si Down réussi -> retour à la mécanique Racket Down)
+4. Si racket effectué :
+   -> -3 pts pour le racketteur si racketteur > 300 ET victime > 300
+```
+
+---
+
 *WayRift — V3 — Confidentiel*
