@@ -189,14 +189,100 @@ Le joueur repart à zéro sur :
 
 ---
 
+## Snapshots
+
+Commande déclenchée manuellement par un GM ou Admin avant un event pour permettre un retour arrière si nécessaire.
+
+| Commande | Description | Permission |
+|---|---|---|
+| `/snapshot create <nom>` | Crée un snapshot du monde actuel | Admin/GM |
+| `/snapshot restore <nom>` | Restaure un snapshot | Admin uniquement |
+| `/snapshot list` | Liste les snapshots disponibles | Admin/GM |
+
+---
+
+## Rang de Prestige — Arbre de compétences
+
+### Conditions pour wiper et obtenir un point de prestige
+
+```
+Conditions obligatoires :
+  -> Niveau de compte minimum : 20
+  -> Payer XX¢ à la Capitale (montant à définir)
+  -> Wipe complet du personnage (sauf XP compte et achats Tebex)
+
+Récompense :
+  -> +1 point de prestige à attribuer dans l'arbre
+```
+
+### Fonctionnement de l'arbre
+
+- Chaque point de prestige s'attribue à **UN seul avantage** parmi une liste
+- Le choix est **définitif** — sauf si le joueur paie des **tokens** pour redistribuer
+- Les points s'accumulent à chaque wipe (wipe 1 = 1 pt, wipe 2 = 2 pts cumulés, etc.)
+
+### Avantages disponibles (arbre — à compléter)
+
+| Avantage | Effet par point | Maximum |
+|---|---|---|
+| Argent gagné | +X% sur les revenus passifs | À définir |
+| XP gagné | +X% sur l'XP de compte | À définir |
+| Faim diminuée | -X% de consommation de nourriture | À définir |
+| Vie augmentée | +1 cœur par point | +2 cœurs maximum |
+| (autres à définir) | — | — |
+
+> Le maximum de vie est de +2 cœurs (4 HP) quelle que soit la somme des points investis.
+
+---
+
+## Sanctions — Procédure de médiation
+
+### Qui peut sanctionner
+
+| Grade | Peut sanctionner |
+|---|---|
+| Admin | Oui — toutes sanctions |
+| Modérateur | Oui — warn, mute, ban |
+| Modérateur RP | Oui — warn, mute, ban |
+| Développeur | Non |
+| Builder | Non |
+| GM | Non |
+| CM | Non |
+
+### Procédure de médiation
+
+```
+1. Le Modérateur demande au joueur de s'éloigner du groupe
+   ou de se mettre à l'écart discrètement
+
+2. Mise à l'écart du joueur :
+   -> En jeu : TP dans une zone isolée (si la situation le permet)
+   -> Discord : si nécessite une preuve vidéo ou une contestation
+
+3. Pendant la mise à l'écart :
+   -> Le joueur n'a aucune interaction RP avec les autres
+   -> Le Modérateur discute avec le joueur
+   -> Vérification des antécédents et notes du joueur
+   -> Débat sur la situation
+
+4. Décision de sanction adéquate :
+   -> Avertissement (warn) : -50 pts réputation (vers 500)
+   -> Mute : -100 pts réputation (vers 500)
+   -> Ban temporaire : -200 pts réputation (vers 500)
+   -> Ban définitif : Admin uniquement
+```
+
+---
+
 ## Points ouverts
 
 | # | Point | Priorité |
 |---|---|---|
 | 1 | Hébergeur — non encore choisi | Haute |
-| 2 | Snapshots ponctuels avant events GM — à mettre en place ou non ? | Moyenne |
-| 3 | Rang de prestige — quels avantages concrets pour le joueur qui wipe ? | Moyenne |
-| 4 | Sanctions définitives (warn/mute/ban) — qui peut les appliquer exactement ? | Haute |
+| 2 | Montant XX¢ à payer à la Capitale pour le wipe prestige | Moyenne |
+| 3 | Valeurs exactes des bonus prestige par point (%) | Moyenne |
+| 4 | Autres avantages de l'arbre de prestige à définir | Moyenne |
+| 5 | Coût en tokens pour redistribuer les points de prestige | Faible |
 
 ---
 
