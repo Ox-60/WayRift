@@ -126,7 +126,6 @@ Le projet démarre avec une demande simple : créer un serveur Minecraft Java en
 |---|---|---|
 | Habitant | Survie complète | Construction et minage selon claims |
 | Visiteur | Aventure | Interaction uniquement |
-| Exilé | Aventure | Peut visiter mais ne peut pas habiter (1 mois de délai) |
 | Banni | — | Portail refusé |
 
 ---
