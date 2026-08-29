@@ -205,13 +205,20 @@ Commande déclenchée manuellement par un GM ou Admin avant un event pour permet
 
 ### Conditions pour wiper et obtenir un point de prestige
 
+Deux chemins possibles — au choix du joueur :
+
 ```
-Conditions obligatoires :
+OPTION 1 — Wipe volontaire :
   -> Niveau de compte minimum : 20
-  -> Payer XX¢ à la Capitale (montant à définir)
+  -> Payer 50 000¢ à la Capitale
   -> Wipe complet du personnage (sauf XP compte et achats Tebex)
 
-Récompense :
+OPTION 2 — Mort RP :
+  -> Scénario narratif de mort du personnage
+  -> Validé par un GM
+  -> Wipe complet du personnage (sauf XP compte et achats Tebex)
+
+Récompense (dans les deux cas) :
   -> +1 point de prestige à attribuer dans l'arbre
 ```
 
@@ -279,7 +286,7 @@ Récompense :
 | # | Point | Priorité |
 |---|---|---|
 | 1 | Hébergeur — non encore choisi | Haute |
-| 2 | Montant XX¢ à payer à la Capitale pour le wipe prestige | Moyenne |
+| 2 | Mort RP — définir les conditions exactes de validation par le GM | Moyenne |
 | 3 | Valeurs exactes des bonus prestige par point (%) | Moyenne |
 | 4 | Autres avantages de l'arbre de prestige à définir | Moyenne |
 | 5 | Coût en tokens pour redistribuer les points de prestige | Faible |
