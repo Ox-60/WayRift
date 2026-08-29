@@ -214,8 +214,8 @@ OPTION 1 — Wipe volontaire :
   -> Wipe complet du personnage (sauf XP compte et achats Tebex)
 
 OPTION 2 — Mort RP :
-  -> Scénario narratif de mort du personnage
-  -> Validé par un GM
+  -> Le joueur en fait la demande (ticket ou contact GM)
+  -> Le GM valide et orchestre la scène de mort RP
   -> Wipe complet du personnage (sauf XP compte et achats Tebex)
 
 Récompense (dans les deux cas) :
@@ -286,7 +286,7 @@ Récompense (dans les deux cas) :
 | # | Point | Priorité |
 |---|---|---|
 | 1 | Hébergeur — non encore choisi | Haute |
-| 2 | Mort RP — définir les conditions exactes de validation par le GM | Moyenne |
+| 2 | Mort RP — format de la demande (ticket ?) et délai de traitement | Faible |
 | 3 | Valeurs exactes des bonus prestige par point (%) | Moyenne |
 | 4 | Autres avantages de l'arbre de prestige à définir | Moyenne |
 | 5 | Coût en tokens pour redistribuer les points de prestige | Faible |
