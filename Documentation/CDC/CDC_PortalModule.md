@@ -51,7 +51,7 @@ Joueur Down/Coma -> AUTORISÉ, arrivée 3 blocs aléatoires autour du portail de
 
 | `/portal link <a> <b>` | Crée le lien entre deux portails stables | admin |
 | `/portal ban <uuid> <monde>` | Bannit un joueur d'un monde | admin |
-| `/portal faille create <joueur>` | Crée une faille temporaire pour un joueur (V5+) | GM |
+| `/portal faille create <joueur>` | Crée une faille pour un joueur sans item (GM event) | GM |
 
 ---
 
@@ -61,7 +61,34 @@ Joueur Down/Coma -> AUTORISÉ, arrivée 3 blocs aléatoires autour du portail de
 |---|---|---|---|
 | `portal.coma-arrival-radius` | 3 | Int | Rayon blocs arrivée si Down/Coma |
 | `portal.adventure-mode-visitors` | true | Boolean | Mode Aventure pour les non-habitants |
-| `portal.faille-duration-minutes` | 5 | Int | Durée d'une faille créée par un joueur (V5+) |
+| `portal.faille-duration-minutes` | 15 | Int | Durée d'une faille (portail ouvert pendant 15 min) |
+| `portal.faille-no-exit` | true | Boolean | Impossible de sortir sauf via le portail de sortie initial |
+| `portal.faille-craftable` | true | Boolean | Item Faille craftable par les joueurs (V5+) |
+
+---
+
+## Failles — Détail (V5+)
+
+### Fonctionnement
+
+```
+1. Le joueur craft l'item Faille (recette à définir)
+2. Il pose l'item au sol à l'endroit voulu
+3. Un portail s'ouvre et reste actif 15 minutes
+   -> Tout joueur peut entrer pendant ces 15 minutes
+4. Une fois à l'intérieur :
+   -> Impossible de sortir sauf en retournant au portail d'entrée
+   -> Le portail de sortie est au début du donjon
+5. Si le portail se ferme (15 min écoulées) pendant qu'un joueur est dedans :
+   -> Le joueur reste coincé jusqu'à la fin du donjon
+   -> Ou retour forcé au spawn après X temps (à définir)
+6. Item Faille = consommable (détruit à la pose)
+```
+
+### Contenu des donjons (à définir en V5)
+- Mobs custom, puzzles, salles à explorer
+- Récompenses à la fin (items rares, réputation, tokens)
+- Difficulté variable selon le type de Faille
 
 ---
 

@@ -4,7 +4,7 @@
 
 | Paramètre | Valeur |
 |---|---|
-| Serveur | Java Paper/Purpur — dédié |
+| Serveur | Java Paper/Purpur — OVH VPS 12 Go RAM / 8 cœurs |
 | Import mondes WorldPainter | Accès FTP obligatoire (FileZilla) |
 | Sauvegardes | Quotidienne à 00h00 |
 | Restauration | Admin et Développeur uniquement |
@@ -285,7 +285,7 @@ Récompense (dans les deux cas) :
 
 | # | Point | Priorité |
 |---|---|---|
-| 1 | Hébergeur — non encore choisi | Haute |
+| 1 | Hébergeur — **OVH VPS — 12 Go RAM / 8 cœurs** | ✅ Choisi |
 | 2 | Mort RP — format de la demande (ticket ?) et délai de traitement | Faible |
 | 3 | Valeurs exactes des bonus prestige par point (%) | Moyenne |
 | 4 | Autres avantages de l'arbre de prestige à définir | Moyenne |

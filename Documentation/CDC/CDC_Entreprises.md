@@ -199,3 +199,20 @@ Le coffre de faction est un **bloc physique** qui donne accès à une interface 
 ---
 
 *WayRift — V3 — Confidentiel*
+
+---
+
+## Note — Progression des métiers (V2+)
+
+La progression dans un métier se fait **naturellement par la pratique** :
+- Miner → monte le niveau Mineur
+- Pêcher → monte le niveau Pêcheur
+- Forger → monte le niveau Forgeron
+- Soigner → monte le niveau Médecin
+- etc.
+
+Pas de système de points ou d'XP à dépenser — le niveau reflète l'activité réelle du joueur. Plugin : AdvancedJobs + AdvancedSkills (V2).
+
+---
+
+*WayRift — V3 — Confidentiel*
