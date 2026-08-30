@@ -4,6 +4,20 @@
 
 ---
 
+## Tokens — Système & Prix
+
+| Paramètre | Valeur |
+|---|---|
+| Prix token en jeu | ~150¢ |
+| Prix token Tebex | **5€ pour 100 tokens** |
+| Lootbox | 100 tokens (5€) |
+| Wipe prestige | 250 tokens (~12.50€ ou ~10 sem de farm modéré) |
+| Tokens gardés à la mort | Oui |
+
+> Les lootboxes à 100 tokens contiennent des cosmétiques (skins, pets, effets). Le contenu exact est à définir pour éviter tout avantage gameplay.
+
+---
+
 ## Prix des abonnements
 
 | Rang | Prix mensuel |

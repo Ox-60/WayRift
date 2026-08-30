@@ -239,3 +239,46 @@ Vulcan, CustomNameplates, OxyTowns, ProAntiTab, LibsDisguises, AdvancedBanX, Ant
 ---
 
 *WayRift — filiale de Any-Way Studio — Confidentiel*
+
+---
+
+## Session 6 — 30 août 2026
+
+### Réputation — Calibrage final (échelle 0-1200)
+
+| Paramètre | Valeur |
+|---|---|
+| Départ | 500 pts |
+| Limite hebdo | ±150 pts cumulés |
+| Infâme | < 100 pts |
+| Suspect | < 200 pts |
+| Honorable | ≥ 750 pts |
+| Légendaire | ≥ 1000 pts |
+| Maximum | 1200 pts |
+
+Trajectoires validées :
+- Modéré bienveillant (+80/sem) → Légendaire en ~6-7 semaines (S6-S7)
+- Modéré mafia (-80/sem) → Infâme en ~5 semaines (S5)
+- Urgence event GM : +100 pts possible en 1 semaine pour repasser au-dessus de 100
+
+### Tokens & Prestige — Calibrage final
+
+| Paramètre | Valeur |
+|---|---|
+| Prix token en jeu | ~150¢ |
+| Prix token Tebex | 5€ pour 100 tokens |
+| Lootbox | 100 tokens = 5€ |
+| Wipe prestige | 250 tokens |
+| Farm actif (250 tokens) | ~8 semaines |
+| Farm modéré −40% (250 tokens) | ~10 semaines |
+
+Wipe prestige conditions : 250 tokens + niveau de compte (10/20/30/40/50 puis tous les 5) OU mort RP sur demande.
+Points de prestige et tokens gardés à la mort.
+
+### Permissions — Corrections
+
+- Suppression système monde attitré, exil, /habite
+- PvP toujours actif (sauf zones protégées définies)
+- Modéré : surveillance silencieuse uniquement
+- Modérateur RP : peut intervenir physiquement en jeu
+- CM : Discord et hors jeu uniquement, aucune commande en jeu

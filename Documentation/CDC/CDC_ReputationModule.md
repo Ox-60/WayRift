@@ -207,6 +207,68 @@ Les factions Infâmes choisissent délibérément de rester en dessous de 100. C
 
 ---
 
+## Résumé du calibrage final
+
+### Échelle 0 à 1200
+
+| Score | Label | Nameplate | Accès | Restriction |
+|---|---|---|---|---|
+| 1000-1200 | Légendaire | Or | Zones VIP Capitale | — |
+| 750-999 | Honorable | Vert clair | — | — |
+| 500-749 | Neutre | Gris | — | — |
+| 200-499 | Neutre bas | Gris foncé | — | — |
+| 100-199 | Suspect | Orange | — | Interdit HDV officiel |
+| 0-99 | **Infâme** | Rouge + tête de mort | Bas-Fonds (V3) | Interdit HDV officiel |
+
+> Départ à **500** pour tous les nouveaux joueurs. Valeur neutre : 500.
+
+### Trajectoires types
+
+| Profil | Points/semaine | Départ → Légendaire | Départ → Infâme |
+|---|---|---|---|
+| Actif bienveillant | +150 (limite) | ~4 semaines | — |
+| Modéré bienveillant | +80 | ~6-7 semaines (S6-S7) | — |
+| Modéré mafia | -80 | — | ~5 semaines (S5) |
+| Actif mafia | -150 (limite) | — | ~3 semaines |
+
+### Urgence event GM — Remontée rapide
+
+Un joueur Infâme (< 100 pts) peut gagner jusqu'à +100 pts en 1 semaine en faisant des actions positives intensives (limite hebdo = 150, marge disponible). Cela lui permet de repasser au-dessus du seuil Infâme (100) pour éviter une mort RP potentielle lors d'un event de Traque.
+
+---
+
+## Tokens & Prestige — Calibrage final
+
+| Paramètre | Valeur |
+|---|---|
+| Prix token en jeu | ~150¢ |
+| Prix token Tebex | 5€ pour 100 tokens |
+| Prix lootbox | 100 tokens (5€) |
+| Tokens pour 1 wipe prestige | 250 tokens |
+| Coût prestige en Tebex | ~12.50€ |
+| Coût prestige en farm actif | ~8 semaines |
+| Coût prestige en farm modéré | ~10 semaines |
+| Tokens gardés à la mort | Oui |
+| Points de prestige gardés à la mort | Oui |
+
+### Conditions de wipe prestige
+
+```
+OPTION 1 — Wipe volontaire :
+  -> 250 tokens accumulés
+  -> Niveau de compte : 10 / 20 / 30 / 40 / 50 puis tous les 5
+  -> Wipe complet du personnage (XP compte et achats Tebex conservés)
+
+OPTION 2 — Mort RP :
+  -> Le joueur en fait la demande
+  -> Le GM valide et orchestre la scène
+  -> Wipe complet du personnage (XP compte et achats Tebex conservés)
+
+Récompense : +1 point de prestige permanent
+```
+
+---
+
 ## Points ouverts
 
 | # | Point | Priorité |
