@@ -20,7 +20,7 @@ Le GM déclare un état de traque contre les joueurs Infâmes (< 100 pts de rép
 
 | Camp | Qui | Condition d'accès |
 |---|---|---|
-| **Chasseurs** | Joueurs à réputation ≥ 750 (Honorable ou Légendaire) | Automatique — tout joueur éligible peut participer |
+| **Chasseurs** | Joueurs à réputation ≥ 1000 (Légendaire) | Automatique — identifiables via leur icône Légendaire (colombe/étoile) sur le nameplate |
 | **Traqués** | Joueurs réputation < 100 (Infâmes) | Automatique — tous les Infâmes sont ciblés |
 | **Neutres** | Joueurs entre 100 et 750 | Pas impliqués directement |
 

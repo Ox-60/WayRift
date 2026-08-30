@@ -4,7 +4,8 @@
 
 - Nametags invisibles par défaut (ProAntiTab)
 - Nametags visibles si présentation mutuelle (CustomNameplates + LuckPerms)
-- Tête de mort sur joueurs Infâmes (réputation < 10) via LuckPerms rank `infame`
+- Tête de mort sur joueurs Infâmes (réputation < 100) via LuckPerms rank `infame`
+- Icône Légendaire (colombe ou étoile — à définir) sur joueurs Légendaires (réputation ≥ 1000) via LuckPerms rank `legendaire` → symbole inversé de la tête de mort, signale les chasseurs éligibles à la Traque
 - Prénoms RP accessibles dans le Tab (complétion automatique)
 - Affichages RP automatiques avec portée configurable
 
@@ -34,6 +35,8 @@
 | `display.inspect-range` | 10 | Int | Portée affichage inspection (blocs) |
 | `display.war-range` | -1 | Int | Portée guerre (-1 = serveur entier) |
 | `display.infame-rank-name` | infame | String | Nom du rank LuckPerms pour les Infâmes |
+| `display.legendaire-rank-name` | legendaire | String | Nom du rank LuckPerms pour les Légendaires |
+| `display.legendaire-icon` | colombe | String | Icône affichée sur les Légendaires (à définir — colombe, étoile, couronne) |
 
 ---
 
