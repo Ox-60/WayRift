@@ -1,0 +1,94 @@
+# CDC — Events Game Master
+
+> Ce document recense les events orchestrés par les GM. Chaque event a ses propres règles, conditions et conséquences. Les GM ont la liberté d'adapter les paramètres selon le contexte narratif.
+
+---
+
+## Event 01 — La Traque
+
+### Concept
+
+Le GM déclare un état de traque contre les joueurs Infâmes (< 100 pts de réputation) et les factions de basse réputation. Les joueurs traqués ont deux options : **remonter au-dessus de 100 pts** avant la fin de l'event, ou **survivre** en se cachant ou en se défendant.
+
+### Déclenchement
+
+- Déclenché par un GM via commande
+- Annonce serveur au lancement (nom des factions/joueurs ciblés si pertinent narrativement)
+- Durée : **définie par le GM selon le contexte** (une soirée, une nuit RP, plusieurs jours)
+
+### Camps
+
+| Camp | Qui | Condition d'accès |
+|---|---|---|
+| **Chasseurs** | Joueurs à réputation ≥ 750 (Honorable ou Légendaire) | Automatique — tout joueur éligible peut participer |
+| **Traqués** | Joueurs réputation < 100 (Infâmes) | Automatique — tous les Infâmes sont ciblés |
+| **Neutres** | Joueurs entre 100 et 750 | Pas impliqués directement |
+
+### Règles — Traqués
+
+```
+Option 1 — Remonter au-dessus de 100 pts avant la fin de l'event
+  -> Faire des actions positives intensives (jusqu'à +100 pts en 1 semaine possible)
+  -> Si réputation ≥ 100 avant la fin : le joueur sort du statut de traqué
+
+Option 2 — Survivre
+  -> Se cacher, fuir, ou s'organiser pour contre-attaquer
+  -> Les Infâmes peuvent s'allier et contre-attaquer les chasseurs
+```
+
+### Conséquences si tué pendant la traque
+
+| Profil | Conséquence |
+|---|---|
+| **Chef de faction Infâme / Représentant** | **Mort RP** — wipe du personnage déclenché |
+| **Joueur Infâme solo ou membre** | **Coma prolongé** — durée : 1 soirée complète |
+| **Chasseur tué par un Infâme** | **Coma prolongé** — durée : 1 soirée complète |
+
+> Le coma prolongé empêche le joueur de jouer pendant toute la soirée — pas de revive possible avant la fin du délai.
+
+### Récompenses — Chasseurs
+
+- **Récompense en ¢ par tête Infâme tuée** — montant défini par le GM avant le lancement
+- Le montant peut varier selon la réputation de la cible (chef de faction = prime plus élevée)
+- Récompense versée automatiquement à la fin de l'event ou au kill selon configuration GM
+
+### Récompenses — Traqués survivants
+
+- Survie jusqu'à la fin de l'event = **bonus de réputation** (montant défini par le GM)
+- Remontée au-dessus de 100 pts pendant l'event = **bonus supplémentaire** (montant défini par le GM)
+
+### Commandes GM
+
+| Commande | Description |
+|---|---|
+| `/gm traque start <durée>` | Lance l'event de traque avec durée en minutes |
+| `/gm traque setprime <montant>` | Définit la prime par tête Infâme |
+| `/gm traque setprime <uuid> <montant>` | Prime spéciale pour un joueur ciblé |
+| `/gm traque end` | Termine l'event manuellement |
+| `/gm traque status` | Affiche les stats en cours (kills, survivants) |
+| `/gm coma <uuid> <minutes>` | Place un joueur en coma prolongé |
+
+### Narrative
+
+> *L'ordre est rétabli ce soir. Les forces de la lumière chassent les ombres. Mais les ombres ne fuient pas toujours...*
+
+Cet event est conçu pour créer une tension narrative entre les factions bienveillantes et les mafias. Il pousse les Infâmes à faire un choix — se racheter ou se défendre. Il récompense les joueurs honorables sans rendre les Infâmes impuissants.
+
+---
+
+## Event 02 — À venir
+
+> D'autres events seront documentés ici au fil de la conception.
+
+---
+
+## Notes générales sur les events GM
+
+- Les GM ont la liberté d'adapter tous les paramètres selon le contexte narratif
+- Un event peut être déclenché à tout moment sans préavis ou avec une mise en scène préalable
+- Les events malveillants (comme La Traque) sont réservés aux contextes narratifs validés
+- Les snapshots doivent être créés avant tout event majeur (`/snapshot create <nom>`)
+
+---
+
+*WayRift — V3 — Confidentiel*

@@ -42,6 +42,7 @@
 | [CDC — ReputationModule](Documentation/CDC/CDC_ReputationModule.md) | Réputation joueur, seuils, LuckPerms, affichages |
 | [CDC — DisplayModule](Documentation/CDC/CDC_DisplayModule.md) | Nametags, affichages RP automatiques, tête de mort |
 | [CDC — Permissions & Grades](Documentation/CDC/CDC_Permissions.md) | Grades staff, permissions sous-groupes, hiérarchie entités |
+| [CDC — Events GM](Documentation/CDC/CDC_Events_GM.md) | Events Game Master — La Traque et autres events narratifs |
 | [CDC — Entreprises](Documentation/CDC/CDC_Entreprises.md) | Types d'entreprises, contrats, production, vente B2B |
 | [CDC — Tebex & Rangs VIP](Documentation/CDC/CDC_Tebex.md) | Rangs joueur/VIP/VIP+/VIP Premium — avantages, kart, housing, coffre banque |
 | [📊 Métiers, Réputation & VIP (Excel)](Documentation/V3.Metiers_Reputation_VIP.xlsx) | Tableau de référence complet — métiers, arbre de spécialisation, réputation, rangs VIP |
