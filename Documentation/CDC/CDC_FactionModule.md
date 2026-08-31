@@ -40,6 +40,81 @@ Les organisations accèdent à des événements organisés conjointement par les
 | Non-membre | Uniquement ce qu'accorde la permission de faction | Uniquement ce qu'accorde la permission de faction |
 | Ennemi (guerre GM — Nations) | Échelles et échafaudages uniquement. Redstone autorisée (pas pose/destruction). Pas de coffres. Pas de casse. | Idem |
 
+Le nombre de claims autorisés dépend de la **Puissance** de la faction (voir section dédiée ci-dessous).
+
+---
+
+## Puissance & Alignement — Réputation de faction
+
+Une faction possède deux jauges **indépendantes**, qui ne se comparent jamais entre elles :
+
+- **Puissance** : combien la faction pèse militairement. Détermine les claims autorisés.
+- **Alignement** : quel camp la faction incarne (bienveillant ou malveillant). Purement narratif/cosmétique — n'affecte jamais l'accès aux claims.
+
+> Cette séparation garantit l'équité : une mafia peut être très puissante et très malveillante sans contradiction. Une nation vertueuse peut être puissante et bienveillante. Les deux jauges progressent indépendamment.
+
+### Puissance — Calcul
+
+La Puissance **ne dépend jamais du nombre de claims** — ce serait circulaire puisque les claims dépendent de la Puissance. Elle se calcule uniquement via les guerres et les pertes de membres.
+
+```
+Puissance = 100 (base de départ)
+          + (Victoires de guerre × 50, permanent)
+          - (Défaites de guerre × 30, permanent)
+          - (Morts de membres × 10, temporaire — décroît sur 7 jours)
+```
+
+> Une mort de membre est un malus **temporaire** : il s'efface progressivement sur 7 jours si la faction ne subit pas d'autres pertes.
+
+### Claims autorisés selon la Puissance
+
+| Puissance | Claims autorisés |
+|---|---|
+| 0-99 | 3 |
+| 100-299 | 8 |
+| 300-599 | 15 |
+| 600-899 | 25 |
+| 900+ | 40 |
+
+### Warning & Pénalité — Puissance en chute
+
+Si la Puissance chute (défaites, morts de membres) et que le nombre de claims **posés dépasse** le nombre de claims **autorisés** :
+
+```
+1. La Puissance chute sous le seuil du palier actuel
+2. Claims posés > Claims autorisés
+3. Le Responsable reçoit un WARNING en jeu
+   -> Doit agir : augmenter la Puissance OU retirer des claims en excès
+
+4. Si aucune action après 24h :
+   -> Pénalité quotidienne : 5% de l'argent total de faction
+   -> Argent transféré à la Capitale
+   -> Répété chaque jour tant que le déséquilibre persiste
+   -> S'arrête dès que claims posés <= claims autorisés
+```
+
+### Alignement — Calcul (Étoiles)
+
+L'alignement se calcule sur la **moyenne de réputation individuelle des membres** (même échelle 0-1200 que la réputation joueur). Il détermine une notation par étoiles, symétrique entre malveillant (rouge) et bienveillant (jaune).
+
+| Moyenne réputation membres | Notation |
+|---|---|
+| 0 - 99 | ★★★★★ rouge — Faction infâme notoire |
+| 100 - 199 | ★★★★☆ rouge — Faction suspecte |
+| 200 - 299 | ★★★☆☆ rouge |
+| 300 - 399 | ★★☆☆☆ rouge |
+| 400 - 499 | ★☆☆☆☆ rouge |
+| 500 (exact) | Neutre — aucune étoile |
+| 501 - 639 | ★☆☆☆☆ jaune |
+| 640 - 779 | ★★☆☆☆ jaune |
+| 780 - 919 | ★★★☆☆ jaune |
+| 920 - 1059 | ★★★★☆ jaune |
+| 1060 - 1200 | ★★★★★ jaune — Faction légendaire |
+
+> Exemple : si tous les membres d'une faction ont une réputation de 0, la moyenne est 0 → la faction affiche ★★★★★ rouge.
+
+L'alignement est **purement cosmétique et narratif** — il n'accorde ni ne retire d'accès aux claims. En revanche il peut débloquer du contenu narratif propre (accès Bas-Fonds collectif si très rouge, diplomatie prestige si très jaune — détails en V3).
+
 ---
 
 ## Item unique — Organisations et Nations
@@ -91,7 +166,9 @@ CALENDRIER :
 | `/f claim` | Claime le chunk actuel | chef/responsable |
 | `/f unclaim` | Retire la protection du chunk | chef |
 | `/f resetclaim` | Reset le chunk farm (1x/semaine) | chef |
-| `/f top` | Classement factions par puissance | joueur |
+| `/f top` | Classement factions par Puissance | joueur |
+| `/f info <nom>` | Affiche Puissance, Alignement (étoiles), claims autorisés/posés | joueur |
+| `/f claims` | Affiche claims posés vs autorisés pour sa faction | membre |
 | `/faction admin validate <nom>` | Valide une faction/organisation | admin |
 | `/gm war activate <n1> <n2>` | Active physiquement la guerre (Nations) | GM |
 | `/gm event create <orga>` | Crée un événement pour une organisation | GM |
@@ -108,7 +185,13 @@ CALENDRIER :
 | `faction.delete-day` | SATURDAY | String | Jour suppression |
 | `claims.solo-free` | 4 | Int | Claims gratuits solo |
 | `claims.solo-max` | 12 | Int | Claims max solo |
-| `claims.group-max` | 8 | Int | Claims max groupe (base — évolue avec la puissance) |
+| `faction.power-base` | 100 | Int | Puissance de départ pour toute nouvelle faction |
+| `faction.power-war-win` | 50 | Int | Puissance gagnée par victoire de guerre |
+| `faction.power-war-loss` | -30 | Int | Puissance perdue par défaite de guerre |
+| `faction.power-member-death` | -10 | Int | Puissance perdue par mort de membre (temporaire) |
+| `faction.power-death-decay-days` | 7 | Int | Jours avant que le malus de mort s'efface |
+| `faction.claims-warning-delay-hours` | 24 | Int | Délai avant pénalité si claims posés > autorisés |
+| `faction.claims-penalty-percent` | 5 | Int | % de l'argent de faction prélevé par jour de dépassement |
 
 ---
 
