@@ -378,7 +378,7 @@ GROUPE / ORGA / NATION ACHETEUR :
 |---|---|---|
 | Vulcan 2.9.7.23 | AntiCheat secondaire | 🔴 Critique |
 | CustomNameplates 3.0.39 | Nameplates RP. Tête de mort Infâme. | 🔴 Critique |
-| OxyTowns 1.1.0 | Claims 2 types (Territoire/Farm) | 🔴 Critique |
+| OxyTowns 1.1.0 | Claims — 1 seul type | 🔴 Critique |
 | ProAntiTab 2.3.4 | Masque joueurs dans le Tab | 🟠 Haute |
 | LibsDisguises 11.0.18 | Déguisements GM | 🟠 Haute |
 | AdvancedBanX 3.1.0 | Warns, mutes, bans | 🔴 Critique |

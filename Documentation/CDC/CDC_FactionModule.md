@@ -32,16 +32,13 @@ Les organisations accèdent à des événements organisés conjointement par les
 
 ## Claims — OxyTowns
 
-| Type | Profondeur max | Limite | Reset |
-|---|---|---|---|
-| Territoire | Y=40 | Selon puissance faction | Non |
-| Farm | Bedrock | Faction:16 / Groupe:8 / Solo:4 | 1x/semaine |
+**1 seul type de claim.** Pas de distinction Territoire/Farm.
 
 | Profil | Claim protégé | Claim ineffectif |
 |---|---|---|
-| Membre de la faction | Survie complète | Survie complète |
-| Non-membre (neutre) | Mode Aventure | Mode Aventure |
-| Ennemi (guerre GM — Nations) | Mode Aventure | Survie complète — casse et pose libre |
+| Membre de la faction | Pose/casse selon permissions de faction | Pose/casse selon permissions de faction |
+| Non-membre | Uniquement ce qu'accorde la permission de faction | Uniquement ce qu'accorde la permission de faction |
+| Ennemi (guerre GM — Nations) | Échelles et échafaudages uniquement. Redstone autorisée (pas pose/destruction). Pas de coffres. Pas de casse. | Idem |
 
 ---
 
@@ -109,12 +106,9 @@ CALENDRIER :
 | `faction.lead-transfer-inactivity-days` | 14 | Int | Jours inactivité chef avant transfert |
 | `faction.pillage-day` | THURSDAY | String | Jour mode pillage |
 | `faction.delete-day` | SATURDAY | String | Jour suppression |
-| `claims.territory-min-depth` | 40 | Int | Profondeur min territoire (Y=40) |
-| `claims.no-claim-max-depth` | 50 | Int | Profondeur max hors claim (Y=50) |
 | `claims.solo-free` | 4 | Int | Claims gratuits solo |
 | `claims.solo-max` | 12 | Int | Claims max solo |
-| `claims.group-farm-max` | 8 | Int | Claims farm max groupe |
-| `claims.faction-farm-max` | 16 | Int | Claims farm max faction/nation |
+| `claims.group-max` | 8 | Int | Claims max groupe (base — évolue avec la puissance) |
 
 ---
 

@@ -20,7 +20,7 @@
 - **Mondes** : Capitale (24h/24), Nations (pas de minerai), Monde Minier (20h-23h), Mondes Factions
 - **Portails** : Multiverse-Core Nether Portals. 1 minier actif + 1-2 instables lore + 1 monolithe inactif
 - **Groupes** : Créés en jeu. Organisations via ticket staff. Nations via ressources + ticket
-- **Claims** : OxyTowns. Territoire (Y=40) et Farm (bedrock, resetable 1x/semaine)
+- **Claims** : OxyTowns. 1 seul type de claim.
 - **Mort** : ReviveMe — effet visuel < 3 cœurs, Down, revive collègue, hôpital, wipe
 - **HDV** : AuctionHouse liste blanche. Taxes 15%+10%
 - **Réputation** : ReputationPlugin + LuckPerms. 0-100. Infâme <10, Suspect 10-19
