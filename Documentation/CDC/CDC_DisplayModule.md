@@ -6,7 +6,7 @@
 - Nametags visibles si présentation mutuelle (CustomNameplates + LuckPerms)
 - Nametags visibles si joueur à **3 blocs ou moins** autour de soi (distance de proximité)
 - **Citrouille sur la tête** : masque le pseudo — le joueur est anonyme tant qu'il la porte
-- **Dans l'ombre / derrière un mur** : masquage du nameplate non supporté nativement (TAB + CustomNameplates affichent côté client sans occlusion) — nécessiterait du dev custom complexe, laissé en point ouvert
+- **Dans l'ombre / derrière un mur** : non viable techniquement — abandonné
 - Tête de mort sur joueurs Infâmes (réputation < 100) via LuckPerms rank `infame`
 - **Couronne** sur joueurs Légendaires (réputation ≥ 1000) via LuckPerms rank `legendaire` + CustomNameplates → symbole inversé de la tête de mort Infâme, signale les chasseurs éligibles à la Traque
 - Prénoms RP accessibles dans le Tab (complétion automatique)
