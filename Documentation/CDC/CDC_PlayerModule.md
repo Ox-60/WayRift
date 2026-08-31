@@ -11,19 +11,68 @@
 
 ---
 
-## Mort & Coma — ReviveMe
+## Mort & Coma
 
-| Phase | Déclencheur | Comportement | Plugin |
+### Avertissement
+- Vie < 2 cœurs (4 HP) → effet visuel troublé (Blindness partiel)
+
+### Down / Coma
+- Vie = 0 (toute cause — PvP ET mobs)
+- Joueur **immobile** — ne peut pas se déplacer
+- Inventaire **fouillable et volable** par tous
+
+### Notification faction
+```
+V1 : alerte envoyée à toute la faction
+     -> Position approximative à ~150 blocs de la vraie position
+
+V2+ : alerte envoyée uniquement aux Médecins de la faction
+      -> Médecin le plus proche notifié en priorité
+```
+
+### Revive par un collègue
+```
+1. Le collègue s'accroupit sur le joueur Down pendant 15 secondes
+2. Le joueur en coma voit s'afficher :
+   -> Coût : 250¢ débité sur son compte
+   -> Lieu de respawn : position de sa mort (sur place)
+   -> Bouton "Accepter le revive"
+3. S'il accepte -> revive déclenché, respawn sur place
+
+RÉPARTITION DES 250¢ :
+  Joueur a >= 250¢  : 150¢ médecin + 100¢ Capitale
+  Joueur a 150-249¢ : 150¢ médecin + reste à la Capitale
+  Joueur a < 150¢   : tout au médecin + 0¢ Capitale
+  -> Médecin payé en priorité, Capitale reçoit ce qui reste
+```
+
+> V1 : tous les joueurs peuvent reviver.
+> V2+ : uniquement les Médecins (LuckPerms rang medecin).
+
+### Revive automatique — Hôpital
+Un bouton s'affiche automatiquement après le délai. Il indique le coût actuel (dégressif) et la destination "Hôpital — Capitale".
+
+| Horaire | Délai avant bouton | Coût immédiat | Coût après 2h (-50%) |
 |---|---|---|---|
-| Avertissement | Vie < 2 cœurs (4 HP) | Effet visuel troublé (Blindness partiel) | ReviveMe config |
-| Down / Coma | Vie = 0 (toute cause — PvP ET mobs) | Peut bouger. Inventaire fouillable par tous. | ReviveMe |
-| Revive collègue | Accroupi sur le joueur Down | V1 : tous. V2+ : Médecin uniquement (LuckPerms). | ReviveMe |
-| Revive GM | `/revive @joueur here` | Revive + TP sur place | ReviveMe |
-| Hôpital | Countdown ReviveMe écoulé | Respawn coordonnées hôpital Capitale | ReviveMe + Multiverse |
-| Wipe | `/wipe me` (double confirmation) | Supprime connexions plugins sauf XP et achats | Custom léger |
-| Wipe staff | `/wipe @joueur <raison>` | Même effet — décision staff | Custom léger |
+| 5h - 20h | 15 minutes | 450¢ | 225¢ |
+| 20h - 5h | 1 heure | 750¢ | 375¢ |
 
-> En V2 : permission ReviveMe restreinte au rang LuckPerms `medecin`. Zéro dev supplémentaire.
+- Dégressivité linéaire sur 2h
+- Le joueur clique quand il veut après le délai
+- Respawn à l'hôpital de la Capitale
+
+### Wipe
+- Bouton disponible après **4 heures de coma** uniquement
+- Double confirmation + message warning
+- Pas de remboursement
+- Supprime toutes les connexions plugins sauf XP compte et achats Tebex
+
+### Revive GM
+- `/revive @joueur here` — revive direct sur place
+- `/gm coma <uuid> <minutes>` — coma prolongé (event Traque)
+
+### Wipe staff
+- `/wipe @joueur <raison>` — force un wipe
 
 ---
 
