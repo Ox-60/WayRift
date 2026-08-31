@@ -205,7 +205,7 @@ WorldModule, PortalModule, PlayerModule, FactionModule, EcoModule, ReputationMod
 
 ### Concept fondateur
 
-WayRift est un serveur Minecraft Semi-RP Multivers inspiré du genre Civilisation, développé sous **Any-Way Studio** (qui gère aussi Waystone MC Event). Paper 1.21, plugins uniquement, hébergé sur OVH Game (anti-DDoS).
+WayRift est un serveur Minecraft RP Multivers inspiré du genre Civilisation, développé sous **Any-Way Studio** (qui gère aussi Waystone MC Event). Paper 1.21, plugins uniquement, hébergé sur OVH Game (anti-DDoS).
 
 ### Premières décisions clés
 

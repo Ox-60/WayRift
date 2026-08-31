@@ -5,7 +5,7 @@
 ## Version longue
 
 **⚑ WAYRIFT ⚑**
-*Un serveur Minecraft Semi-RP Multimonde, développé par Any-Way Studio.*
+*Un serveur Minecraft RP Multimonde, développé par Any-Way Studio.*
 
 ### L'histoire commence ici
 
@@ -40,7 +40,7 @@ Les alliances se forment et se brisent. Les guerres éclatent entre nations. Les
 ## Version courte — Discord / Réseaux
 
 **⚑ WAYRIFT ⚑**
-Serveur Minecraft Semi-RP Multimonde • Java 1.21 • Any-Way Studio
+Serveur Minecraft RP Multimonde • Java 1.21 • Any-Way Studio
 
 Vous arrivez seul dans un monde sans ressources. Un portail temporel s'ouvre chaque soir vers le passé de votre monde — c'est là que vous minez.
 
@@ -63,7 +63,7 @@ Un monde sans ressources. Des portails vers d'autres réalités. Des groupes qui
 
 **Sur WayRift, tout ce qui arrive est le résultat de vos choix.**
 
-⚑ WAYRIFT — Multimonde Semi-RP Minecraft Java 1.21 ⚑
+⚑ WAYRIFT — Multimonde RP Minecraft Java 1.21 ⚑
 
 ---
 

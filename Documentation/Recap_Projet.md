@@ -33,9 +33,9 @@
 
 Le projet démarre avec une demande simple : créer un serveur Minecraft Java en dernière version, uniquement avec des plugins (pas de mods), et rédiger un cahier des charges des plugins à développer.
 
-### Concept — Semi-RP style Civilisation
+### Concept — RP style Civilisation
 
-- Serveur Minecraft Semi-RP Multivers inspiré du genre Civilisation
+- Serveur Minecraft RP Multivers inspiré du genre Civilisation
 - Des groupes de joueurs en compétition dans un style Roleplay
 - Chaque groupe peut fonder sa propre nation, choisir son système politique, développer son architecture
 - Un monde vivant, façonné par ses joueurs
