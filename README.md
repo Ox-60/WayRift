@@ -1,6 +1,8 @@
 # ⚑ WayRift — Documentation
 
-> Serveur Minecraft Semi-RP Multivers | Paper 1.21 | Java | Any-Way Studio
+> Serveur Minecraft RP Multivers | Paper 1.21 | Java | Any-Way Studio
+
+**Format unique : Markdown (.md)** — tous les documents sont lisibles directement dans GitHub, un seul fichier par sujet, toujours à jour.
 
 ---
 
@@ -9,6 +11,7 @@
 | Document | Description |
 |---|---|
 | [📖 Récapitulatif Complet](Documentation/Recap_Projet.md) | **Point d'entrée** — Tout le projet en un seul document |
+| [📊 Métiers, Réputation & VIP (Excel)](Documentation/V3.Metiers_Reputation_VIP.xlsx) | Tableau de référence — maintenu par Ox, synchronisé avec les CDC |
 
 ---
 
@@ -16,7 +19,7 @@
 
 | Document | Description |
 |---|---|
-| [Présentation du Serveur](Documentation/Presentation.md) | Concept, mécaniques clés, arc narratif |
+| [Présentation du Serveur](Documentation/Presentation.md) | Concept, mécaniques clés, arc narratif, style Arcane |
 | [Message Joueur](Documentation/Presentation_Joueur.md) | Textes de communication — version longue, courte, accroche |
 
 ---
@@ -35,18 +38,17 @@
 | Module | Description |
 |---|---|
 | [CDC — WorldModule](Documentation/CDC/CDC_WorldModule.md) | Gestion des mondes, import, horaires, régénération |
-| [CDC — PortalModule](Documentation/CDC/CDC_PortalModule.md) | Portails interconnectés, états joueur, exil |
-| [CDC — PlayerModule](Documentation/CDC/CDC_PlayerModule.md) | Identité RP, mort, coma, wipe, profil |
-| [CDC — FactionModule](Documentation/CDC/CDC_FactionModule.md) | Groupes, organisations, nations, claims, diplomatie, guerres |
-| [CDC — EcoModule](Documentation/CDC/CDC_EcoModule.md) | Monnaie, HDV, taxes, Rubies, commerce inter-entités |
-| [CDC — ReputationModule](Documentation/CDC/CDC_ReputationModule.md) | Réputation joueur, seuils, LuckPerms, affichages |
-| [CDC — DisplayModule](Documentation/CDC/CDC_DisplayModule.md) | Nametags, affichages RP automatiques, tête de mort |
-| [CDC — Permissions & Grades](Documentation/CDC/CDC_Permissions.md) | Grades staff, permissions sous-groupes, hiérarchie entités |
+| [CDC — PortalModule](Documentation/CDC/CDC_PortalModule.md) | Portails (Instable/Stable/Temporel/Faille), états joueur |
+| [CDC — PlayerModule](Documentation/CDC/CDC_PlayerModule.md) | Identité RP, mort, coma, revive, wipe, profil |
+| [CDC — FactionModule](Documentation/CDC/CDC_FactionModule.md) | Groupes, organisations, nations, claims, Puissance & Alignement, guerres |
+| [CDC — EcoModule](Documentation/CDC/CDC_EcoModule.md) | Monnaie, HDV, taxes, commerce inter-entités |
+| [CDC — ReputationModule](Documentation/CDC/CDC_ReputationModule.md) | Réputation joueur (0-1200), seuils, LuckPerms |
+| [CDC — DisplayModule](Documentation/CDC/CDC_DisplayModule.md) | Nametags, affichages RP, couronne/tête de mort |
+| [CDC — Entreprises](Documentation/CDC/CDC_Entreprises.md) | Types d'entreprises, contrats, production, vente B2B |
+| [CDC — Permissions & Grades](Documentation/CDC/CDC_Permissions.md) | Grades staff, permissions sous-groupes, prestige, sanctions |
 | [CDC — Events GM](Documentation/CDC/CDC_Events_GM.md) | Events Game Master — La Traque et autres events narratifs |
 | [CDC — Housing & Parcelles](Documentation/CDC/CDC_Housing.md) | Plots, achat/location, catégories VIP, inactivité (V3) |
-| [CDC — Entreprises](Documentation/CDC/CDC_Entreprises.md) | Types d'entreprises, contrats, production, vente B2B |
-| [CDC — Tebex & Rangs VIP](Documentation/CDC/CDC_Tebex.md) | Rangs joueur/VIP/VIP+/VIP Premium — avantages, kart, housing, coffre banque |
-| [📊 Métiers, Réputation & VIP (Excel)](Documentation/V3.Metiers_Reputation_VIP.xlsx) | Tableau de référence complet — métiers, arbre de spécialisation, réputation, rangs VIP |
+| [CDC — Tebex & Rangs VIP](Documentation/CDC/CDC_Tebex.md) | Rangs joueur/VIP/VIP+/VIP Premium — avantages, tokens |
 
 ---
 
@@ -77,12 +79,12 @@
 
 ---
 
-## 📁 Convention de nommage
+## 📁 Convention
 
-Tous les documents suivent la convention `V3.Sujet`.  
-Les fichiers `.md` sont lisibles directement dans GitHub.  
-Les fichiers `.docx` sont téléchargeables pour consultation hors ligne.
+Tous les documents sont en **Markdown (.md)** — convention de nommage `V3.Sujet` ou `Sujet.md` selon le dossier. Un seul fichier par sujet = une seule source de vérité, toujours à jour.
+
+L'unique exception est `V3.Metiers_Reputation_VIP.xlsx`, maintenu activement par Ox en parallèle des CDC.
 
 ---
 
-*WayRift — filiale de Any-Way Studio — Confidentiel — Usage interne uniquement*
+*WayRift — filiale de Any-Way Studio — Public*
