@@ -136,7 +136,7 @@ Le projet démarre avec une demande simple : créer un serveur Minecraft Java en
 
 | Niveau | Membres max | Coût | Déblocage | Droits spéciaux |
 |---|---|---|---|---|
-| **Groupe** | XX | 100 000¢ | Création en jeu | Claims, guerres GM |
+| **Groupe** | XX | Gratuit S1, 10 000¢ dès S2 | Création en jeu | Claims, guerres GM |
 | **Organisation simple** | 25 | + ticket staff | 10 membres actifs + 7j activité | Item unique B2B, contenu GM |
 | **Organisation avancée** | 50 | + ticket staff | 15 membres actifs + hiérarchie complète | Caisses organisation |
 | **Nation** | 100 | Selon monde | Ressources + argent + ticket staff | Monde dédié, guerres inter-nations |

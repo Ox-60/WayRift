@@ -4,7 +4,7 @@
 
 | Niveau | Membres max | Déblocage | Droits spéciaux |
 |---|---|---|---|
-| **Groupe** | XX | Création en jeu (100 000¢) | Claims, minage |
+| **Groupe** | XX | Création en jeu (gratuit S1, 10 000¢ dès S2) | Claims, minage |
 | **Organisation simple** | 25 | Ticket staff + 10 membres actifs + 7j activité | Item unique B2B, événements GM, caisses orga |
 | **Organisation avancée** | 50 | Ticket staff + 15 membres actifs + hiérarchie complète | Idem + hiérarchie libre |
 | **Nation** | 100 | Ressources + argent + ticket staff | Monde dédié, **guerres KOTH**, caisses nation |
@@ -179,7 +179,8 @@ CALENDRIER :
 
 | Variable | Défaut | Type | Description |
 |---|---|---|---|
-| `faction.creation-cost-group` | 100000 | Int | Coût création groupe (¢) |
+| `faction.creation-cost-group-s1` | 0 | Int | Coût création groupe en Saison 1 (gratuit) |
+| `faction.creation-cost-group-s2` | 10000 | Int | Coût création groupe dès Saison 2 (¢) |
 | `faction.lead-transfer-inactivity-days` | 14 | Int | Jours inactivité chef avant transfert |
 | `faction.pillage-day` | THURSDAY | String | Jour mode pillage |
 | `faction.delete-day` | SATURDAY | String | Jour suppression |
