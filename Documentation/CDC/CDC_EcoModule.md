@@ -50,23 +50,48 @@ Sur chaque vente par l'organisation :
 
 Les prix ne sont pas fixes — ils sont **définis par les joueurs eux-mêmes à l'Autel des Ventes** (interface de vente), dans une fourchette calibrée par un prix de base.
 
-### Prix de base — Selon le taux d'apparition Minecraft
+### Deux catégories de prix distinctes
 
-Plus une ressource apparaît fréquemment dans la génération du monde, moins elle vaut cher. Le prix de base suit le taux de spawn vanilla :
+- **Minerais** : prix de base fixe + fluctuation marché (voir ci-dessous) — la Capitale les achète
+- **Blocs classiques** (bois, pierre, terre, blocs de structures...) : prix **entièrement défini par les joueurs** à l'Hôtel des Ventes, dans une fourchette **0.01¢ à 10¢** calibrée sur leur rareté réelle dans l'overworld. Pas de fluctuation marché sur ces blocs.
 
-| Ressource | Taux de spawn (relatif) | Prix de base |
+### Minerais — Prix par item, rendement pris en compte
+
+Certains minerais donnent plusieurs items par bloc miné (Redstone : 4-5 items, Lapis : 4-9 items, moyenne 6.5). Le prix à l'unité est ajusté pour que **Fer/Or/Diamant restent les plus rentables par bloc miné** malgré leur rendement de 1 item/bloc — ce sont les ressources les plus utiles (outils, armures) et doivent rester les plus chères.
+
+| Ressource | Prix/item | Items/bloc miné | ¢/bloc miné |
+|---|---|---|---|
+| Charbon | 1¢ | 1 | 1¢ |
+| Redstone | 1¢ | 4-5 (moy. 4.5) | 4.5¢ |
+| Lapis-lazuli | 1¢ | 4-9 (moy. 6.5) | 6.5¢ |
+| Cuivre | 2¢ | 1 | 2¢ |
+| **Fer** | **8¢** | 1 | 8¢ |
+| **Or** | **10¢** | 1 | 10¢ |
+| **Diamant** | **10¢** | 1 | 10¢ |
+| Émeraude | 40¢ | 1 | 40¢ |
+| Débris antique (Netherite) | 120¢ | 1 | 120¢ |
+
+> Fer, Or et Diamant sont volontairement resserrés autour de 8-10¢ : ce sont les ressources les plus utiles en jeu (outils, armures, échanges), leur valeur doit rester significative et proche entre elles. Débris antique fortement augmenté (120¢) pour refléter sa rareté extrême — bien au-delà de l'Émeraude.
+
+### Blocs classiques — Exemples par rareté (0.01¢ à 10¢)
+
+| Bloc | Rareté dans l'overworld | Prix indicatif |
 |---|---|---|
-| Charbon | Très élevé | 1¢ |
-| Cuivre | Élevé | 2¢ |
-| Fer | Élevé | 2¢ |
-| Redstone | Moyen | 6¢ |
-| Lapis-lazuli | Faible | 12¢ |
-| Or | Rare | 20¢ |
-| Diamant | Rare | 25¢ |
-| Émeraude | Très rare (biome Montagnes uniquement) | 40¢ |
-| Débris antique (Netherite) | Extrêmement rare | 50¢ |
+| Pierre, Terre, Gravier, Sable | Extrêmement commun | 0.01¢ |
+| Cobblestone, Andésite, Diorite, Granite | Très commun | 0.02¢ |
+| Bois de Chêne | Commun | 0.05¢ |
+| Bois de Bouleau, Sapin | Assez commun | 0.08¢ |
+| Bois de Jungle, Acacia | Biome moins fréquent | 0.3¢ |
+| Argile, Bois de Mangrove | Peu commun | 0.5¢ |
+| Podzol, Mycélium | Biome rare | 1¢ |
+| Mousse (Lush Caves) | Biome très rare | 1.5¢ |
+| Prismarine (monuments océaniques) | Structure rare | 3¢ |
+| Blackstone (bastions Nether) | Structure rare | 4¢ |
+| Purpur (cités de l'End) | Structure très rare | 6¢ |
+| Sculk (Deep Dark) | Biome le plus rare | 9¢ |
+| Fruit du Chorus (End) | Accès End requis | 10¢ |
 
-> Liste indicative — à étendre à toutes les ressources du jeu (bois, pierre, cultures, etc.) selon la même logique.
+> Liste indicative — à étendre à tous les blocs du jeu selon la même logique de rareté.
 
 ### Marché dynamique — Achat par la Capitale
 

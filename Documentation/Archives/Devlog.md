@@ -333,3 +333,10 @@ Charbon 1¢, Cuivre/Fer 2¢, Redstone 6¢, Lapis 12¢, Or 20¢, Diamant 25¢, É
 **Prix définis par les joueurs** — à l'Autel des Ventes (nouvelle interface), dans la fourchette calibrée par le prix de base.
 
 > ⚠️ Ce nouveau système remplace conceptuellement le modèle plat 1.8¢/bloc utilisé dans les simulations économiques précédentes. Une refonte complète des simulations avec ce système sera nécessaire une fois la liste complète des ressources et leurs taux de spawn définie.
+
+### Précisions — Minerais vs Blocs classiques
+
+- **Fluctuation marché** : réservée aux minerais uniquement (Charbon, Fer, Or, Diamant, etc.)
+- **Blocs classiques** (bois, pierre, terre...) : prix fixé librement par les joueurs à l'Hôtel des Ventes, fourchette 0.01¢-10¢ selon rareté overworld
+- **Rendements réels intégrés** : Redstone (4-5 items/bloc) et Lapis (4-9 items/bloc, moy 6.5) — prix/item ajusté à 1¢ pour ces deux ressources afin de préserver Fer/Or/Diamant (8-10¢) comme les plus rentables par bloc miné
+- **Débris antique** fortement augmenté à 120¢/item (bien au-delà de l'Émeraude à 40¢) pour refléter sa rareté extrême
