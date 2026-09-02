@@ -44,6 +44,30 @@ Sur chaque vente par l'organisation :
 
 ---
 
+## Prix des ressources — Modèle pondéré
+
+Pour tenir compte de la vraie vitesse de minage vanilla (pioche fer, sans Efficacité/Hâte), les prix sont pondérés selon la rareté :
+
+| Type de bloc | Part du minage | Prix |
+|---|---|---|
+| Blocs communs | 80% | 1¢/bloc |
+| Blocs rares/importants | 20% | 5¢/bloc |
+| **Prix moyen pondéré** | 100% | **1.8¢/bloc** |
+
+### Vitesse de minage — référence
+
+Basée sur la mécanique vanilla : pioche en fer sur pierre = 15 ticks/bloc = 0.75s/bloc. Un inventaire plein (30 slots utiles × 64 = 1920 blocs) sert de référence pour le farm actif.
+
+| Profil | Blocs/heure | ¢/heure (avec salaire passif 200¢/h) |
+|---|---|---|
+| Farm actif | 1920 | ~3 656¢/h |
+| Farm modéré | 768 | ~1 582¢/h |
+| Casual | 256 | ~661¢/h |
+
+> Voir V3.Simulations_Economiques pour le détail des temps de progression basés sur ces valeurs.
+
+---
+
 ## Progression du farm
 
 Les ressources s'obtiennent selon 3 niveaux de progression :

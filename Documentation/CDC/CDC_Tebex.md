@@ -41,7 +41,7 @@
 | Durabilité kart | 3 (joueur→joueur) | 5 | 10 | 20 |
 | Vitesse kart | 5.3 blocs/s | 6 blocs/s | 7 blocs/s | 9 blocs/s |
 | Montures dédiées | 1 | 1 | 2 | 3 |
-| Zone housing | Cat. 1 | Cat. 1 | Cat. 2 | Cat. 3 |
+| Zone housing | Cat. 1 | Cat. 2 | Cat. 3 | Cat. 4 |
 | Armurie | ❌ | Outils | Outils | Outils + Armures |
 | Animaux de ferme | ❌ | ❌ | ❌ | ✅ |
 | Pets disponibles | Commun | Commun | Rare | Légendaire |
@@ -66,7 +66,7 @@
 - **Monture** : 1 cheval dédié (inaccessible par les autres joueurs)
 
 ### Housing (Capitale)
-- Accès parcelles : **Zone de catégorie 1** — plots définis par le responsable
+- Accès parcelles : **Zone de catégorie 1** — plots définis par le responsable (~2 semaines de farm)
 
 ### Équipement & Divers
 - Armurie : ❌
@@ -86,6 +86,9 @@
 
 ## VIP — 12$/mois
 
+### Housing (Capitale)
+- Accès parcelles : **Zone de catégorie 2** — plots définis par le responsable (~3 semaines de farm)
+
 ### Économie & Salaire
 - Salaire passif : **100¢ par quart d'heure** (hors groupe)
 - Surplus VIP : **+10% créé ex nihilo** (non prélevé sur la faction)
@@ -95,9 +98,6 @@
 ### Déplacements
 - **Kart** : achetable en boutique. Durabilité **5 utilisations**. Vitesse : **6 blocs/s**
 - **Monture** : 1 cheval dédié
-
-### Housing (Capitale)
-- Accès parcelles : **Zone de catégorie 1** — plots définis par le responsable
 
 ### Équipement & Divers
 - Armurie : ✅ Outils uniquement
@@ -113,6 +113,9 @@
 
 ## VIP+ — 25$/mois
 
+### Housing (Capitale)
+- Accès parcelles : **Zone de catégorie 3** — plots définis par le responsable (~3.5 semaines de farm)
+
 ### Économie & Salaire
 - Salaire passif : **150¢ par quart d'heure** (hors groupe)
 - Surplus VIP : **+25% créé ex nihilo**
@@ -123,9 +126,6 @@
 ### Déplacements
 - **Kart** : achetable en boutique. Durabilité **10 utilisations**. Vitesse : **7 blocs/s**
 - **Montures** : **2 montures dédiées**
-
-### Housing (Capitale)
-- Accès parcelles : **Zone de catégorie 2** — plots définis par le responsable
 
 ### Équipement & Divers
 - Armurie : ✅ Outils uniquement
@@ -140,6 +140,9 @@
 
 ## VIP Premium — 45$/mois
 
+### Housing (Capitale)
+- Accès parcelles : **Zone de catégorie 4** — plots définis par le responsable (~4 semaines de farm)
+
 ### Économie & Salaire
 - Salaire passif : **250¢ par quart d'heure** (hors groupe)
 - Surplus VIP : **+50% créé ex nihilo**
@@ -150,9 +153,6 @@
 ### Déplacements
 - **Kart** : achetable en boutique. Durabilité **20 utilisations**. Vitesse : **9 blocs/s**
 - **Montures** : **3 montures dédiées**
-
-### Housing (Capitale)
-- Accès parcelles : **Zone de catégorie 3** — plots définis par le responsable
 
 ### Équipement & Divers
 - Armurie : ✅ Outils + Armures
