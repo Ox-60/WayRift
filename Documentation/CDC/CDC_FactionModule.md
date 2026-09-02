@@ -7,7 +7,7 @@
 | **Groupe** | 15 (+ adhérents illimités) | Création en jeu (gratuit S1, 35 000¢ dès S2 — collectif) | Claims, minage |
 | **Organisation simple** | 25 | Ticket staff + 10 membres actifs + 7j activité | Item unique B2B, événements GM, caisses orga |
 | **Organisation avancée** | 50 | Ticket staff + 15 membres actifs + hiérarchie complète | Idem + hiérarchie libre |
-| **Nation** | 100 | Ressources + argent + ticket staff | Monde dédié, **guerres KOTH**, caisses nation |
+| **Nation** | 40-75 | Ressources + argent + ticket staff | Monde dédié, **guerres KOTH**, caisses nation |
 
 > ⚠️ Les **guerres KOTH sont réservées aux Nations uniquement**.
 > Les Organisations ont accès à des **événements organisés par les chefs et les GM** — pas de guerres formelles.

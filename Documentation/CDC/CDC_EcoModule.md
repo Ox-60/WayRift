@@ -10,9 +10,8 @@
 
 ### Rubies — Détail
 
-- **Non achetables** ni en ¢ ni en argent réel directement — c'est une monnaie de jeu de hasard
-- S'obtiennent en jouant aux **machines à sous** (casino Capitale)
-- Servent à retenter sa chance aux machines à sous pour gagner :
+- **Achetables uniquement via internet (Tebex, argent réel)** — jamais avec des Oboles en jeu
+- Servent à jouer aux **machines à sous** (casino Capitale) pour gagner :
   - Skins cosmétiques
   - **Pets** — utilisables uniquement si le joueur a un **rang VIP actif** au moment de l'utilisation (si l'abonnement expire, le pet gagné devient inutilisable jusqu'au renouvellement)
   - Autres récompenses à définir
