@@ -340,3 +340,19 @@ Charbon 1¢, Cuivre/Fer 2¢, Redstone 6¢, Lapis 12¢, Or 20¢, Diamant 25¢, É
 - **Blocs classiques** (bois, pierre, terre...) : prix fixé librement par les joueurs à l'Hôtel des Ventes, fourchette 0.01¢-10¢ selon rareté overworld
 - **Rendements réels intégrés** : Redstone (4-5 items/bloc) et Lapis (4-9 items/bloc, moy 6.5) — prix/item ajusté à 1¢ pour ces deux ressources afin de préserver Fer/Or/Diamant (8-10¢) comme les plus rentables par bloc miné
 - **Débris antique** fortement augmenté à 120¢/item (bien au-delà de l'Émeraude à 40¢) pour refléter sa rareté extrême
+
+### Farmabilité — Nouveau critère de prix
+
+Principe ajouté : **une ressource farmable (renouvelable) doit coûter moins cher** qu'une ressource équivalente en rareté mais finie, pour éviter les abus de farm infini.
+
+Ajustements appliqués :
+- **Mycélium** (se propage) : 2.5¢ → 0.6¢
+- **Prismarine** (ferme à Gardiens) : 3¢ → 1.2¢
+- **Corail** (non-farmable confirmé) : 3.5¢ → 4¢ (légère hausse)
+- **Sculk** (non-farmable confirmé) : 10¢ → 12¢ (légère hausse)
+- **Améthyste bourgeonnante** (bloc source, génère mais se détruit si miné) : 18¢ → **28¢**
+- **Éclat d'Améthyste** (item, drop des grappes, renouvelable) : nouveau, 3¢ — distinct du bloc source
+
+### Bloc suspect — Reclassé
+
+Ce n'est pas un bloc minable/revendable — c'est un mécanisme d'archéologie (brossage de structures rares donnant un loot aléatoire). Sorti du tableau de prix. Point ouvert : définir sa propre table de loot.

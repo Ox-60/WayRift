@@ -75,31 +75,38 @@ Certains minerais donnent plusieurs items par bloc miné (Redstone : 4-5 items, 
 
 > Fer, Or et Diamant sont volontairement resserrés autour de 8-10¢ : ce sont les ressources les plus utiles en jeu (outils, armures, échanges), leur valeur doit rester significative et proche entre elles. Débris antique fortement augmenté (120¢) pour refléter sa rareté extrême — bien au-delà de l'Émeraude.
 
-### Blocs classiques — Exemples par rareté (0.01¢ à 20¢, overworld)
+### Blocs classiques — Prix ajustés selon rareté ET farmabilité
 
-| Bloc | Rareté dans l'overworld | Prix indicatif |
-|---|---|---|
-| Pierre, Terre, Gravier, Sable | Extrêmement commun — partout, toutes profondeurs | 0.01¢ |
-| Andésite, Diorite, Granite, Cobblestone naturel | Très commun — génération souterraine massive | 0.02¢ |
-| Bois de Chêne | Biome le plus répandu (forêts) | 0.05¢ |
-| Bois de Bouleau, Sapin | Biomes fréquents | 0.08¢ |
-| Bois de Jungle, Acacia | Biomes moins fréquents | 0.3¢ |
-| Argile | Rivières/plages — localisé | 0.4¢ |
-| Bois de Mangrove | Biome marécage récent, zone limitée | 0.5¢ |
-| Terracotta colorée | Badlands uniquement — biome rare | 0.8¢ |
-| Podzol | Bordures taïga — génération limitée | 1¢ |
-| Mousse, Azalea (Lush Caves) | Biome souterrain rare | 2¢ |
-| Mycélium | Îles champignons — biome quasi inexistant | 2.5¢ |
-| Prismarine (monuments océaniques) | Structure rare, 1 par océan profond | 3¢ |
-| Corail (récifs chauds) | Biome en déclin, zone limitée | 3.5¢ |
-| Calcite, Dripstone | Grottes goutte-à-goutte — biome rare | 4¢ |
-| Améthyste (bloc) | Géodes rares, 1-2 par région | 6¢ |
-| Sculk (Deep Dark) | Biome le plus rare du jeu | 10¢ |
-| Basalte lisse, Deepslate renforcé | Génération ultra limitée | 12¢ |
-| Améthyste bourgeonnante | Seul bloc générant les cristaux — 1-4 par géode, nécessite Toucher de Soie | 18¢ |
-| Bloc suspect (archéologie) | Structures rares (ruines, puits) — 1-3 par site | 20¢ |
+**Principe additionnel : la farmabilité (ressource renouvelable) fait BAISSER le prix.** Un bloc/ressource que les joueurs peuvent farmer en boucle (repousse, propagation, ferme automatisée) doit coûter moins cher qu'une ressource équivalente en rareté mais finie — sinon les joueurs abusent du farm infini au détriment de l'équilibre économique.
 
-> Liste indicative (20 blocs) — à étendre à tous les blocs du jeu selon la même logique de rareté.
+| Bloc / Ressource | Rareté overworld | Farmable ? | Prix |
+|---|---|---|---|
+| Pierre, Terre, Gravier, Sable | Extrêmement commun | Non | 0.01¢ |
+| Andésite, Diorite, Granite, Cobblestone naturel | Très commun | Non | 0.02¢ |
+| Bois de Chêne | Biome le plus répandu | **Oui** (repousse) | 0.05¢ |
+| Bois de Bouleau, Sapin | Biomes fréquents | **Oui** (repousse) | 0.08¢ |
+| Bois de Jungle, Acacia | Biomes moins fréquents | **Oui** (repousse) | 0.3¢ |
+| Argile | Rivières/plages — localisé | Non | 0.4¢ |
+| Bois de Mangrove | Biome récent, zone limitée | **Oui** (repousse) | 0.5¢ |
+| Mycélium | Îles champignons — biome quasi inexistant | **Oui** (se propage sur dirt/grass) | 0.6¢ |
+| Terracotta colorée | Badlands uniquement | Non | 0.8¢ |
+| Podzol | Bordures taïga — génération limitée | Non (ne se propage pas) | 1¢ |
+| Prismarine | Monuments océaniques, structure rare | **Oui** (ferme à Gardiens) | 1.2¢ |
+| Mousse, Azalea (Lush Caves) | Biome souterrain rare | Non (sans os à moelle) | 2¢ |
+| Éclat d'Améthyste (item, pas le bloc) | Drop des grappes matures | **Oui** (repousse tant que le bloc source existe) | 3¢ |
+| Corail (récifs chauds) | Biome en déclin, zone limitée | Non | 4¢ |
+| Calcite, Dripstone | Grottes goutte-à-goutte — biome rare | Non | 4¢ |
+| Sculk (Deep Dark) | Biome le plus rare du jeu | Non | 12¢ |
+| Basalte lisse, Deepslate renforcé | Génération ultra limitée | Non | 12¢ |
+| **Améthyste bourgeonnante (bloc)** | Géodes rares, 1-2 par région | Non (génère des grappes mais se détruit si minée) | **28¢** |
+
+> Améthyste bourgeonnante fortement augmentée : c'est la "machine" génératrice — elle produit des Éclats en continu tant qu'elle n'est pas détruite. Sa valeur élevée reflète son rôle de source passive rare, distincte de l'Éclat lui-même (renouvelable, donc moins cher).
+
+### Cas particulier — Bloc suspect (archéologie)
+
+Le Bloc suspect (Sable/Gravier suspect) **n'est pas un bloc qu'on mine et revend**. C'est trouvé dans des structures rares (ruines, puits du désert, ruines océaniques) et **brossé** avec une Brosse pour révéler un loot aléatoire (tessons de poterie, items variés selon le site — parfois rien de spécial).
+
+→ **Sorti du tableau de prix classique.** À traiter comme un mécanisme d'exploration/récompense séparé (bonus ponctuel, pas un prix de vente fixe). Point ouvert : définir la table de loot et ses valeurs individuelles.
 
 ### Marché dynamique — Achat par la Capitale
 
