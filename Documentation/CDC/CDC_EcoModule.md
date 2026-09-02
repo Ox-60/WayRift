@@ -53,7 +53,9 @@ Les prix ne sont pas fixes — ils sont **définis par les joueurs eux-mêmes à
 ### Deux catégories de prix distinctes
 
 - **Minerais** : prix de base fixe + fluctuation marché (voir ci-dessous) — la Capitale les achète
-- **Blocs classiques** (bois, pierre, terre, blocs de structures...) : prix **entièrement défini par les joueurs** à l'Hôtel des Ventes, dans une fourchette **0.01¢ à 10¢** calibrée sur leur rareté réelle dans l'overworld. Pas de fluctuation marché sur ces blocs.
+- **Blocs classiques** (bois, pierre, terre, blocs de structures...) : prix **entièrement défini par les joueurs** à l'Hôtel des Ventes, dans une fourchette **0.01¢ à 20¢** calibrée sur leur rareté réelle dans l'overworld. Pas de fluctuation marché sur ces blocs.
+
+> Plafond relevé de 10¢ à 20¢ : certains blocs (Améthyste bourgeonnante, Bloc suspect) sont plus rares que le Sculk (biome Deep Dark) qui touchait déjà le plafond à 10¢. 20¢ permet de bien les différencier.
 
 ### Minerais — Prix par item, rendement pris en compte
 
@@ -73,25 +75,31 @@ Certains minerais donnent plusieurs items par bloc miné (Redstone : 4-5 items, 
 
 > Fer, Or et Diamant sont volontairement resserrés autour de 8-10¢ : ce sont les ressources les plus utiles en jeu (outils, armures, échanges), leur valeur doit rester significative et proche entre elles. Débris antique fortement augmenté (120¢) pour refléter sa rareté extrême — bien au-delà de l'Émeraude.
 
-### Blocs classiques — Exemples par rareté (0.01¢ à 10¢)
+### Blocs classiques — Exemples par rareté (0.01¢ à 20¢, overworld)
 
 | Bloc | Rareté dans l'overworld | Prix indicatif |
 |---|---|---|
-| Pierre, Terre, Gravier, Sable | Extrêmement commun | 0.01¢ |
-| Cobblestone, Andésite, Diorite, Granite | Très commun | 0.02¢ |
-| Bois de Chêne | Commun | 0.05¢ |
-| Bois de Bouleau, Sapin | Assez commun | 0.08¢ |
-| Bois de Jungle, Acacia | Biome moins fréquent | 0.3¢ |
-| Argile, Bois de Mangrove | Peu commun | 0.5¢ |
-| Podzol, Mycélium | Biome rare | 1¢ |
-| Mousse (Lush Caves) | Biome très rare | 1.5¢ |
-| Prismarine (monuments océaniques) | Structure rare | 3¢ |
-| Blackstone (bastions Nether) | Structure rare | 4¢ |
-| Purpur (cités de l'End) | Structure très rare | 6¢ |
-| Sculk (Deep Dark) | Biome le plus rare | 9¢ |
-| Fruit du Chorus (End) | Accès End requis | 10¢ |
+| Pierre, Terre, Gravier, Sable | Extrêmement commun — partout, toutes profondeurs | 0.01¢ |
+| Andésite, Diorite, Granite, Cobblestone naturel | Très commun — génération souterraine massive | 0.02¢ |
+| Bois de Chêne | Biome le plus répandu (forêts) | 0.05¢ |
+| Bois de Bouleau, Sapin | Biomes fréquents | 0.08¢ |
+| Bois de Jungle, Acacia | Biomes moins fréquents | 0.3¢ |
+| Argile | Rivières/plages — localisé | 0.4¢ |
+| Bois de Mangrove | Biome marécage récent, zone limitée | 0.5¢ |
+| Terracotta colorée | Badlands uniquement — biome rare | 0.8¢ |
+| Podzol | Bordures taïga — génération limitée | 1¢ |
+| Mousse, Azalea (Lush Caves) | Biome souterrain rare | 2¢ |
+| Mycélium | Îles champignons — biome quasi inexistant | 2.5¢ |
+| Prismarine (monuments océaniques) | Structure rare, 1 par océan profond | 3¢ |
+| Corail (récifs chauds) | Biome en déclin, zone limitée | 3.5¢ |
+| Calcite, Dripstone | Grottes goutte-à-goutte — biome rare | 4¢ |
+| Améthyste (bloc) | Géodes rares, 1-2 par région | 6¢ |
+| Sculk (Deep Dark) | Biome le plus rare du jeu | 10¢ |
+| Basalte lisse, Deepslate renforcé | Génération ultra limitée | 12¢ |
+| Améthyste bourgeonnante | Seul bloc générant les cristaux — 1-4 par géode, nécessite Toucher de Soie | 18¢ |
+| Bloc suspect (archéologie) | Structures rares (ruines, puits) — 1-3 par site | 20¢ |
 
-> Liste indicative — à étendre à tous les blocs du jeu selon la même logique de rareté.
+> Liste indicative (20 blocs) — à étendre à tous les blocs du jeu selon la même logique de rareté.
 
 ### Marché dynamique — Achat par la Capitale
 
