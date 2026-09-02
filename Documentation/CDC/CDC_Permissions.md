@@ -228,17 +228,19 @@ Récompense (dans les deux cas) :
 - Le choix est **définitif** — sauf si le joueur paie des **tokens** pour redistribuer
 - Les points s'accumulent à chaque wipe (wipe 1 = 1 pt, wipe 2 = 2 pts cumulés, etc.)
 
-### Avantages disponibles (arbre — à compléter)
+### Avantages disponibles (arbre)
 
-| Avantage | Effet par point | Maximum |
+**Règle générale : +5% par point investi** (sauf Vie, qui suit sa propre règle en cœurs).
+
+| Avantage | Effet par point | Maximum (avec 5 points, niveaux 10-50) |
 |---|---|---|
-| Argent gagné | +X% sur les revenus passifs | À définir |
-| XP gagné | +X% sur l'XP de compte | À définir |
-| Faim diminuée | -X% de consommation de nourriture | À définir |
-| Vie augmentée | +1 cœur par point | +2 cœurs maximum |
-| (autres à définir) | — | — |
+| Argent gagné | +5% sur les revenus passifs | +25% (5 points) |
+| XP gagné | +5% sur l'XP de compte | +25% (5 points) |
+| Faim diminuée | -5% de consommation de nourriture | -25% (5 points) |
+| Vie augmentée | +1 cœur par point | +2 cœurs maximum (plafond spécial, pas de %) |
+| (autres à définir) | +5%/point | Selon points investis |
 
-> Le maximum de vie est de +2 cœurs (4 HP) quelle que soit la somme des points investis.
+> Le maximum de vie est plafonné à +2 cœurs (4 HP) même si plusieurs points y sont investis — c'est la seule exception à la règle des 5%. Au-delà du niveau 50 (paliers tous les 5 niveaux), les points supplémentaires continuent d'ajouter +5% par point sur les branches non plafonnées.
 
 ---
 

@@ -208,6 +208,37 @@ Le bonus de salaire VIP est **créé ex nihilo** — non prélevé sur la tréso
 
 ---
 
+## Kart — Prix boutique
+
+| Rang | Prix recommandé | Justification |
+|---|---|---|
+| VIP | 2 500¢ | ~1.6h de farm modéré — achat réfléchi, pas trivial |
+| VIP+ | 2 800¢ | Légèrement plus cher (durabilité 10 vs 5) |
+| VIP Premium | 3 000¢ | Le plus durable (20 util.) et rapide (9 blocs/s) |
+
+> ⚠️ Point ajusté : 125¢ proposé initialement est bien trop bas (moins de 15 minutes de farm casual). Un prix autour de 2 500-3 000¢ garde l'achat significatif sans être bloquant — l'équivalent d'une à deux heures de jeu actif.
+
+---
+
+## Coffre de banque — Prix des cases supplémentaires
+
+Chaque case supplémentaire suit une progression : **case suivante = (prix précédent × 2) − 10%**, avec un **plafond de 10 000¢** par case.
+
+| Case # | Prix |
+|---|---|
+| 1 | 250¢ |
+| 2 | 450¢ |
+| 3 | 810¢ |
+| 4 | 1 458¢ |
+| 5 | 2 624¢ |
+| 6 | 4 724¢ |
+| 7 | 8 503¢ |
+| 8+ | 10 000¢ (plafond) |
+
+> Le coût grimpe rapidement — les premières cases restent accessibles, les suivantes deviennent un vrai investissement. Le plafond à 10 000¢ évite une inflation infinie tout en gardant un coût dissuasif pour le stockage massif.
+
+---
+
 ## Points ouverts restants
 
 | # | Point | Priorité |

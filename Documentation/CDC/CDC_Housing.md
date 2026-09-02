@@ -25,10 +25,16 @@ Les joueurs peuvent acheter ou louer des **plots** (parcelles de terrain) dans l
 
 ## Achat vs Location
 
-| Mode | Avantage | Prix |
-|---|---|---|
-| **Location** | Moins cher, flexible | Prix de référence ci-dessus |
-| **Achat** | Permanent (sous conditions), pas de loyer | Plus cher que la location |
+Location : **35% du prix d'achat, par semaine**.
+
+| Catégorie | Prix d'achat | Location/semaine | Rentable après |
+|---|---|---|---|
+| Catégorie 1 | 30 000¢ | 10 500¢/sem | ~2.9 semaines |
+| Catégorie 2 | 45 000¢ | 15 750¢/sem | ~2.9 semaines |
+| Catégorie 3 | 55 000¢ | 19 250¢/sem | ~2.9 semaines |
+| Catégorie 4 | 60 000¢ | 21 000¢/sem | ~2.9 semaines |
+
+> ⚠️ À ce taux, la location coûte environ 66% du revenu hebdomadaire d'un joueur en farm modéré (10h/sem). C'est un montant élevé qui pourrait décourager la location plutôt que la rendre attractive — à valider selon l'intention recherchée (pousser vers l'achat rapide, ou garder la location comme option viable long terme).
 
 ---
 

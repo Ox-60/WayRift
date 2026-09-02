@@ -282,3 +282,28 @@ Points de prestige et tokens gardés à la mort.
 - Modéré : surveillance silencieuse uniquement
 - Modérateur RP : peut intervenir physiquement en jeu
 - CM : Discord et hors jeu uniquement, aucune commande en jeu
+
+---
+
+## Session 7 — 2 septembre 2026
+
+### Prix définis — Économie complète
+
+| Élément | Prix/Règle |
+|---|---|
+| Prix constructeur item unique | Référence 8¢, fourchette ×3 (2.7¢ à 24¢) |
+| Prix vendeur B2B/B2C | Référence 12¢, fourchette ×3 (4¢ à 36¢) |
+| Location housing | 35% du prix d'achat/semaine (⚠️ élevé — 66% revenu hebdo modéré) |
+| Kart boutique | 2 500-3 000¢ selon rang (corrigé depuis 125¢, jugé trop bas) |
+| Coffre banque — cases | 250¢ base, ×2-10% par case suivante, plafond 10 000¢ |
+| Arbre de prestige | +5% par point investi (sauf Vie : +1 cœur/point, max +2) |
+
+### Rééquilibrage économique complet (suite session 6)
+
+- Groupe (S2+) : 35 000¢ (5 membres actifs, 3 jours)
+- Nation : semaines cibles 7/9/12/16, coût réduit à 10% trésorerie (4x moins cher, pré-quarries)
+- Housing : 4 catégories, prix ronds 30k/45k/55k/60k¢
+- Token : 500¢/token (recalculé pour cible 8-10 semaines)
+
+### Point ouvert restant
+- Prix des blocs individuels (Excel dédié, à travailler ensemble)
