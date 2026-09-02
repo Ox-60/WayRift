@@ -185,13 +185,13 @@ Un joueur Infâme (< 100 pts) peut gagner jusqu'à +100 pts en 1 semaine en fais
 
 | Paramètre | Valeur |
 |---|---|
-| Prix token en jeu | ~150¢ |
+| Prix token en jeu | 500¢ |
 | Prix token Tebex | 5€ pour 100 tokens |
 | Prix lootbox | 100 tokens (5€) |
 | Tokens pour 1 wipe prestige | 250 tokens |
 | Coût prestige en Tebex | ~12.50€ |
-| Coût prestige en farm actif | ~8 semaines |
-| Coût prestige en farm modéré | ~10 semaines |
+| Coût prestige en farm actif | ~3.4 semaines |
+| Coût prestige en farm modéré | ~8 semaines |
 | Tokens gardés à la mort | Oui |
 | Points de prestige gardés à la mort | Oui |
 

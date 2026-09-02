@@ -12,25 +12,14 @@ Les joueurs peuvent acheter ou louer des **plots** (parcelles de terrain) dans l
 
 ## Catégories de plots — 4 niveaux
 
-| Catégorie | Accessible dès | Taille | Prix (référence) |
+| Catégorie | Accessible dès | Taille | Prix |
 |---|---|---|---|
-| Catégorie 1 | Joueur | Définie par le builder | ~2 semaines de farm modéré |
-| Catégorie 2 | VIP | Définie par le builder (plus grand) | ~3 semaines de farm modéré |
-| Catégorie 3 | VIP+ | Définie par le builder (plus grand encore) | ~3.5 semaines de farm modéré |
-| Catégorie 4 | VIP Premium | Définie par le builder (la plus grande) | ~4 semaines de farm modéré |
+| Catégorie 1 | Joueur | Définie par le builder | 30 000¢ |
+| Catégorie 2 | VIP | Définie par le builder (plus grand) | 45 000¢ |
+| Catégorie 3 | VIP+ | Définie par le builder (plus grand encore) | 55 000¢ |
+| Catégorie 4 | VIP Premium | Définie par le builder (la plus grande) | 60 000¢ |
 
-> Chaque rang VIP a désormais sa propre catégorie de housing dédiée (mapping 1:1).
-
-### Prix indicatifs (calculés sur l'économie actuelle — 10h/semaine, farm modéré)
-
-| Catégorie | Semaines cibles | Prix estimé |
-|---|---|---|
-| Catégorie 1 | 2 semaines | ~31 600¢ |
-| Catégorie 2 | 3 semaines | ~47 500¢ |
-| Catégorie 3 | 3.5 semaines | ~55 400¢ |
-| Catégorie 4 | 4 semaines | ~63 300¢ |
-
-> Ces montants seront recalculés une fois l'Excel de prix des blocs finalisé et équilibré avec le reste de l'économie serveur.
+> Chaque rang VIP a désormais sa propre catégorie de housing dédiée (mapping 1:1). Prix calibrés sur ~2 à 4 semaines de farm modéré (10h/semaine).
 
 ---
 

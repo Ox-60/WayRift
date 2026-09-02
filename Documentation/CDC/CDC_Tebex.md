@@ -8,7 +8,7 @@
 
 | Paramètre | Valeur |
 |---|---|
-| Prix token en jeu | ~150¢ |
+| Prix token en jeu | 500¢ |
 | Prix token Tebex | **5€ pour 100 tokens** |
 | Lootbox | 100 tokens (5€) |
 | Wipe prestige | 250 tokens (~12.50€ ou ~10 sem de farm modéré) |

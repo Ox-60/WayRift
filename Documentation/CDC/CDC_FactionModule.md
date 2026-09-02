@@ -4,7 +4,7 @@
 
 | Niveau | Membres max | Déblocage | Droits spéciaux |
 |---|---|---|---|
-| **Groupe** | 15 (+ adhérents illimités) | Création en jeu (gratuit S1, ~68 000¢ dès S2 — collectif) | Claims, minage |
+| **Groupe** | 15 (+ adhérents illimités) | Création en jeu (gratuit S1, 35 000¢ dès S2 — collectif) | Claims, minage |
 | **Organisation simple** | 25 | Ticket staff + 10 membres actifs + 7j activité | Item unique B2B, événements GM, caisses orga |
 | **Organisation avancée** | 50 | Ticket staff + 15 membres actifs + hiérarchie complète | Idem + hiérarchie libre |
 | **Nation** | 100 | Ressources + argent + ticket staff | Monde dédié, **guerres KOTH**, caisses nation |
@@ -19,11 +19,11 @@
 ### Groupe — 3 jours de farm collectif
 
 ```
-Hypothèse : groupe de 15 membres max, -30% d'inactifs = 10 membres actifs
+Hypothèse : 5 membres actifs contribuant
 Rythme : farm modéré, 10h/semaine par membre (1.43h/jour)
-Sur 3 jours : 10 actifs x 1.43h/jour x 3 jours x ¢/h (farm modéré)
+Sur 3 jours : 5 actifs x 1.43h/jour x 3 jours x ¢/h (farm modéré)
 
-Coût estimé Saison 2+ : ~68 000¢
+Coût Saison 2+ : 35 000¢ (arrondi)
 ```
 
 ### Organisation — délai d'activité ajusté
@@ -37,24 +37,26 @@ Délai d'activité ajusté : 1.5 semaine (10-11 jours) au lieu de 7 jours
 -> Laisse le temps aux 30% d'inactifs de se manifester ou d'être remplacés
 ```
 
-### Nation — mondes selon 40% de la trésorerie collective
+### Nation — mondes selon 10% de la trésorerie collective (pré-quarries)
 
 ```
 Une Nation compte entre 40 et 75 membres (-30% inactifs = 28 à 52 actifs).
-Le coût de chaque monde correspond à 40% de la trésorerie hebdomadaire
-collective de la nation, accumulée sur le nombre de semaines cible.
+Le coût de chaque monde correspond à 10% de la trésorerie hebdomadaire
+collective de la nation (soit 4x moins que le calcul brut à 40%, pour
+refléter que le minage manuel est la seule production disponible avant
+les quarries en V6), accumulée sur le nombre de semaines cible.
 
-Coût monde = 40% x (membres actifs x 10h/sem x ¢/h farm modéré) x semaines cibles
+Coût monde = 10% x (membres actifs x 10h/sem x ¢/h farm modéré) x semaines cibles
 ```
 
 | Type de monde | Semaines cibles | Coût (40 membres) | Coût (75 membres) |
 |---|---|---|---|
-| Monde plat | 10 semaines | ~1 770 000¢ | ~3 290 000¢ |
-| Monde généré (Seed) | 12 semaines | ~2 130 000¢ | ~3 950 000¢ |
-| Monde importé | 15 semaines | ~2 660 000¢ | ~4 940 000¢ |
-| Monde custom (WorldPainter) | 20 semaines | ~3 540 000¢ | ~6 580 000¢ |
+| Monde plat | 7 semaines | 300 000¢ | 600 000¢ |
+| Monde généré (Seed) | 9 semaines | 400 000¢ | 750 000¢ |
+| Monde importé | 12 semaines | 550 000¢ | 1 000 000¢ |
+| Monde custom (WorldPainter) | 16 semaines | 700 000¢ | 1 300 000¢ |
 
-> ⚠️ Ces montants sont calculés sur l'économie de minage manuel actuelle (V1-V2). Une fois les quarries disponibles (V6), la production collective augmentera fortement — ces durées deviendront probablement plus courtes en pratique à ce stade du jeu.
+> Une fois les quarries disponibles (V6), la production collective augmentera fortement — ces durées cibles resteront réalistes voire optimistes à ce stade du jeu.
 
 ---
 
