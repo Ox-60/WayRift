@@ -57,27 +57,48 @@ Les prix ne sont pas fixes — ils sont **définis par les joueurs eux-mêmes à
 
 > Plafond relevé de 10¢ à 20¢ : certains blocs (Améthyste bourgeonnante, Bloc suspect) sont plus rares que le Sculk (biome Deep Dark) qui touchait déjà le plafond à 10¢. 20¢ permet de bien les différencier.
 
-### Minerais — Prix par item, rendement pris en compte
+### Minerais — Prix calibrés sur le revenu horaire cible
 
-Certains minerais donnent plusieurs items par bloc miné (Redstone : 4-5 items, Lapis : 4-9 items, moyenne 6.5). Le prix à l'unité est ajusté pour que **Fer/Or/Diamant restent les plus rentables par bloc miné** malgré leur rendement de 1 item/bloc — ce sont les ressources les plus utiles (outils, armures) et doivent rester les plus chères.
+Prix recalibrés (×9.5 sur la version précédente) pour que le **minage sauvage réaliste** (mix de minerais selon leur vrai taux de spawn, mélangé à du remplissage pierre/deepslate) atteigne les revenus horaires cibles définis pour les 3 profils de farm :
+
+| Profil | Blocs/h | Revenu cible | Revenu obtenu |
+|---|---|---|---|
+| Actif | 1920 | 3656¢/h | ~3482¢/h |
+| Modéré | 768 | 1582¢/h | ~1513¢/h |
+| Casual | 256 | 661¢/h | ~638¢/h |
+
+Certains minerais donnent plusieurs items par bloc miné (Redstone : 4-5 items, Lapis : 4-9 items, moyenne 6.5). Le prix à l'unité est ajusté pour que **Fer/Or/Diamant restent les plus rentables par bloc miné** malgré leur rendement de 1 item/bloc.
 
 | Ressource | Prix/item | Items/bloc miné | ¢/bloc miné |
 |---|---|---|---|
-| Charbon | 1¢ | 1 | 1¢ |
-| Redstone | 1¢ | 4-5 (moy. 4.5) | 4.5¢ |
-| Lapis-lazuli | 1¢ | 4-9 (moy. 6.5) | 6.5¢ |
-| Cuivre | 2¢ | 1 | 2¢ |
-| **Fer** | **8¢** | 1 | 8¢ |
-| **Or** | **10¢** | 1 | 10¢ |
-| **Diamant** | **10¢** | 1 | 10¢ |
-| Émeraude | 40¢ | 1 | 40¢ |
-| Débris antique (Netherite) | 120¢ | 1 | 120¢ |
+| Charbon | 10¢ | 1 | 10¢ |
+| Redstone | 10¢ | 4-5 (moy. 4.5) | 45¢ |
+| Lapis-lazuli | 10¢ | 4-9 (moy. 6.5) | 65¢ |
+| Cuivre | 19¢ | 1 | 19¢ |
+| **Fer** | **76¢** | 1 | 76¢ |
+| **Or** | **95¢** | 1 | 95¢ |
+| **Diamant** | **95¢** | 1 | 95¢ |
+| Émeraude | 380¢ | 1 | 380¢ |
+| Débris antique (Netherite) | 1 140¢ | 1 | 1 140¢ |
 
-> Fer, Or et Diamant sont volontairement resserrés autour de 8-10¢ : ce sont les ressources les plus utiles en jeu (outils, armures, échanges), leur valeur doit rester significative et proche entre elles. Débris antique fortement augmenté (120¢) pour refléter sa rareté extrême — bien au-delà de l'Émeraude.
+> Fer, Or et Diamant restent resserrés (76-95¢) : ce sont les ressources les plus utiles en jeu, leur valeur doit être significative et proche entre elles. Débris antique très fortement augmenté (1 140¢) pour refléter sa rareté extrême.
+
+### Minage sauvage — Répartition réaliste (calcul de référence)
+
+```
+Hypothèse : 5% des blocs minés sont des minerais, 95% du remplissage (pierre/deepslate)
+Répartition des minerais proportionnelle au taux de spawn réel Minecraft
+  (Charbon 45.8%, Fer 22.3%, Cuivre 19.8%, Redstone 7.4%,
+   Lapis 2.0%, Or 1.2%, Diamant 1.0%, Émeraude 0.5%)
+```
+
+> Cette méthode remplace le modèle pondéré flat 1.8¢/bloc — elle reflète la vraie expérience de minage (on creuse surtout de la pierre, les minerais utiles restent rares).
 
 ### Blocs classiques — Prix ajustés selon rareté ET farmabilité
 
-**Principe additionnel : la farmabilité (ressource renouvelable) fait BAISSER le prix.** Un bloc/ressource que les joueurs peuvent farmer en boucle (repousse, propagation, ferme automatisée) doit coûter moins cher qu'une ressource équivalente en rareté mais finie — sinon les joueurs abusent du farm infini au détriment de l'équilibre économique.
+**Principe additionnel : la farmabilité (ressource renouvelable) fait BAISSER le prix.** Un bloc/ressource que les joueurs peuvent farmer en boucle (repousse, propagation) doit coûter moins cher qu'une ressource équivalente en rareté mais finie — sinon les joueurs abusent du farm infini au détriment de l'équilibre économique.
+
+> ⚠️ **Règle serveur : les fermes ne sont autorisées que si elles restent réalistes.** Les fermes à mobs automatisées (tours à mobs, fermes à Gardiens optimisées, etc.) ne sont **pas autorisées** — non réalistes pour un serveur RP. La ferme à Gardiens listée initialement comme exemple de farming industriel est donc **retirée** : sans automatisation, farmer des Gardiens manuellement n'est pas un moyen de revenu fiable à grande échelle.
 
 | Bloc / Ressource | Rareté overworld | Farmable ? | Prix |
 |---|---|---|---|
@@ -91,7 +112,7 @@ Certains minerais donnent plusieurs items par bloc miné (Redstone : 4-5 items, 
 | Mycélium | Îles champignons — biome quasi inexistant | **Oui** (se propage sur dirt/grass) | 0.6¢ |
 | Terracotta colorée | Badlands uniquement | Non | 0.8¢ |
 | Podzol | Bordures taïga — génération limitée | Non (ne se propage pas) | 1¢ |
-| Prismarine | Monuments océaniques, structure rare | **Oui** (ferme à Gardiens) | 1.2¢ |
+| Prismarine | Monuments océaniques, structure rare | Non (ferme à Gardiens automatisée interdite) | 3¢ |
 | Mousse, Azalea (Lush Caves) | Biome souterrain rare | Non (sans os à moelle) | 2¢ |
 | Éclat d'Améthyste (item, pas le bloc) | Drop des grappes matures | **Oui** (repousse tant que le bloc source existe) | 3¢ |
 | Corail (récifs chauds) | Biome en déclin, zone limitée | Non | 4¢ |

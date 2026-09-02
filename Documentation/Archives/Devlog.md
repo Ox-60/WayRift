@@ -356,3 +356,20 @@ Ajustements appliqués :
 ### Bloc suspect — Reclassé
 
 Ce n'est pas un bloc minable/revendable — c'est un mécanisme d'archéologie (brossage de structures rares donnant un loot aléatoire). Sorti du tableau de prix. Point ouvert : définir sa propre table de loot.
+
+### Recalibrage final — Minage sauvage vs cibles horaires
+
+Comparaison minage sauvage (mix réaliste selon spawn) vs farming industriel (bois, mycélium, améthyste — Gardiens exclus) :
+
+| Approche | Revenu/h (avant recalibrage) |
+|---|---|
+| Minage sauvage | 565¢/h |
+| Farming industriel (moyenne, sans Gardiens) | ~265¢/h |
+
+**Règle serveur clarifiée : fermes autorisées uniquement si réalistes.** Fermes à mobs automatisées (tours à mobs, Gardiens optimisés) interdites — non RP. Ferme à Gardiens retirée des exemples de farming industriel.
+
+**Prix minerais recalibrés ×9.5** pour que le minage sauvage atteigne les revenus horaires cibles (actif 3656¢/h, modéré 1582¢/h, casual 661¢/h) :
+
+Charbon 10¢, Redstone 10¢ (45¢/bloc), Lapis 10¢ (65¢/bloc), Cuivre 19¢, **Fer 76¢**, **Or 95¢**, **Diamant 95¢**, Émeraude 380¢, Débris antique 1 140¢.
+
+Résultats obtenus : Actif ~3482¢/h, Modéré ~1513¢/h, Casual ~638¢/h — proches des cibles.
