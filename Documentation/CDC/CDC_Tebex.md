@@ -210,13 +210,9 @@ Le bonus de salaire VIP est **créé ex nihilo** — non prélevé sur la tréso
 
 ## Kart — Prix boutique
 
-| Rang | Prix recommandé | Justification |
-|---|---|---|
-| VIP | 2 500¢ | ~1.6h de farm modéré — achat réfléchi, pas trivial |
-| VIP+ | 2 800¢ | Légèrement plus cher (durabilité 10 vs 5) |
-| VIP Premium | 3 000¢ | Le plus durable (20 util.) et rapide (9 blocs/s) |
+**2 500¢** — prix unique pour tous les rangs VIP (VIP, VIP+, VIP Premium). Item exclusif VIP, la différenciation se fait sur la durabilité et la vitesse (voir tableau comparatif), pas sur le prix d'achat.
 
-> ⚠️ Point ajusté : 125¢ proposé initialement est bien trop bas (moins de 15 minutes de farm casual). Un prix autour de 2 500-3 000¢ garde l'achat significatif sans être bloquant — l'équivalent d'une à deux heures de jeu actif.
+> Prix ajusté depuis 125¢ (jugé trop bas — moins de 15 minutes de farm casual). 2 500¢ représente ~1.6h de farm modéré, un achat réfléchi mais accessible en une session.
 
 ---
 

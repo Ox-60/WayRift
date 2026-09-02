@@ -307,3 +307,10 @@ Points de prestige et tokens gardés à la mort.
 
 ### Point ouvert restant
 - Prix des blocs individuels (Excel dédié, à travailler ensemble)
+
+### Ajustements — même session
+
+- Kart : prix unique **2 500¢** pour tous les rangs VIP (au lieu de 3 paliers)
+- Location housing : **15%** du prix d'achat/semaine (comparé à 20%, jugé trop élevé — 76% du revenu hebdo en Cat.4)
+- Prix constructeur : **16-22¢** (fourchette directe, remplace la formule ×3)
+- Prix vendeur : **24-32¢** (fourchette directe, remplace la formule ×3)

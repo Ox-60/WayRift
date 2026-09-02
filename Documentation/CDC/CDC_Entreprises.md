@@ -120,14 +120,12 @@ Chaque action sur le coffre génère un log horodaté :
 
 | Paramètre | Valeur |
 |---|---|
-| Prix constructeur — référence | 8¢/unité |
-| Prix constructeur — fourchette (×3) | 2.7¢ à 24¢/unité |
-| Prix vendeur — référence | 12¢/unité |
-| Prix vendeur — fourchette (×3) | 4¢ à 36¢/unité |
+| Prix constructeur — fourchette | 16¢ à 22¢/unité |
+| Prix vendeur — fourchette | 24¢ à 32¢/unité |
 | Pourcentage crafteur min/max | Fourchette dans laquelle le chef peut fixer la part du crafteur (défaut 30%) |
 | Majoration non-constructeur | Pourcentage minimum que les orgas/nations non-constructrices doivent appliquer au-dessus du prix constructeur (défaut +25%) |
 
-> Les fourchettes constructeur et vendeur suivent une règle ×3 autour de la valeur de référence (référence÷3 à référence×3), donnant au chef une marge de négociation tout en gardant un contrôle global admin.
+> Le chef fixe son prix constructeur dans la fourchette 16-22¢, et son prix vendeur dans la fourchette 24-32¢. Ces fourchettes donnent une marge de négociation tout en gardant un contrôle global admin.
 
 ## Paramétrage chef d'organisation
 
