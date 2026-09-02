@@ -4,9 +4,18 @@
 
 | Monnaie | Usage | Obtention |
 |---|---|---|
-| Oboles (¢) | Monnaie globale unique | En jeu |
-| Tokens | Monnaie boutique | Argent réel (Tebex) OU argent en jeu à prix élevé |
-| Rubies | VIP/prestige, casino | Argent réel OU beaucoup d'Oboles (sens unique) |
+| Oboles (¢) | Monnaie globale unique | En jeu (minage, ventes, salaires) |
+| Tokens | Wipe prestige (250 tokens) + achat de parcelles housing | Argent réel (5€/100 tokens) OU farm en jeu |
+| Rubies | Machines à sous (casino) — récompenses skins, pets | **Non achetables en jeu.** Obtenues uniquement via le casino/événements — voir détail ci-dessous |
+
+### Rubies — Détail
+
+- **Non achetables** ni en ¢ ni en argent réel directement — c'est une monnaie de jeu de hasard
+- S'obtiennent en jouant aux **machines à sous** (casino Capitale)
+- Servent à retenter sa chance aux machines à sous pour gagner :
+  - Skins cosmétiques
+  - **Pets** — utilisables uniquement si le joueur a un **rang VIP actif** au moment de l'utilisation (si l'abonnement expire, le pet gagné devient inutilisable jusqu'au renouvellement)
+  - Autres récompenses à définir
 
 ---
 
@@ -188,11 +197,15 @@ Les ressources s'obtiennent selon 3 niveaux de progression :
 | Catégorie | Condition d'accès | Version dédiée possible |
 |---|---|---|
 | Skin classique | Tous les joueurs | Oui (plus cher) |
-| Skin groupe | Membre d'un groupe **actuellement** | Oui |
-| Skin organisation | Membre d'une organisation **actuellement** | Oui |
-| Skin nation | Membre d'une nation **actuellement** | Oui |
+| Skin groupe | Membre d'un groupe **actuellement** | Oui — dédié, **plus cher** |
+| Skin organisation | Membre d'une organisation **actuellement** | Oui — dédié, **plus cher** |
+| Skin nation | Membre d'une nation **actuellement** | Oui — dédié, **plus cher** |
 
 > Le skin de groupe/organisation/nation ne peut être utilisé que si le joueur appartient encore à l'entité correspondante au moment de l'équiper.
+
+### Skins dédiés de faction — Particularité
+
+Un skin dédié de groupe/organisation/nation, une fois acheté (par le chef ou la faction), **débloque le skin pour TOUS les membres actuels et futurs de la faction** — pas seulement pour l'acheteur. Seuls les membres de la faction concernée peuvent l'équiper. Le prix est donc **plus élevé** qu'un skin individuel classique, puisqu'il profite à l'ensemble du groupe.
 
 ### Achat des Tokens
 

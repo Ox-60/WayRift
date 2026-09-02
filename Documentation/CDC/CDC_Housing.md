@@ -23,6 +23,12 @@ Les joueurs peuvent acheter ou louer des **plots** (parcelles de terrain) dans l
 
 ---
 
+## Paiement
+
+Les plots (achat ou location) sont payables en **¢ (Oboles)** ou en **Tokens**.
+
+---
+
 ## Achat vs Location
 
 Location : **15% du prix d'achat, par semaine**.

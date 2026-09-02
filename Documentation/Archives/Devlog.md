@@ -373,3 +373,57 @@ Comparaison minage sauvage (mix réaliste selon spawn) vs farming industriel (bo
 Charbon 10¢, Redstone 10¢ (45¢/bloc), Lapis 10¢ (65¢/bloc), Cuivre 19¢, **Fer 76¢**, **Or 95¢**, **Diamant 95¢**, Émeraude 380¢, Débris antique 1 140¢.
 
 Résultats obtenus : Actif ~3482¢/h, Modéré ~1513¢/h, Casual ~638¢/h — proches des cibles.
+
+---
+
+## Session 9 — 2 septembre 2026 (suite)
+
+### Nation — Semaines cibles ajustées
+
+Nouvelles cibles : 6 / 7.5 / 10 / 14 semaines (au lieu de 7/9/12/16).
+
+| Monde | Semaines | 40 membres | 75 membres |
+|---|---|---|---|
+| Plat | 6 | 250 000¢ | 480 000¢ |
+| Généré | 7.5 | 320 000¢ | 600 000¢ |
+| Importé | 10 | 420 000¢ | 800 000¢ |
+| Custom | 14 | 600 000¢ | 1 120 000¢ |
+
+> ⚠️ Confirmé explicitement : ce sont des montants **collectifs** (28 à 53 membres actifs), pas solo.
+
+### Tokens — Nouvel usage
+
+Les tokens servent désormais aussi à **acheter des parcelles housing**, en plus du wipe prestige.
+
+### Rubies — Système clarifié
+
+- **Non achetables** en jeu ni en argent réel — monnaie de jeu de hasard uniquement
+- Obtenues via les **machines à sous** du casino
+- Servent à tenter sa chance pour gagner skins et **pets**
+- Les pets gagnés sont utilisables **uniquement si le joueur a un rang VIP actif** au moment de l'utilisation
+
+### Kart — Règles renforcées
+
+- **Nécessite un abonnement VIP actif pour être utilisé** (peu importe comment il a été acquis)
+- Durabilité uniformisée à **24 utilisations** (au lieu des anciennes valeurs tiered 5/10/20)
+- Joueur sans VIP : kart totalement inutilisable
+
+### Skins dédiés de faction
+
+Un skin dédié de groupe/organisation/nation débloque le skin pour **tous les membres actuels et futurs** de la faction (pas juste l'acheteur) — d'où un prix plus élevé qu'un skin individuel classique.
+
+### HDV — Seuil confirmé
+
+Seuil de réputation 200 (déjà en place) confirmé comme excluant à la fois Infâme (0-99) et Suspect (100-199) — un joueur doit être au minimum Neutre bas pour accéder à l'HDV.
+
+### B2B — Prix et flux de paiement clarifiés
+
+**Fourchette de prix B2B : 125% à 150% du prix constructeur** (remplace l'ancienne fourchette implicite).
+
+**Nouveau flux de paiement précis :**
+```
+Au dépôt (instantané) : Crafteur reçoit 30% du prix CONSTRUCTEUR par item
+À la vente : Vendeur reçoit 25% du prix CONSTRUCTEUR
+La faction reçoit tout le reste du prix de VENTE RÉEL (125-150%)
+```
+Vendre au prix maximum (150%) profite directement à la faction — crafteur et vendeur touchent un montant fixe peu importe le prix de vente final.

@@ -60,24 +60,53 @@ LOG généré :
 
 ## Flux de vente — Contrat B2B
 
+### Prix de vente B2B
+
+**Fourchette : 125% à 150% du prix constructeur.** Le vendeur négocie le prix exact dans cette fourchette selon le contrat.
+
 ```
 CONTRAT FACTION -> FACTION (constructeur) :
   1. Vendeur contacte une faction ou nation (pas un joueur individuel)
      (permission requise : vendre-items-crafts)
-  2. Contrat établi : quantité OU prix (l'un s'adapte à l'autre)
+  2. Contrat établi : quantité + prix (entre 125% et 150% du prix constructeur)
      + faction destinataire définie
   3. Vendeur récupère les items du coffre selon la quantité du contrat
   4. Vendeur livre physiquement à l'acheteur
   5. Acheteur valide la livraison -> paiement déclenché automatiquement
      (permission requise acheteur : acheter-passer-commande-compte-groupe)
      (l'argent est débité du compte de GROUPE, pas du joueur individuel)
-  6. Vendeur reçoit 25% du montant de la vente
 
 CONTRAT FACTION -> INDIVIDUEL (orgas/nations NON-constructrices) :
   Les organisations et nations qui ne sont pas constructrices peuvent
   revendre les items achetés aux joueurs individuels.
-  Prix minimum : prix constructeur + 25%
+  Prix minimum : prix constructeur + 25% (identique à la fourchette B2B)
   Le contrat peut être passé avec une faction OU un individuel.
+```
+
+### Répartition de l'argent — Qui reçoit quoi, et quand
+
+```
+AU DÉPÔT (instantané, avant toute vente) :
+  -> Le crafteur reçoit 30% du PRIX CONSTRUCTEUR (référence fixe)
+     par item, immédiatement à chaque dépôt en coffre
+  -> Ce paiement ne dépend pas du prix de vente final — il est garanti
+
+À LA VENTE (au moment de la transaction validée) :
+  -> Le vendeur reçoit 25% du PRIX CONSTRUCTEUR (référence fixe),
+     directement à la validation de la vente
+  -> La faction reçoit TOUT LE RESTE du prix de vente réel
+     (prix de vente réel [125-150% constructeur] moins les 30% + 25%
+     déjà versés au crafteur et au vendeur)
+     -> Cet argent sert plus tard à financer la fabrication future
+
+EXEMPLE (prix constructeur = 20¢, vendu à 150% = 30¢) :
+  Crafteur  : 30% x 20¢ = 6¢ (versé au dépôt)
+  Vendeur   : 25% x 20¢ = 5¢ (versé à la vente)
+  Faction   : 30¢ - 6¢ - 5¢ = 19¢ (le reste du prix de vente réel)
+
+  -> Vendre au prix maximum (150%) profite directement à la faction,
+     puisque crafteur et vendeur touchent un montant fixe peu importe
+     le prix de vente final.
 ```
 
 ---
@@ -123,7 +152,8 @@ Chaque action sur le coffre génère un log horodaté :
 | Prix constructeur — fourchette | 16¢ à 22¢/unité |
 | Prix vendeur — fourchette | 24¢ à 32¢/unité |
 | Pourcentage crafteur min/max | Fourchette dans laquelle le chef peut fixer la part du crafteur (défaut 30%) |
-| Majoration non-constructeur | Pourcentage minimum que les orgas/nations non-constructrices doivent appliquer au-dessus du prix constructeur (défaut +25%) |
+| Fourchette prix B2B | 125% à 150% du prix constructeur |
+| Majoration non-constructeur | +25% minimum au-dessus du prix constructeur (revente aux individuels) |
 
 > Le chef fixe son prix constructeur dans la fourchette 16-22¢, et son prix vendeur dans la fourchette 24-32¢. Ces fourchettes donnent une marge de négociation tout en gardant un contrôle global admin.
 

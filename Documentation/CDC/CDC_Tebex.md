@@ -37,7 +37,7 @@
 | Surplus salaire (créé ex nihilo) | — | +10% | +25% | +50% |
 | Réduction prix groupes | 100% | 90% | 85% | 75% |
 | Taxes | 100% | 80% | 70% | 50% |
-| Kart achetable boutique | ❌ | ✅ | ✅ | ✅ |
+| Kart utilisable | ❌ (aucun abonnement actif) | ✅ | ✅ | ✅ |
 | Durabilité kart | 3 (joueur→joueur) | 5 | 10 | 20 |
 | Vitesse kart | 5.3 blocs/s | 6 blocs/s | 7 blocs/s | 9 blocs/s |
 | Montures dédiées | 1 | 1 | 2 | 3 |
@@ -62,7 +62,7 @@
 - Surplus VIP : aucun
 
 ### Déplacements
-- **Kart** : non achetable en boutique. Achetable à un autre joueur — durabilité **3 utilisations**. Vitesse : **5.3 blocs/s**
+- **Kart** : **inutilisable** — le kart nécessite un abonnement VIP actif pour fonctionner, quel que soit son mode d'acquisition
 - **Monture** : 1 cheval dédié (inaccessible par les autres joueurs)
 
 ### Housing (Capitale)
@@ -96,7 +96,7 @@
 - Taxes : **80%**
 
 ### Déplacements
-- **Kart** : achetable en boutique. Durabilité **5 utilisations**. Vitesse : **6 blocs/s**
+- **Kart** : achetable en boutique (2 500¢). Durabilité **24 utilisations**. Vitesse : **6 blocs/s**. Utilisable uniquement tant que l'abonnement VIP est actif
 - **Monture** : 1 cheval dédié
 
 ### Équipement & Divers
@@ -124,7 +124,7 @@
 - **Faim réduite de 25%**
 
 ### Déplacements
-- **Kart** : achetable en boutique. Durabilité **10 utilisations**. Vitesse : **7 blocs/s**
+- **Kart** : achetable en boutique (2 500¢). Durabilité **24 utilisations**. Vitesse : **7 blocs/s**. Utilisable uniquement tant que l'abonnement VIP+ est actif
 - **Montures** : **2 montures dédiées**
 
 ### Équipement & Divers
@@ -151,7 +151,7 @@
 - **Faim réduite de 50%**
 
 ### Déplacements
-- **Kart** : achetable en boutique. Durabilité **20 utilisations**. Vitesse : **9 blocs/s**
+- **Kart** : achetable en boutique (2 500¢). Durabilité **24 utilisations**. Vitesse : **9 blocs/s**. Utilisable uniquement tant que l'abonnement VIP Premium est actif
 - **Montures** : **3 montures dédiées**
 
 ### Équipement & Divers

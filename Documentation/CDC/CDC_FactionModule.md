@@ -51,11 +51,13 @@ Coût monde = 10% x (membres actifs x 10h/sem x ¢/h farm modéré) x semaines c
 
 | Type de monde | Semaines cibles | Coût (40 membres) | Coût (75 membres) |
 |---|---|---|---|
-| Monde plat | 7 semaines | 300 000¢ | 600 000¢ |
-| Monde généré (Seed) | 9 semaines | 400 000¢ | 750 000¢ |
-| Monde importé | 12 semaines | 550 000¢ | 1 000 000¢ |
-| Monde custom (WorldPainter) | 16 semaines | 700 000¢ | 1 300 000¢ |
+| Monde plat | 6 semaines | 250 000¢ | 480 000¢ |
+| Monde généré (Seed) | 7.5 semaines | 320 000¢ | 600 000¢ |
+| Monde importé | 10 semaines | 420 000¢ | 800 000¢ |
+| Monde custom (WorldPainter) | 14 semaines | 600 000¢ | 1 120 000¢ |
 
+> ⚠️ **Ces durées sont un calcul COLLECTIF, pas solo.** Elles supposent 28 à 53 membres actifs contribuant ensemble à la trésorerie de la nation, pas un joueur unique qui économise seul. Un joueur solo mettrait des années à atteindre ces montants.
+>
 > Une fois les quarries disponibles (V6), la production collective augmentera fortement — ces durées cibles resteront réalistes voire optimistes à ce stade du jeu.
 
 ---

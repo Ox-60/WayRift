@@ -17,7 +17,7 @@
 | 750-999 | Honorable | Vert clair | — | — |
 | 500-749 | Neutre | Gris | — | — |
 | 200-499 | Neutre bas | Gris foncé | — | — |
-| 100-199 | Suspect | Orange | — | Interdit HDV officiel |
+| 100-199 | Suspect | Orange | — | Interdit HDV officiel (seuil HDV = 200, exclut Infâme ET Suspect) |
 | 0-99 | **Infâme** | Rouge + tête de mort | Bas-Fonds (V3) | Interdit HDV officiel |
 
 > Départ à **500** pour tous les nouveaux joueurs. Valeur neutre : 500.
@@ -193,6 +193,7 @@ Un joueur Infâme (< 100 pts) peut gagner jusqu'à +100 pts en 1 semaine en fais
 | Coût prestige en farm actif | ~3.4 semaines |
 | Coût prestige en farm modéré | ~8 semaines |
 | Tokens gardés à la mort | Oui |
+| Usage tokens | Wipe prestige (250 tokens) **+ achat de parcelles housing** |
 | Points de prestige gardés à la mort | Oui |
 
 ### Conditions de wipe prestige
