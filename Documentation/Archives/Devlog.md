@@ -314,3 +314,22 @@ Points de prestige et tokens gardés à la mort.
 - Location housing : **15%** du prix d'achat/semaine (comparé à 20%, jugé trop élevé — 76% du revenu hebdo en Cat.4)
 - Prix constructeur : **16-22¢** (fourchette directe, remplace la formule ×3)
 - Prix vendeur : **24-32¢** (fourchette directe, remplace la formule ×3)
+
+---
+
+## Session 8 — 2 septembre 2026 (suite)
+
+### Nouveau système de prix — Rareté + Marché dynamique
+
+Remplace le modèle pondéré flat (80% commun/20% rare) par un système plus riche :
+
+**Prix de base par rareté** — calibré sur le taux de spawn Minecraft vanilla :
+Charbon 1¢, Cuivre/Fer 2¢, Redstone 6¢, Lapis 12¢, Or 20¢, Diamant 25¢, Émeraude 40¢, Débris antique 50¢.
+
+**Marché dynamique** — la Capitale achète à prix fluctuant : beaucoup de ventes → prix baisse, peu de ventes → prix remonte (autour du prix de base).
+
+**Coefficient de marché** — la moyenne des prix actuels de tous les minerais génère un coefficient qui ajuste proportionnellement d'autres prix indexés (tokens, parcelles housing).
+
+**Prix définis par les joueurs** — à l'Autel des Ventes (nouvelle interface), dans la fourchette calibrée par le prix de base.
+
+> ⚠️ Ce nouveau système remplace conceptuellement le modèle plat 1.8¢/bloc utilisé dans les simulations économiques précédentes. Une refonte complète des simulations avec ce système sera nécessaire une fois la liste complète des ressources et leurs taux de spawn définie.

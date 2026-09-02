@@ -44,27 +44,67 @@ Sur chaque vente par l'organisation :
 
 ---
 
-## Prix des ressources — Modèle pondéré
+## Prix des ressources — Modèle par rareté et marché dynamique
 
-Pour tenir compte de la vraie vitesse de minage vanilla (pioche fer, sans Efficacité/Hâte), les prix sont pondérés selon la rareté :
+### Principe
 
-| Type de bloc | Part du minage | Prix |
+Les prix ne sont pas fixes — ils sont **définis par les joueurs eux-mêmes à l'Autel des Ventes** (interface de vente), dans une fourchette calibrée par un prix de base.
+
+### Prix de base — Selon le taux d'apparition Minecraft
+
+Plus une ressource apparaît fréquemment dans la génération du monde, moins elle vaut cher. Le prix de base suit le taux de spawn vanilla :
+
+| Ressource | Taux de spawn (relatif) | Prix de base |
 |---|---|---|
-| Blocs communs | 80% | 1¢/bloc |
-| Blocs rares/importants | 20% | 5¢/bloc |
-| **Prix moyen pondéré** | 100% | **1.8¢/bloc** |
+| Charbon | Très élevé | 1¢ |
+| Cuivre | Élevé | 2¢ |
+| Fer | Élevé | 2¢ |
+| Redstone | Moyen | 6¢ |
+| Lapis-lazuli | Faible | 12¢ |
+| Or | Rare | 20¢ |
+| Diamant | Rare | 25¢ |
+| Émeraude | Très rare (biome Montagnes uniquement) | 40¢ |
+| Débris antique (Netherite) | Extrêmement rare | 50¢ |
+
+> Liste indicative — à étendre à toutes les ressources du jeu (bois, pierre, cultures, etc.) selon la même logique.
+
+### Marché dynamique — Achat par la Capitale
+
+La Capitale achète les minerais à un **prix fluctuant** selon l'offre/demande récente :
+
+```
+Beaucoup de ventes récentes -> le prix BAISSE (surabondance)
+Peu de ventes récentes      -> le prix REMONTE (rareté relative)
+```
+
+Le prix fluctue autour du prix de base, sans jamais totalement s'en écarter (le prix de base reste l'ancre de référence).
+
+### Coefficient de marché — Impact sur l'économie globale
+
+La **moyenne des prix actuels de tous les minerais** génère un **coefficient de marché**. Ce coefficient ajuste proportionnellement d'autres prix indexés sur la santé économique globale du serveur :
+
+```
+Coefficient marché = moyenne(prix actuels minerais) / moyenne(prix de base minerais)
+
+Exemples de prix indexés sur ce coefficient :
+  - Prix des tokens
+  - Prix des parcelles housing
+  - Autres biens liés à l'économie globale (à définir)
+```
+
+> Si l'économie est en pleine forme (minerais chers, peu vendus), le coefficient monte et les autres prix suivent légèrement à la hausse. Si le marché est saturé (minerais bradés), le coefficient baisse et les autres prix deviennent plus accessibles.
 
 ### Vitesse de minage — référence
 
 Basée sur la mécanique vanilla : pioche en fer sur pierre = 15 ticks/bloc = 0.75s/bloc. Un inventaire plein (30 slots utiles × 64 = 1920 blocs) sert de référence pour le farm actif.
 
-| Profil | Blocs/heure | ¢/heure (avec salaire passif 200¢/h) |
-|---|---|---|
-| Farm actif | 1920 | ~3 656¢/h |
-| Farm modéré | 768 | ~1 582¢/h |
-| Casual | 256 | ~661¢/h |
+| Profil | Blocs/heure |
+|---|---|
+| Farm actif | 1920 |
+| Farm modéré | 768 |
+| Casual | 256 |
 
-> Voir V3.Simulations_Economiques pour le détail des temps de progression basés sur ces valeurs.
+> ⚠️ Les ¢/heure exacts dépendent désormais du mix de ressources minées et de leur prix de marché fluctuant (voir modèle par rareté ci-dessus), plus du coefficient de marché en vigueur. Les simulations dans V3.Simulations_Economiques utilisent encore l'ancien modèle pondéré (1.8¢/bloc) en attendant l'intégration complète du nouveau système de prix par ressource.
 
 ---
 
