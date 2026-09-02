@@ -90,6 +90,9 @@ AU DÉPÔT (instantané, avant toute vente) :
   -> Le crafteur reçoit 30% du PRIX CONSTRUCTEUR (référence fixe)
      par item, immédiatement à chaque dépôt en coffre
   -> Ce paiement ne dépend pas du prix de vente final — il est garanti
+  -> ⚠️ Cet argent est CRÉÉ PAR LE SERVEUR (ex nihilo) — il n'est PAS
+     déduit de la banque/trésorerie de la faction. Le crafteur est
+     payé sans que la faction perde un centime.
 
 À LA VENTE (au moment de la transaction validée) :
   -> Le vendeur reçoit 25% du PRIX CONSTRUCTEUR (référence fixe),

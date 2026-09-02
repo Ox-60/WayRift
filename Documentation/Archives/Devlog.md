@@ -427,3 +427,35 @@ Au dépôt (instantané) : Crafteur reçoit 30% du prix CONSTRUCTEUR par item
 La faction reçoit tout le reste du prix de VENTE RÉEL (125-150%)
 ```
 Vendre au prix maximum (150%) profite directement à la faction — crafteur et vendeur touchent un montant fixe peu importe le prix de vente final.
+
+---
+
+## Session 10 — 2 septembre 2026 (suite)
+
+### Corrections majeures — Membres, Nation, Paiement crafteur
+
+**Membres max révisés :**
+- Groupe : 15 (inchangé)
+- Organisation simple : **30** (était 25)
+- Organisation avancée : 50 (inchangé), condition simplifiée à **18 membres différents connectés/semaine** (au lieu de 15 actifs + hiérarchie)
+- Nation : **aucun minimum requis** — une faction de 30 joueurs peut devenir Nation si elle remplit les conditions standard (ressources+argent+ticket). Capacité max **75** (50 gratuit + achat places 51-75)
+
+**Erreur corrigée — "hiérarchie libre" :** cette liberté existe **dès le niveau Groupe**, ce n'est pas une exclusivité de l'Organisation avancée. Sa seule vraie différence = plus de capacité (50 vs 30).
+
+**Nation — Prix FIXE (pas de fourchette) :**
+- Calculé sur référence **50 membres actifs (35 réels)**
+- Dédicace du revenu passée de 10% à **50%** (rend la Nation bien plus significative face au Prestige individuel)
+
+| Monde | Prix fixe | Semaines @ 50mb |
+|---|---|---|
+| Plat | 1 590 000¢ | 6 |
+| Généré | 1 990 000¢ | 7.5 |
+| Importé | 2 650 000¢ | 10 |
+| Custom | 3 710 000¢ | 14 |
+
+Temps réel selon taille réelle de la nation (prix identique) :
+- 30 membres : 10 à 23.4 semaines
+- 50 membres (référence) : 6 à 14 semaines
+- 75 membres : 4 à 9.4 semaines
+
+**Paiement crafteur — précision importante :** l'argent versé au crafteur (30% prix constructeur, instantané au dépôt) est **créé par le serveur (ex nihilo)** — jamais déduit de la banque de faction. Seuls le vendeur (25%) et la faction (le reste) touchent de l'argent issu de la vraie transaction de vente.

@@ -4,10 +4,12 @@
 
 | Niveau | Membres max | Déblocage | Droits spéciaux |
 |---|---|---|---|
-| **Groupe** | 15 (+ adhérents illimités) | Création en jeu (gratuit S1, 35 000¢ dès S2 — collectif) | Claims, minage |
-| **Organisation simple** | 25 | Ticket staff + 10 membres actifs + 7j activité | Item unique B2B, événements GM, caisses orga |
-| **Organisation avancée** | 50 | Ticket staff + 15 membres actifs + hiérarchie complète | Idem + hiérarchie libre |
-| **Nation** | 40-75 | Ressources + argent + ticket staff | Monde dédié, **guerres KOTH**, caisses nation |
+| **Groupe** | 15 (+ adhérents illimités) | Création en jeu (gratuit S1, 35 000¢ dès S2 — collectif) | Claims, minage, hiérarchie libre de sous-groupes/titres |
+| **Organisation simple** | 30 | Ticket staff + 10 membres actifs + 7j activité | + Item unique B2B, événements GM, caisses orga |
+| **Organisation avancée** | 50 | Ticket staff + **18 membres différents connectés par semaine** | Identique à Organisation simple — uniquement plus de capacité (50 vs 30) |
+| **Nation** | Jusqu'à 75 (50 gratuit + achat de places 51-75) — **aucun minimum requis** | Ressources + argent + ticket staff | Monde dédié, **guerres KOTH**, caisses nation |
+
+> La hiérarchie libre de sous-groupes (titres, permissions personnalisées) est disponible **dès le niveau Groupe** — ce n'est pas une exclusivité de l'Organisation avancée. La seule vraie différence entre Organisation simple et avancée est la capacité maximale de membres.
 
 > ⚠️ Les **guerres KOTH sont réservées aux Nations uniquement**.
 > Les Organisations ont accès à des **événements organisés par les chefs et les GM** — pas de guerres formelles.
@@ -37,28 +39,42 @@ Délai d'activité ajusté : 1.5 semaine (10-11 jours) au lieu de 7 jours
 -> Laisse le temps aux 30% d'inactifs de se manifester ou d'être remplacés
 ```
 
-### Nation — mondes selon 10% de la trésorerie collective (pré-quarries)
+### Nation — Capacité de membres
+
+- **Aucun minimum de membres requis** pour devenir Nation — seules les conditions standard s'appliquent (ressources + argent + ticket staff). Une faction de 30 joueurs peut devenir Nation si elle remplit ces conditions.
+- **Capacité de base : 50 membres** (continuité directe avec le plafond Organisation avancée)
+- **Extension payante : jusqu'à 75 membres maximum** — chaque place au-delà de 50 s'achète avec de l'argent (¢)
+- **75 = plafond absolu**, jamais un seuil obligatoire à atteindre
+- Prix par place supplémentaire : **à définir** (point ouvert)
+
+### Nation — mondes selon 50% de la trésorerie collective
+
+**Prix FIXE, calculé sur une référence de 50 membres actifs** (peu importe la taille réelle de la nation — un plus grand nombre de membres atteint le prix plus vite, un plus petit nombre met plus de temps).
 
 ```
-Une Nation compte entre 40 et 75 membres (-30% inactifs = 28 à 52 actifs).
-Le coût de chaque monde correspond à 10% de la trésorerie hebdomadaire
-collective de la nation (soit 4x moins que le calcul brut à 40%, pour
-refléter que le minage manuel est la seule production disponible avant
-les quarries en V6), accumulée sur le nombre de semaines cible.
+Référence : 50 membres (35 actifs après -30% inactifs)
+Revenu collectif hebdomadaire : 529 550¢/semaine (farm modéré, 10h/sem/membre)
+Part dédiée au fonds monde : 50% du revenu = 264 775¢/semaine
 
-Coût monde = 10% x (membres actifs x 10h/sem x ¢/h farm modéré) x semaines cibles
+Coût monde = 50% x (35 actifs x 10h/sem x ¢/h farm modéré) x semaines cibles
 ```
 
-| Type de monde | Semaines cibles | Coût (40 membres) | Coût (75 membres) |
-|---|---|---|---|
-| Monde plat | 6 semaines | 250 000¢ | 480 000¢ |
-| Monde généré (Seed) | 7.5 semaines | 320 000¢ | 600 000¢ |
-| Monde importé | 10 semaines | 420 000¢ | 800 000¢ |
-| Monde custom (WorldPainter) | 14 semaines | 600 000¢ | 1 120 000¢ |
+| Type de monde | Semaines cibles (@ 50 membres) | Prix fixe |
+|---|---|---|
+| Monde plat | 6 semaines | **1 590 000¢** |
+| Monde généré (Seed) | 7.5 semaines | **1 990 000¢** |
+| Monde importé | 10 semaines | **2 650 000¢** |
+| Monde custom (WorldPainter) | 14 semaines | **3 710 000¢** |
 
-> ⚠️ **Ces durées sont un calcul COLLECTIF, pas solo.** Elles supposent 28 à 53 membres actifs contribuant ensemble à la trésorerie de la nation, pas un joueur unique qui économise seul. Un joueur solo mettrait des années à atteindre ces montants.
->
-> Une fois les quarries disponibles (V6), la production collective augmentera fortement — ces durées cibles resteront réalistes voire optimistes à ce stade du jeu.
+### Temps réel selon la taille de la nation (prix fixe, ne change pas)
+
+| Taille de nation | Monde plat | Monde généré | Monde importé | Monde custom |
+|---|---|---|---|---|
+| 30 membres (21 actifs) | 10.0 sem | 12.5 sem | 16.7 sem | 23.4 sem |
+| 50 membres (35 actifs) — référence | 6.0 sem | 7.5 sem | 10.0 sem | 14.0 sem |
+| 75 membres (52 actifs) | 4.0 sem | 5.1 sem | 6.7 sem | 9.4 sem |
+
+> ⚠️ **Ces durées sont un calcul COLLECTIF, pas solo.** Elles supposent des dizaines de membres actifs contribuant ensemble à la trésorerie de la nation. Une fois les quarries disponibles (V6), la production collective augmentera fortement — ces durées cibles resteront réalistes voire optimistes à ce stade du jeu.
 
 ---
 
