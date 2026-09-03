@@ -189,15 +189,15 @@ Le joueur repart à zéro sur :
 
 ---
 
-## Snapshots
+## Sauvegardes
 
-Commande déclenchée manuellement par un GM ou Admin avant un event pour permettre un retour arrière si nécessaire.
+**Politique simple pour l'instant : une sauvegarde automatique chaque matin.** Pas de snapshot ponctuel avant les events GM — jugé non nécessaire à ce stade.
 
-| Commande | Description | Permission |
-|---|---|---|
-| `/snapshot create <nom>` | Crée un snapshot du monde actuel | Admin/GM |
-| `/snapshot restore <nom>` | Restaure un snapshot | Admin uniquement |
-| `/snapshot list` | Liste les snapshots disponibles | Admin/GM |
+| Paramètre | Valeur |
+|---|---|
+| Fréquence | Quotidienne, chaque matin |
+| Déclenchement | Automatique |
+| Snapshots pré-event | Non implémenté (pas nécessaire pour l'instant) |
 
 ---
 

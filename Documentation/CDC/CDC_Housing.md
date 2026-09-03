@@ -44,11 +44,17 @@ Location : **15% du prix d'achat, par semaine**.
 
 ---
 
+## Gestion technique des plots
+
+- Plots gérés par un **plugin de gestion de plots existant** (pas de dev custom pour la protection de zone) — empêche toute dégradation du terrain autour du plot
+- **Taille maximum : 16×16 blocs** (un plot par chunk) — définie à la création de chaque plot par le responsable builder
+- Durée de location : **par semaine** (renouvelable)
+
 ## Inactivité
 
 - Inactivité de **1 mois** → perte du plot automatique
 - Le joueur est notifié avant la perte
-- Items restants dans le plot : récupérables pendant X jours avant suppression (à définir)
+- Items restants dans le plot : automatiquement transférés dans le **coffre "Objets Perdus"** du joueur (voir CDC_PlayerModule.md) — récupérables à tout moment, sans limite de temps
 
 ---
 
@@ -62,11 +68,8 @@ Acheter une parcelle en Capitale rapporte **+5 pts de réputation** (action posi
 
 | # | Point | Priorité |
 |---|---|---|
-| 1 | Prix final location vs achat par catégorie (une fois l'économie équilibrée) | Haute |
-| 2 | Durée de location (journée, semaine, mois ?) | À définir |
-| 3 | Délai de récupération des items après perte du plot | À définir |
-| 4 | Peut-on revendre son plot à un autre joueur ? | À définir |
-| 5 | Règles de construction (hauteur max, blocs interdits ?) | À définir |
+| 1 | Peut-on revendre son plot à un autre joueur ? | À définir |
+| 2 | Règles de construction spécifiques (hauteur max, blocs interdits ?) au-delà de la limite 16×16 | Faible |
 
 ---
 

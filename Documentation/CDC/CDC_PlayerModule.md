@@ -120,6 +120,30 @@ Un bouton s'affiche automatiquement après le délai. Il indique le coût actuel
 
 ---
 
+## Coffre "Objets Perdus" — Récupération centralisée
+
+Tout item perdu (perte de plot housing, expiration de coffre de banque, autre contexte de perte) est automatiquement stocké **par joueur individuel** dans un coffre "Objets Perdus" dédié.
+
+```
+Fonctionnement (type Ender Chest, mais RETRAIT UNIQUEMENT) :
+  -> Aucun dépôt manuel possible — le système y place les items automatiquement
+  -> Le joueur peut uniquement RÉCUPÉRER ce qui s'y trouve
+  -> Accessible depuis n'importe où (comme un Ender Chest classique)
+
+Sources qui alimentent ce coffre :
+  - Items d'un plot housing perdu (inactivité 1 mois)
+  - Items d'un coffre de banque expiré
+  - Autres pertes à définir au cas par cas
+```
+
+### Commandes
+
+| Commande | Description | Permission |
+|---|---|---|
+| `/objetsperdu` | Ouvre le coffre Objets Perdus du joueur | joueur |
+
+---
+
 ## Vol & Racket — Mécaniques criminelles
 
 ### Conditions de malus réputation

@@ -85,6 +85,8 @@
 
 ## Comportement passif — Inactivité
 
+**Déclenchement : 7 jours consécutifs avec moins de 20% de connexions uniques dans la semaine** (règle générale d'inactivité, applicable à ce contexte).
+
 Un joueur inactif voit sa réputation revenir **progressivement vers 500** :
 - Si réputation > 500 : descend vers 500 (max -200 pts total)
 - Si réputation < 500 : monte vers 500 (max +200 pts total)
@@ -159,7 +161,7 @@ Les factions Infâmes choisissent délibérément de rester en dessous de 100. C
 
 - Un même joueur peut voter pour la même personne **maximum 2 fois de suite**
 - Vote via impôts : payer ses impôts génère 1 vote à distribuer
-- Vote via top-serveur : 2 fois/jour, dure 1h avant expiration
+- Vote via top-serveur : 2 fois/jour, dure 1h avant expiration. **Compte dans la limite hebdomadaire de ±150 pts.**
 - Vote positif ou négatif : au choix du votant
 
 ---
@@ -279,9 +281,7 @@ Récompense : +1 point de prestige permanent
 
 | # | Point | Priorité |
 |---|---|---|
-| 1 | Délai exact avant que l'inactivité commence à s'appliquer | À définir |
-| 2 | Les votes top-serveur comptent-ils dans la limite des 150 pts/semaine ? | À clarifier |
-| 3 | Avantages Infâmes détaillés (Bas-Fonds, marché noir) | V3 |
+| 1 | Avantages Infâmes détaillés (Bas-Fonds, marché noir) | V3 |
 
 ---
 

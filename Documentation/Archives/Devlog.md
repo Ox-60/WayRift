@@ -532,3 +532,25 @@ Nouveau document fondamental créé : **CDC_Gameplay_Layers.md**
 - Un joueur ne peut appartenir qu'à **une seule Nation maximum** — s'il a 2 factions et que les deux deviennent Nation, il est éjecté de la dernière à avoir franchi le palier (empêche le cumul de bonus)
 
 **Idées validées** : Émissaire, Saison Nation, Diplomatie inter-nations — toutes confirmées bonnes pistes à détailler plus tard (V5+).
+
+---
+
+## Session 14 — 2 septembre 2026
+
+### Extraction Nation — Nouveau module séparé
+
+**CDC_NationModule.md créé** — toute la mécanique Nation extraite de CDC_FactionModule.md dans son propre document séparé (capacité, mondes, guerres KOTH, Tier, Émissaire, item unique). CDC_FactionModule.md recentré sur Groupe/Organisation uniquement, sans aucune référence Nation restante.
+
+### Réponses V1 intégrées
+
+| # | Sujet | Décision |
+|---|---|---|
+| 1 | Inactivité réputation | 7 jours consécutifs avec <20% de connexions uniques dans la semaine |
+| 2 | Votes top-serveur | Comptent bien dans la limite hebdomadaire ±150 pts |
+| 3 | Prix place Nation supplémentaire | 10% du revenu hebdomadaire de la faction au moment de l'achat |
+| 4 | Récupération items perdus | Nouveau coffre "Objets Perdus" par joueur — type Ender Chest, retrait uniquement (pas de dépôt manuel), alimenté automatiquement par toute perte (plot, banque, autre) |
+| 5 | Durée location housing | Confirmée : par semaine |
+| 6 | Gestion plots | Plugin de gestion de plots existant (pas de dev custom), taille max 16×16 (1 chunk), définie à la création |
+| 7 | Politique de sauvegarde | Simple : 1 sauvegarde automatique chaque matin, pas de snapshot pré-event pour l'instant |
+
+Tous les points ouverts correspondants nettoyés dans CDC_ReputationModule, CDC_Housing, CDC_Permissions.

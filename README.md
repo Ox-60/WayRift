@@ -40,7 +40,8 @@
 | [CDC — WorldModule](Documentation/CDC/CDC_WorldModule.md) | Gestion des mondes, import, horaires, régénération |
 | [CDC — PortalModule](Documentation/CDC/CDC_PortalModule.md) | Portails (Instable/Stable/Temporel/Faille), états joueur |
 | [CDC — PlayerModule](Documentation/CDC/CDC_PlayerModule.md) | Identité RP, mort, coma, revive, wipe, profil |
-| [CDC — FactionModule](Documentation/CDC/CDC_FactionModule.md) | Groupes, organisations, nations, claims, Puissance & Alignement, guerres |
+| [CDC — FactionModule](Documentation/CDC/CDC_FactionModule.md) | Groupe & Organisation — claims, Puissance & Alignement, hiérarchie |
+| [CDC — NationModule](Documentation/CDC/CDC_NationModule.md) | Nation — système séparé : Tier, mondes, guerres KOTH, capacité |
 | [CDC — EcoModule](Documentation/CDC/CDC_EcoModule.md) | Monnaie, HDV, taxes, commerce inter-entités |
 | [CDC — ReputationModule](Documentation/CDC/CDC_ReputationModule.md) | Réputation joueur (0-1200), seuils, LuckPerms |
 | [CDC — DisplayModule](Documentation/CDC/CDC_DisplayModule.md) | Nametags, affichages RP, couronne/tête de mort |

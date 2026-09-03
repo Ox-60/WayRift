@@ -1,22 +1,24 @@
-# CDC — FactionModule
+# CDC — FactionModule (Groupe & Organisation)
 
-## Architecture — 3 niveaux
+> Ce module couvre le **Groupe** et l'**Organisation** (simple/avancée) uniquement. La **Nation** a son propre module séparé : voir **CDC_NationModule.md**. Justification de cette séparation : **CDC_Gameplay_Layers.md**.
+
+---
+
+## Architecture — 2 niveaux
 
 | Niveau | Membres max | Déblocage | Droits spéciaux |
 |---|---|---|---|
 | **Groupe** | 15 (+ adhérents illimités) | Création en jeu (gratuit S1, 35 000¢ dès S2 — collectif) | Claims, minage, hiérarchie libre de sous-groupes/titres |
 | **Organisation simple** | 30 | Ticket staff + 10 membres actifs + 7j activité | + Item unique B2B, événements GM, caisses orga |
 | **Organisation avancée** | 50 | Ticket staff + **18 membres différents connectés par semaine** | Identique à Organisation simple — uniquement plus de capacité (50 vs 30) |
-| **Nation** | Jusqu'à 100 (75 gratuit + achat de places 76-100) — **aucun minimum requis** | Ressources + argent + ticket staff | Monde dédié, **guerres KOTH**, caisses nation |
 
 > La hiérarchie libre de sous-groupes (titres, permissions personnalisées) est disponible **dès le niveau Groupe** — ce n'est pas une exclusivité de l'Organisation avancée. La seule vraie différence entre Organisation simple et avancée est la capacité maximale de membres.
 
-> ⚠️ Les **guerres KOTH sont réservées aux Nations uniquement**.
-> Les Organisations ont accès à des **événements organisés par les chefs et les GM** — pas de guerres formelles.
+> ⚠️ Groupe et Organisation n'ont **pas accès aux guerres KOTH** (réservées aux Nations — voir CDC_NationModule.md). Les Organisations ont accès à des **événements organisés par les chefs et les GM** à la place.
 
 ---
 
-## Coûts économiques — Calibrage détaillé (V1, hors quarries V6)
+## Coûts économiques
 
 ### Groupe — 3 jours de farm collectif
 
@@ -39,58 +41,11 @@ Délai d'activité ajusté : 1.5 semaine (10-11 jours) au lieu de 7 jours
 -> Laisse le temps aux 30% d'inactifs de se manifester ou d'être remplacés
 ```
 
-### Nation — Capacité de membres
-
-- **Aucun minimum de membres requis** pour devenir Nation — seules les conditions standard s'appliquent (ressources + argent + ticket staff). Une faction de 30 joueurs peut devenir Nation si elle remplit ces conditions.
-- **Capacité de base : 75 membres, gratuite**
-- **Extension payante : jusqu'à 100 membres maximum** — chaque place au-delà de 75 s'achète avec de l'argent (¢)
-- **100 = plafond absolu**, jamais un seuil obligatoire à atteindre
-- Prix par place supplémentaire : **à définir** (point ouvert)
-
-### Nation — mondes selon 50% de la trésorerie collective
-
-**Prix FIXE, calculé sur une référence de 50 membres actifs** (peu importe la taille réelle de la nation — un plus grand nombre de membres atteint le prix plus vite, un plus petit nombre met plus de temps).
-
-```
-Référence : 50 membres (35 actifs après -30% inactifs)
-Revenu collectif hebdomadaire : 529 550¢/semaine (farm modéré, 10h/sem/membre)
-Part dédiée au fonds monde : 50% du revenu = 264 775¢/semaine
-
-Coût monde = 50% x (35 actifs x 10h/sem x ¢/h farm modéré) x semaines cibles
-```
-
-| Type de monde | Semaines cibles (@ 50 membres) | Prix fixe |
-|---|---|---|
-| Monde plat | 6 semaines | **1 590 000¢** |
-| Monde généré (Seed) | 7.5 semaines | **1 990 000¢** |
-| Monde importé | 10 semaines | **2 650 000¢** |
-| Monde custom (WorldPainter) | 14 semaines | **3 710 000¢** |
-
-### Temps réel selon la taille de la nation (prix fixe, ne change pas)
-
-| Taille de nation | Monde plat | Monde généré | Monde importé | Monde custom |
-|---|---|---|---|---|
-| 30 membres (21 actifs) | 10.0 sem | 12.5 sem | 16.7 sem | 23.4 sem |
-| 50 membres (35 actifs) — référence | 6.0 sem | 7.5 sem | 10.0 sem | 14.0 sem |
-| 75 membres (52 actifs) | 4.0 sem | 5.1 sem | 6.7 sem | 9.4 sem |
-
-> ⚠️ **Ces durées sont un calcul COLLECTIF, pas solo.** Elles supposent des dizaines de membres actifs contribuant ensemble à la trésorerie de la nation. Une fois les quarries disponibles (V6), la production collective augmentera fortement — ces durées cibles resteront réalistes voire optimistes à ce stade du jeu.
-
----
-
-## Guerres KOTH — Nations uniquement
-
-- Nations uniquement — validées et suivies par un GM
-- GM lance chaque manche avec une commande
-- **1 manche gagnée = 1 point. Premier à 3 points gagne.**
-- Si défaite écrasante : GM peut déclencher une attaque directe de la ville perdante
-- 1 position par monde : monde de l'attaquant, monde du défenseur, monde neutre
-
 ---
 
 ## Événements — Organisations
 
-Les organisations accèdent à des événements organisés conjointement par les chefs d'organisation et les GM. Ces événements remplacent les guerres formelles à ce niveau. Leur forme est libre (tournoi, course, défi RP, chasse au trésor...) et définie au cas par cas.
+Les organisations accèdent à des événements organisés conjointement par les chefs d'organisation et les GM. Ces événements remplacent les guerres formelles à ce niveau (les guerres KOTH restent exclusives aux Nations). Leur forme est libre (tournoi, course, défi RP, chasse au trésor...) et définie au cas par cas.
 
 ---
 
@@ -102,7 +57,7 @@ Les organisations accèdent à des événements organisés conjointement par les
 |---|---|---|
 | Membre de la faction | Pose/casse selon permissions de faction | Pose/casse selon permissions de faction |
 | Non-membre | Uniquement ce qu'accorde la permission de faction | Uniquement ce qu'accorde la permission de faction |
-| Ennemi (guerre GM — Nations) | Échelles et échafaudages uniquement. Redstone autorisée (pas pose/destruction). Pas de coffres. Pas de casse. | Idem |
+| Ennemi (contexte GM) | Échelles et échafaudages uniquement. Redstone autorisée (pas pose/destruction). Pas de coffres. Pas de casse. | Idem |
 
 Le nombre de claims autorisés dépend de la **Puissance** de la faction (voir section dédiée ci-dessous).
 
@@ -110,23 +65,23 @@ Le nombre de claims autorisés dépend de la **Puissance** de la faction (voir s
 
 ## Puissance & Alignement — Réputation de faction
 
-> ⚠️ **Ce système s'applique uniquement au Groupe et à l'Organisation (simple/avancée).** Les Nations en sortent complètement — elles ont leur propre système de classement séparé (voir Tier Nation dans CDC_Gameplay_Layers.md). Une fois une faction passée en Nation, sa Puissance et son Alignement ne sont plus suivis de cette façon.
+> Ce système s'applique au **Groupe et à l'Organisation (simple/avancée) uniquement**. Les Nations en sortent complètement — elles ont leur propre système de classement Tier, totalement indépendant (voir CDC_NationModule.md).
 
 Une faction (Groupe ou Organisation) possède deux jauges **indépendantes**, qui ne se comparent jamais entre elles :
 
 - **Puissance** : combien la faction pèse militairement. Détermine les claims autorisés.
 - **Alignement** : quel camp la faction incarne (bienveillant ou malveillant). Purement narratif/cosmétique — n'affecte jamais l'accès aux claims.
 
-> Cette séparation garantit l'équité : une mafia peut être très puissante et très malveillante sans contradiction. Une nation vertueuse peut être puissante et bienveillante. Les deux jauges progressent indépendamment.
+> Cette séparation garantit l'équité : une mafia peut être très puissante et très malveillante sans contradiction. Une faction vertueuse peut être puissante et bienveillante. Les deux jauges progressent indépendamment.
 
 ### Puissance — Calcul
 
-La Puissance **ne dépend jamais du nombre de claims** — ce serait circulaire puisque les claims dépendent de la Puissance. Elle se calcule uniquement via les guerres et les pertes de membres.
+La Puissance **ne dépend jamais du nombre de claims** — ce serait circulaire puisque les claims dépendent de la Puissance. Elle se calcule uniquement via les guerres/événements et les pertes de membres.
 
 ```
 Puissance = 100 (base de départ)
-          + (Victoires de guerre × 50, permanent)
-          - (Défaites de guerre × 30, permanent)
+          + (Victoires d'événement GM × 50, permanent)
+          - (Défaites d'événement GM × 30, permanent)
           - (Morts de membres × 10, temporaire — décroît sur 7 jours)
 ```
 
@@ -183,25 +138,14 @@ L'alignement est **purement cosmétique et narratif** — il n'accorde ni ne ret
 
 ---
 
-## Item unique — Organisations et Nations
+## Item unique — Organisations
 
 - Demandé via ticket. Créé par l'équipe WayRift et intégré en jeu.
-- **Vendable uniquement à d'autres organisations ou nations** (jamais aux joueurs individuels).
-- Prix de vente : 75% à 125% du prix constructeur.
-- Les acheteurs (organisations/nations) peuvent revendre aux joueurs à 125-150% minimum.
+- **Vendable uniquement à d'autres organisations ou nations** (jamais aux joueurs individuels) si constructeur.
+- Prix de vente B2B : 125% à 150% du prix constructeur.
+- Les acheteurs non-constructeurs peuvent revendre aux joueurs à 125-150% minimum.
 
----
-
-## Répartition des revenus sur vente B2B
-
-```
-Ressource vendue par l'organisation :
-  30% -> Farmeur (producteur de la ressource)
-  25% -> Vendeur (qui a passé le contrat)
-  45% -> Organisation
-         (redistribuable : primes activité/production,
-          achats au marché, ou conservé en trésorerie)
-```
+Voir CDC_Entreprises.md pour le détail complet du flux de paiement (crafteur/vendeur/faction).
 
 ---
 
@@ -217,6 +161,8 @@ CALENDRIER :
   Jeudi 20h  -> MODE PILLAGE (4h)
   Samedi 18h -> suppression définitive + régénération zone
 ```
+
+> La Nation ne suit pas ce système de dissolution — voir CDC_NationModule.md.
 
 ---
 
@@ -236,7 +182,6 @@ CALENDRIER :
 | `/f info <nom>` | Affiche Puissance, Alignement (étoiles), claims autorisés/posés | joueur |
 | `/f claims` | Affiche claims posés vs autorisés pour sa faction | membre |
 | `/faction admin validate <nom>` | Valide une faction/organisation | admin |
-| `/gm war activate <n1> <n2>` | Active physiquement la guerre (Nations) | GM |
 | `/gm event create <orga>` | Crée un événement pour une organisation | GM |
 
 ---
@@ -253,8 +198,8 @@ CALENDRIER :
 | `claims.solo-free` | 4 | Int | Claims gratuits solo |
 | `claims.solo-max` | 12 | Int | Claims max solo |
 | `faction.power-base` | 100 | Int | Puissance de départ pour toute nouvelle faction |
-| `faction.power-war-win` | 50 | Int | Puissance gagnée par victoire de guerre |
-| `faction.power-war-loss` | -30 | Int | Puissance perdue par défaite de guerre |
+| `faction.power-event-win` | 50 | Int | Puissance gagnée par victoire d'événement |
+| `faction.power-event-loss` | -30 | Int | Puissance perdue par défaite d'événement |
 | `faction.power-member-death` | -10 | Int | Puissance perdue par mort de membre (temporaire) |
 | `faction.power-death-decay-days` | 7 | Int | Jours avant que le malus de mort s'efface |
 | `faction.claims-warning-delay-hours` | 24 | Int | Délai avant pénalité si claims posés > autorisés |
