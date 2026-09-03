@@ -497,3 +497,27 @@ Point ouvert restant : que se passe-t-il si le portail se ferme (15 min écoulé
 **Système d'Artefacts** — lié aux Failles/Donjons (pas au Prestige, pour rester une récompense collective de faction plutôt qu'individuelle). Drop rare en donjon difficile → amélioration via ressources+argent → bonus permanent pour toute la faction.
 
 **Décision de documentation** : ce document est isolé des CDC confirmés (section distincte dans le README, disclaimer en en-tête) pour éviter toute confusion avec les spécifications validées pour développement.
+
+---
+
+## Session 13 — 2 septembre 2026
+
+### Pilier de design majeur — Deux couches de gameplay
+
+Nouveau document fondamental créé : **CDC_Gameplay_Layers.md**
+
+**Le problème résolu** : les GM ne peuvent pas créer du RP intime pour une Nation de 100 membres comme ils le font pour un Groupe de 15. Solution : deux gameplay distincts selon le niveau.
+
+**Couche 1 — Groupe & Organisation (monde joueur)** : Free RP + Events RP orchestrés par GM, attention dédiée et intime. Pas d'accès à Recherche/Boutique/Artefacts (volontairement gardé simple).
+
+**Couche 2 — Nation (monde nation)** : Guerre, Politique, organisation interne. L'attention GM bascule à l'échelle de la Nation (événements de guerre, politique inter-nations). Accès complet à Recherche/Boutique/Artefacts.
+
+**Confirmé** : les membres de Nation gardent le Free RP entre eux sans limite — seule l'attention GM dédiée bascule vers l'échelle Nation.
+
+**Nouveaux éléments** :
+- **Rôle Émissaire** : seul point de contact officiel entre Nation et petites factions — membres désignés qui traversent les mondes joueurs pour négocier les achats B2B
+- **Argent = indicateur de Puissance** (Nation uniquement) — justifie les systèmes de Recherche/Boutique comme puits monétaires
+- **Système de Tier (1-5)** — lecture simplifiée de la Puissance existante (0-1000+), pas un nouveau score
+- **Avertissement ticket Nation obligatoire** — le joueur doit être prévenu du changement de gameplay avant de valider le passage en Nation
+
+**CDC_Recherche_Faction reclassé** : n'est plus "exploratoire" — statut confirmé comme réservé exclusivement aux Nations, positionné V5+. Coûts précis encore à chiffrer.

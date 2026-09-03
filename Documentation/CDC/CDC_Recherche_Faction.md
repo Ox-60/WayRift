@@ -1,12 +1,12 @@
-# CDC — Recherche de Faction (EXPLORATOIRE — Post-V5)
+# CDC — Recherche, Boutique & Artefacts de Nation
 
-> ⚠️ **CE DOCUMENT N'EST PAS UNE SPÉCIFICATION CONFIRMÉE.** Il s'agit d'une exploration de faisabilité, inspirée de mécaniques de jeux mobiles (Rise of Kingdoms, Lords Mobile, Clash of Clans). Rien ici n'est validé pour développement. Ne pas implémenter avant validation explicite et repositionnement dans une vraie roadmap (probablement **V5 ou plus tard**).
+> **Réservé exclusivement aux Nations.** Groupes et Organisations n'ont pas accès à ce système — voir CDC_Gameplay_Layers.md pour la justification structurelle complète. Positionnement roadmap : **V5 ou plus tard**, coûts précis à chiffrer.
 
 ---
 
 ## Contexte
 
-Suite à une comparaison des systèmes de guildes dans les jeux mobiles à forte composante alliance (Rise of Kingdoms, Lords Mobile, Clash of Clans), plusieurs mécaniques ont été identifiées comme potentiellement adaptables à WayRift : un arbre de recherche financé par la faction, une boutique d'alliance, et un système d'artefacts.
+Suite à une comparaison des systèmes de guildes dans les jeux mobiles à forte composante alliance (Rise of Kingdoms, Lords Mobile, Clash of Clans), plusieurs mécaniques ont été adaptées pour donner aux Nations un gameplay de progression/puissance — cohérent avec le fait que l'attention GM bascule du RP intime vers la stratégie à ce niveau (voir CDC_Gameplay_Layers.md).
 
 ---
 
@@ -117,7 +117,7 @@ Fragment "Écaille de Dragon" (drop rare, donjon difficile V5+)
 
 | # | Point |
 |---|---|
-| 1 | Positionnement exact dans la roadmap — V5, V6, ou VLT ? |
+| 1 | Positionnement exact dans la roadmap — V5 confirmé comme plancher, palier exact (V5/V6/VLT) à préciser |
 | 2 | Coûts précis de chaque palier de recherche — à chiffrer |
 | 3 | Liste complète des artefacts et leurs effets |
 | 4 | Comment les Clan Games (mentionnés en discussion) s'articulent avec ce système |
@@ -125,4 +125,4 @@ Fragment "Écaille de Dragon" (drop rare, donjon difficile V5+)
 
 ---
 
-*WayRift — Document exploratoire — Ne pas développer sans validation — Confidentiel*
+*WayRift — V3 — Réservé Nations — Confidentiel*
