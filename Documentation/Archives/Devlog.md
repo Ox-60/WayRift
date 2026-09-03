@@ -481,3 +481,19 @@ Suite à une discussion avec un partenaire externe sur un système de mini-jeu d
 - Justification narrative à rédiger ultérieurement (pourquoi la mort "éjecte" plutôt que de déclencher le système normal)
 
 Point ouvert restant : que se passe-t-il si le portail se ferme (15 min écoulées) pendant qu'un joueur vivant est encore dans l'instance ?
+
+---
+
+## Session 12 — 2 septembre 2026
+
+### Exploration — Mécaniques inspirées de jeux mobiles (RoK, Lords Mobile, CoC)
+
+⚠️ **Tout ce qui suit est EXPLORATOIRE, post-V5, non confirmé.** Nouveau document séparé créé : `CDC_Recherche_Faction.md`, marqué comme non-développable sans validation.
+
+**Boutique de Faction** — liste complète proposée (Speedups, City/World Teleport, Passport Pages, Points VIP/Tokens, ressources, boosts XP).
+
+**Arbre de Recherche de Faction** — 1 branche commune (Économie : vitesse minage, claims, taxes, recettes craft, coffre, 2ème type d'entreprise) + 3 branches spécialisées selon l'identité de faction : Religion/Bienveillant, Mafia/Infâme, Guerre/Neutre (Nations). Financé par la trésorerie collective.
+
+**Système d'Artefacts** — lié aux Failles/Donjons (pas au Prestige, pour rester une récompense collective de faction plutôt qu'individuelle). Drop rare en donjon difficile → amélioration via ressources+argent → bonus permanent pour toute la faction.
+
+**Décision de documentation** : ce document est isolé des CDC confirmés (section distincte dans le README, disclaimer en en-tête) pour éviter toute confusion avec les spécifications validées pour développement.

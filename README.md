@@ -50,6 +50,12 @@
 | [CDC — Housing & Parcelles](Documentation/CDC/CDC_Housing.md) | Plots, achat/location, catégories VIP, inactivité (V3) |
 | [CDC — Tebex & Rangs VIP](Documentation/CDC/CDC_Tebex.md) | Rangs joueur/VIP/VIP+/VIP Premium — avantages, tokens |
 
+### 🔬 Exploratoire — Non confirmé, post-V5
+
+| Document | Description |
+|---|---|
+| [CDC — Recherche de Faction](Documentation/CDC/CDC_Recherche_Faction.md) | ⚠️ Exploratoire — arbre de recherche, boutique de faction, artefacts (inspiré RoK/Lords Mobile/CoC) |
+
 ---
 
 ## 🌍 Lore & Univers
