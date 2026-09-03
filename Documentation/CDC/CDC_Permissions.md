@@ -235,16 +235,19 @@ Récompense (dans les deux cas) :
 
 **Règle générale : +5% par point investi**, sauf Robustesse (cœurs) et Prospérité (mécanique propre). **Toutes les branches sont plafonnées à 3 points**, sauf Prospérité qui est illimitée.
 
-| Branche | Effet par point | Maximum (3 points, sauf mention) | Profil de joueur visé |
+| Branche | Effet par point | Maximum | Profil de joueur visé |
 |---|---|---|---|
-| **Richesse** | +5% sur revenus passifs + ventes | +15% | Économiste, marchand |
-| **Savoir** | +5% sur l'XP de compte gagné | +15% | Progression de compte rapide |
-| **Intelligence** | +5% sur l'XP de personnage gagné (métiers/skills) | +15% | Spécialisation métier rapide |
-| **Endurance** | -5% de consommation de faim | -15% | Explorateur, joueur solo longue session |
-| **Robustesse** | +1 cœur par point | +3 cœurs max (3 points) | Combattant, tank |
-| **Combat** | +5% dégâts infligés en PvP | +15% | Guerrier, chasseur (event Traque) |
-| **Charisme** | +5% sur tous les gains/pertes de réputation | +15% | Accélère l'alignement (Légendaire OU Infâme) |
+| **Richesse** | +5% sur revenus passifs + ventes | +15% (3 pts) | Économiste, marchand |
+| **Savoir** | +5% sur l'XP de compte gagné | +15% (3 pts) | Progression de compte rapide |
+| **Intelligence** | +5% sur l'XP de personnage gagné (métiers/skills) | +15% (3 pts) | Spécialisation métier rapide |
+| **Endurance** | -5% de consommation de faim | -15% (3 pts) | Explorateur, joueur solo longue session |
+| **Robustesse** | +1 cœur par point | +3 cœurs max (3 pts) | Combattant, tank |
+| **Combat (PvP)** | +5% dégâts infligés en PvP | **+5% max — 1 point seulement** | Guerrier, chasseur (event Traque) — gardé volontairement limité pour l'équilibre PvP |
+| **Chasse (PvE)** | +5% dégâts infligés sur mobs/PvE | +15% (3 pts) | Chasseur, farmeur de mobs |
+| **Charisme** | +5% sur tous les gains/pertes de réputation | +15% (3 pts) | Accélère l'alignement (Légendaire OU Infâme) |
 | **Prospérité** | +10% de l'argent du joueur reversé après chaque wipe | **Illimité — pas de plafond** | Cashback sur le wipe lui-même |
+
+> **Combat (PvP) plafonné à 1 seul point** (contrairement aux autres branches à 3) — un bonus de dégâts PvP trop élevé via la progression prestige casserait l'équilibre des combats entre joueurs. Chasse (PvE) reste sur la règle commune à 3 points, sans ce risque d'équilibre.
 
 ### Prospérité — Détail
 

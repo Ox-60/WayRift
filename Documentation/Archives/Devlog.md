@@ -588,3 +588,9 @@ Robustesse plafonnée à 2 points utiles force un joueur à 5 points à diversif
 ### Note sur les vérifications automatiques
 
 Claude ne peut pas se déclencher lui-même à minuit dans ce chat. Pour un contrôle quotidien automatique de cohérence sur le repo GitHub, **Claude Cowork** propose des "Scheduled Tasks" (tâches planifiées récurrentes, tournent même app fermée) — c'est l'outil adapté pour ce besoin, disponible sur les plans payants.
+
+### Prestige — Combat scindé PvP/PvE
+
+- **Combat (PvP)** : plafonné à **1 point seulement** (+5% max) — évite qu'un bonus de dégâts prestige casse l'équilibre PvP entre joueurs
+- **Nouvelle branche Chasse (PvE)** : +5%/point sur mobs, plafond normal à 3 points (+15% max)
+- Arbre de prestige = 9 branches au total désormais
