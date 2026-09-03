@@ -554,3 +554,18 @@ Nouveau document fondamental créé : **CDC_Gameplay_Layers.md**
 | 7 | Politique de sauvegarde | Simple : 1 sauvegarde automatique chaque matin, pas de snapshot pré-event pour l'instant |
 
 Tous les points ouverts correspondants nettoyés dans CDC_ReputationModule, CDC_Housing, CDC_Permissions.
+
+### Arbre de Prestige développé — 7 branches
+
+**Correction au passage** : la condition de wipe affichait encore "50 000¢" (ancienne valeur), corrigée en "250 tokens" (valeur actuelle depuis plusieurs sessions).
+
+**7 branches complètes**, +5%/point sauf Robustesse (+1 cœur/point, plafonné à 2 points) :
+- **Richesse** — +5% revenus passifs + ventes
+- **Savoir** — +5% XP de compte
+- **Endurance** — -5% consommation de faim
+- **Robustesse** — +1 cœur/point (max 2 points utiles)
+- **Combat** — +5% dégâts PvP
+- **Charisme** — +5% gains/pertes de réputation (accélère Légendaire OU Infâme)
+- **Prospérité** — +2% revenus pour TOUTE la faction du joueur (branche altruiste)
+
+Robustesse plafonnée à 2 points utiles force un joueur à 5 points à diversifier sur au moins 2 branches — renforce le côté "vrai choix" plutôt qu'optimisation unique. Exemples de builds documentés (Magnat, Vétéran, Altruiste, Ambitieux).
