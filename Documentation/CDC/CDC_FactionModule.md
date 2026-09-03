@@ -110,7 +110,9 @@ Le nombre de claims autorisés dépend de la **Puissance** de la faction (voir s
 
 ## Puissance & Alignement — Réputation de faction
 
-Une faction possède deux jauges **indépendantes**, qui ne se comparent jamais entre elles :
+> ⚠️ **Ce système s'applique uniquement au Groupe et à l'Organisation (simple/avancée).** Les Nations en sortent complètement — elles ont leur propre système de classement séparé (voir Tier Nation dans CDC_Gameplay_Layers.md). Une fois une faction passée en Nation, sa Puissance et son Alignement ne sont plus suivis de cette façon.
+
+Une faction (Groupe ou Organisation) possède deux jauges **indépendantes**, qui ne se comparent jamais entre elles :
 
 - **Puissance** : combien la faction pèse militairement. Détermine les claims autorisés.
 - **Alignement** : quel camp la faction incarne (bienveillant ou malveillant). Purement narratif/cosmétique — n'affecte jamais l'accès aux claims.

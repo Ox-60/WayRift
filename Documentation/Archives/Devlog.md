@@ -521,3 +521,14 @@ Nouveau document fondamental créé : **CDC_Gameplay_Layers.md**
 - **Avertissement ticket Nation obligatoire** — le joueur doit être prévenu du changement de gameplay avant de valider le passage en Nation
 
 **CDC_Recherche_Faction reclassé** : n'est plus "exploratoire" — statut confirmé comme réservé exclusivement aux Nations, positionné V5+. Coûts précis encore à chiffrer.
+
+### Corrections — Nation totalement hors du système Puissance/Alignement
+
+**Correction majeure** : les Nations sortent COMPLÈTEMENT du système Puissance & Alignement (étoiles rouge/jaune) — ce système reste réservé au Groupe et à l'Organisation uniquement. Les Nations ont leur **propre classement Tier (1-5), totalement indépendant**, basé sur : guerres KOTH gagnées/perdues, paliers de Recherche débloqués, artefacts possédés, trésorerie investie.
+
+**Règles de progression confirmées :**
+- Passage en Nation **jamais obligatoire** — une Organisation peut rester à ce palier indéfiniment, transition uniquement via ticket quand la faction le décide
+- Recherche débloquée = **acquise définitivement**, pas de rollback si la puissance Nation redescend
+- Un joueur ne peut appartenir qu'à **une seule Nation maximum** — s'il a 2 factions et que les deux deviennent Nation, il est éjecté de la dernière à avoir franchi le palier (empêche le cumul de bonus)
+
+**Idées validées** : Émissaire, Saison Nation, Diplomatie inter-nations — toutes confirmées bonnes pistes à détailler plus tard (V5+).

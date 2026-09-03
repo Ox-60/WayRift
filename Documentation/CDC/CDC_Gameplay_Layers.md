@@ -61,19 +61,29 @@ Une fois le statut Nation atteint, l'argent change de nature narrative : il devi
 
 ---
 
-## Système de Tier (1 à 5) — Affichage simplifié de la Puissance
+## Système de Tier (1 à 5) — Classement INDÉPENDANT, séparé de la Puissance
 
-**Le Tier n'est pas un nouveau score — c'est une lecture simplifiée de la Puissance déjà existante (0 à 1000+).**
+> ⚠️ **Correction importante : le Tier n'est PAS lié à la Puissance de faction.** Les Nations sortent complètement du système Puissance & Alignement (réservé Groupe/Organisation) — elles ont leur propre classement séparé. C'est une vraie rupture : les Nations ne sont plus comparées aux petites factions de quelque façon que ce soit.
 
-| Tier | Puissance | Statut |
-|---|---|---|
-| Tier 1 | 0-199 | Nation naissante |
-| Tier 2 | 200-399 | Nation reconnue |
-| Tier 3 | 400-599 | Nation influente |
-| Tier 4 | 600-799 | Nation majeure |
-| Tier 5 | 800+ | Nation dominante |
+### Calcul du Tier — indépendant
 
-Le Tier détermine l'accès progressif aux paliers de Recherche et aux objets de la Boutique de faction (plus le Tier est élevé, plus de contenu est débloqué).
+```
+Tier Nation = basé sur des facteurs propres aux Nations uniquement :
+  - Guerres KOTH gagnées/perdues (au niveau Nation)
+  - Paliers de Recherche débloqués
+  - Artefacts possédés et leur niveau d'amélioration
+  - Trésorerie investie dans le développement national
+```
+
+| Tier | Statut |
+|---|---|
+| Tier 1 | Nation naissante |
+| Tier 2 | Nation reconnue |
+| Tier 3 | Nation influente |
+| Tier 4 | Nation majeure |
+| Tier 5 | Nation dominante |
+
+Le Tier détermine l'accès progressif aux paliers de Recherche et aux objets de la Boutique de faction (plus le Tier est élevé, plus de contenu est débloqué). Seuils exacts et pondération des facteurs — à calibrer (point ouvert).
 
 ---
 
@@ -117,6 +127,32 @@ Traités, alliances, rivalités formalisées entre Nations — un vrai jeu polit
 | Artefacts | ❌ | ❌ | ✅ |
 | Guerres KOTH | ❌ | ❌ | ✅ |
 | Émissaires (commerce B2B externe) | — | Vend aux émissaires | Envoie des émissaires |
+
+---
+
+## Progression Nation — Règles confirmées
+
+### Passage en Nation — jamais obligatoire
+
+Une Organisation (simple ou avancée) n'est **jamais obligée** de devenir Nation. Elle peut rester à ce palier indéfiniment. Le passage en Nation se fait uniquement **via ticket, quand la faction le décide** — aucune promotion automatique, aucune pression du système.
+
+### Recherche débloquée — acquise définitivement
+
+Un palier de Recherche débloqué reste acquis **même si la Puissance/Tier de la Nation redescend ensuite**. Pas de rollback.
+
+### Un joueur ne peut appartenir qu'à UNE SEULE Nation
+
+Un joueur peut appartenir à 2 factions maximum (règle existante). Mais si **les deux** factions d'un joueur deviennent Nation simultanément (ou l'une après l'autre), le joueur est **automatiquement éjecté de la dernière faction à avoir franchi le palier Nation**.
+
+```
+Exemple :
+  Joueur membre du Groupe A et de l'Organisation B
+  -> Organisation B devient Nation en premier : le joueur reste dans les deux
+  -> Groupe A devient Nation ensuite : le joueur est éjecté du Groupe A/Nation
+     (la dernière transition perd le joueur)
+  -> Le joueur ne peut jamais cumuler l'appartenance à 2 Nations
+     (empêche l'accumulation de bonus Nation)
+```
 
 ---
 
