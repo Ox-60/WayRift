@@ -85,6 +85,23 @@ Joueur Down/Coma -> AUTORISÉ, arrivée 3 blocs aléatoires autour du portail de
 6. Item Faille = consommable (détruit à la pose)
 ```
 
+### Préparation avant l'entrée
+
+Aucun équipement n'est fourni par le donjon — les joueurs doivent se préparer avec **leur propre stuff** (armes, armure, potions) avant d'entrer.
+
+### Gestion de la mort en instance
+
+**Règle spécifique au donjon, distincte du système de mort standard du serveur RP :**
+
+```
+Si un joueur meurt à l'intérieur d'une instance de donjon :
+  -> Il est simplement ÉJECTÉ de l'instance
+  -> PAS de Down, PAS de Coma, PAS de wipe
+  -> Retour au point d'entrée du portail (extérieur)
+```
+
+> Le donjon est un espace de jeu à part, avec ses propres enjeux (perdre son run, potentiellement de l'équipement selon les règles internes du donjon à définir), sans mélanger ça avec les conséquences RP lourdes du serveur principal (coma, wipe). Justification narrative à rédiger — pourquoi une mort en Faille "éjecte" plutôt que de déclencher le cycle de mort classique.
+
 ### Contenu des donjons (à définir en V5)
 - Mobs custom, puzzles, salles à explorer
 - Récompenses à la fin (items rares, réputation, tokens)

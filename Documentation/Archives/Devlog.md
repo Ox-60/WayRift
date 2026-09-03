@@ -466,3 +466,18 @@ Temps réel selon taille réelle de la nation (prix identique) :
 - **Token vérifié** : 500¢/token toujours valide après recalibrage minerais — 8.3 semaines en farm modéré (cible 8-10 respectée)
 - **Location Cat.4 (9000¢/sem)** : faisable en farm actif (25.8% revenu hebdo) ou avec revenus d'entreprise en plus. Serré mais possible en farm modéré seul (59.5%)
 - Organisation avancée ajoutée à la table de synthèse (gratuite, seuil 18 membres connectés/semaine)
+
+---
+
+## Session 11 — 2 septembre 2026
+
+### Failles/Donjons — Mécanique de mort clarifiée
+
+Suite à une discussion avec un partenaire externe sur un système de mini-jeu donjon, la gestion de la mort en instance a été précisée :
+
+- **Aucun équipement fourni** par le donjon — les joueurs apportent leur propre stuff
+- **Mort en instance = éjection simple**, PAS le cycle Down/Coma/Wipe standard du serveur RP
+- Le donjon reste un espace de jeu séparé, avec ses propres enjeux, sans mélanger les conséquences RP lourdes
+- Justification narrative à rédiger ultérieurement (pourquoi la mort "éjecte" plutôt que de déclencher le système normal)
+
+Point ouvert restant : que se passe-t-il si le portail se ferme (15 min écoulées) pendant qu'un joueur vivant est encore dans l'instance ?
