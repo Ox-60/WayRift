@@ -7,7 +7,7 @@
 | **Groupe** | 15 (+ adhérents illimités) | Création en jeu (gratuit S1, 35 000¢ dès S2 — collectif) | Claims, minage, hiérarchie libre de sous-groupes/titres |
 | **Organisation simple** | 30 | Ticket staff + 10 membres actifs + 7j activité | + Item unique B2B, événements GM, caisses orga |
 | **Organisation avancée** | 50 | Ticket staff + **18 membres différents connectés par semaine** | Identique à Organisation simple — uniquement plus de capacité (50 vs 30) |
-| **Nation** | Jusqu'à 75 (50 gratuit + achat de places 51-75) — **aucun minimum requis** | Ressources + argent + ticket staff | Monde dédié, **guerres KOTH**, caisses nation |
+| **Nation** | Jusqu'à 100 (75 gratuit + achat de places 76-100) — **aucun minimum requis** | Ressources + argent + ticket staff | Monde dédié, **guerres KOTH**, caisses nation |
 
 > La hiérarchie libre de sous-groupes (titres, permissions personnalisées) est disponible **dès le niveau Groupe** — ce n'est pas une exclusivité de l'Organisation avancée. La seule vraie différence entre Organisation simple et avancée est la capacité maximale de membres.
 
@@ -42,9 +42,9 @@ Délai d'activité ajusté : 1.5 semaine (10-11 jours) au lieu de 7 jours
 ### Nation — Capacité de membres
 
 - **Aucun minimum de membres requis** pour devenir Nation — seules les conditions standard s'appliquent (ressources + argent + ticket staff). Une faction de 30 joueurs peut devenir Nation si elle remplit ces conditions.
-- **Capacité de base : 50 membres** (continuité directe avec le plafond Organisation avancée)
-- **Extension payante : jusqu'à 75 membres maximum** — chaque place au-delà de 50 s'achète avec de l'argent (¢)
-- **75 = plafond absolu**, jamais un seuil obligatoire à atteindre
+- **Capacité de base : 75 membres, gratuite**
+- **Extension payante : jusqu'à 100 membres maximum** — chaque place au-delà de 75 s'achète avec de l'argent (¢)
+- **100 = plafond absolu**, jamais un seuil obligatoire à atteindre
 - Prix par place supplémentaire : **à définir** (point ouvert)
 
 ### Nation — mondes selon 50% de la trésorerie collective

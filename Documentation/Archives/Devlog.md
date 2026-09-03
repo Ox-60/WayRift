@@ -459,3 +459,10 @@ Temps réel selon taille réelle de la nation (prix identique) :
 - 75 membres : 4 à 9.4 semaines
 
 **Paiement crafteur — précision importante :** l'argent versé au crafteur (30% prix constructeur, instantané au dépôt) est **créé par le serveur (ex nihilo)** — jamais déduit de la banque de faction. Seuls le vendeur (25%) et la faction (le reste) touchent de l'argent issu de la vraie transaction de vente.
+
+### Ajustements — même session (suite)
+
+- **Capacité Nation revue** : 75 membres gratuits (au lieu de 50), extension payante jusqu'à **100** (au lieu de 75). Référence de calcul prix (50 membres) inchangée — c'est un paramètre séparé de la capacité.
+- **Token vérifié** : 500¢/token toujours valide après recalibrage minerais — 8.3 semaines en farm modéré (cible 8-10 respectée)
+- **Location Cat.4 (9000¢/sem)** : faisable en farm actif (25.8% revenu hebdo) ou avec revenus d'entreprise en plus. Serré mais possible en farm modéré seul (59.5%)
+- Organisation avancée ajoutée à la table de synthèse (gratuite, seuil 18 membres connectés/semaine)
