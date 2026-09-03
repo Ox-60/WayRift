@@ -231,42 +231,59 @@ Récompense (dans les deux cas) :
 - Les points s'accumulent à chaque wipe (cumulatifs, jamais perdus)
 - **Choix cornélien voulu** : avec seulement 5 points aux premiers paliers (10 à 50), impossible de tout maximiser — chaque joueur doit définir une identité de build
 
-### Les 7 branches — Détail complet
+### Les 8 branches — Détail complet
 
-**Règle générale : +5% par point investi**, sauf la branche Robustesse qui suit sa propre règle en cœurs.
+**Règle générale : +5% par point investi**, sauf Robustesse (cœurs) et Prospérité (mécanique propre). **Toutes les branches sont plafonnées à 3 points**, sauf Prospérité qui est illimitée.
 
-| Branche | Effet par point | Maximum atteignable (5 points) | Profil de joueur visé |
+| Branche | Effet par point | Maximum (3 points, sauf mention) | Profil de joueur visé |
 |---|---|---|---|
-| **Richesse** | +5% sur revenus passifs + ventes | +25% | Économiste, marchand |
-| **Savoir** | +5% sur l'XP de compte gagné | +25% | Progression rapide, complétionniste |
-| **Endurance** | -5% de consommation de faim | -25% | Explorateur, joueur solo longue session |
-| **Robustesse** | +1 cœur par point | **+2 cœurs max (2 points seulement — plafond spécial)** | Combattant, tank |
-| **Combat** | +5% dégâts infligés en PvP | +25% | Guerrier, chasseur (event Traque) |
-| **Charisme** | +5% sur tous les gains/pertes de réputation | +25% | Joueur qui veut accélérer son alignement (Légendaire OU Infâme) |
-| **Prospérité** | +2% sur les revenus de TOUS les membres de sa faction actuelle | +10% collectif | Altruiste — sacrifice personnel pour le groupe |
+| **Richesse** | +5% sur revenus passifs + ventes | +15% | Économiste, marchand |
+| **Savoir** | +5% sur l'XP de compte gagné | +15% | Progression de compte rapide |
+| **Intelligence** | +5% sur l'XP de personnage gagné (métiers/skills) | +15% | Spécialisation métier rapide |
+| **Endurance** | -5% de consommation de faim | -15% | Explorateur, joueur solo longue session |
+| **Robustesse** | +1 cœur par point | +3 cœurs max (3 points) | Combattant, tank |
+| **Combat** | +5% dégâts infligés en PvP | +15% | Guerrier, chasseur (event Traque) |
+| **Charisme** | +5% sur tous les gains/pertes de réputation | +15% | Accélère l'alignement (Légendaire OU Infâme) |
+| **Prospérité** | +10% de l'argent du joueur reversé après chaque wipe | **Illimité — pas de plafond** | Cashback sur le wipe lui-même |
+
+### Prospérité — Détail
+
+```
+Au moment du wipe (peu importe l'option choisie — volontaire ou mort RP) :
+  -> Le joueur reçoit 10% x (nombre de points en Prospérité)
+     de l'argent qu'il possédait juste avant le wipe
+  -> Cet argent est reversé APRÈS le wipe (sur le nouveau personnage)
+
+Exemple :
+  3 points en Prospérité, le joueur avait 500 000¢ avant de wiper
+  -> Reçoit 30% x 500 000¢ = 150 000¢ après le wipe
+```
+
+> Prospérité n'a pas de plafond de points car elle ne devient utile qu'au moment du wipe suivant — investir massivement dedans est un pari sur l'avenir, pas un bonus immédiat comme les autres branches. Un joueur peut choisir de sacrifier toute utilité immédiate pour maximiser cette branche.
 
 ### Exemples de builds — Illustration des choix cornéliens
 
 ```
 Build "Magnat" (économique pur) :
-  5 points en Richesse -> +25% sur tous les revenus
-  Rapide à rentabiliser, mais zéro survie/combat
+  3 points en Richesse -> +15% sur tous les revenus
 
 Build "Vétéran" (combat + survie) :
-  2 points Robustesse (+2 cœurs) + 3 points Combat (+15% dégâts)
-  Bon en baston, mais ne gagne pas plus d'argent
+  3 points Robustesse (+3 cœurs) + 3 points Combat (+15% dégâts)
+  (nécessite d'avoir accumulé 6 points au total)
 
-Build "Altruiste" (sacrifice collectif) :
-  5 points en Prospérité -> +10% de revenus pour TOUTE sa faction
-  Le joueur lui-même n'en tire presque rien directement,
-  mais devient précieux pour son groupe
+Build "Cashback" (pari sur le prochain wipe) :
+  Tous les points en Prospérité -> gros retour d'argent à chaque wipe futur
+  Aucun bonus immédiat, mais rentable sur la durée si le joueur wipe souvent
 
 Build "Ambitieux" (réputation) :
-  5 points en Charisme -> atteint Légendaire ou Infâme
+  3 points en Charisme -> atteint Légendaire ou Infâme
   bien plus vite que la normale
+
+Build "Spécialiste Métier" (progression métier) :
+  3 points en Intelligence -> monte ses métiers 15% plus vite
 ```
 
-> Robustesse est plafonnée à 2 points utiles (au-delà, les points supplémentaires n'ont aucun effet sur cette branche) — un joueur avec 5 points doit donc obligatoirement répartir sur au moins 2 branches s'il veut investir en Robustesse, renforçant le côté "choix" plutôt que "optimisation unique".
+> Avec un plafond de 3 points par branche (sauf Prospérité), un joueur doit répartir ses points sur plusieurs branches dès qu'il dépasse 3 points au total — ça force la diversification naturellement, sans règle spéciale nécessaire comme avant pour Robustesse.
 
 ---
 

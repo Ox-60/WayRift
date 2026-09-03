@@ -162,6 +162,7 @@ Les factions Infâmes choisissent délibérément de rester en dessous de 100. C
 - Un même joueur peut voter pour la même personne **maximum 2 fois de suite**
 - Vote via impôts : payer ses impôts génère 1 vote à distribuer
 - Vote via top-serveur : 2 fois/jour, dure 1h avant expiration. **Compte dans la limite hebdomadaire de ±150 pts.**
+- **Bonus dédié votes : +10 pts supplémentaires par semaine**, réservés exclusivement aux votes top-serveur — au-delà de la limite générale de 150. Total max théorique via votes seuls : 160 pts/semaine.
 - Vote positif ou négatif : au choix du votant
 
 ---
@@ -256,6 +257,7 @@ Récompense : +1 point de prestige permanent
 | `reputation.vote-max-consecutive` | 2 | Int | Votes consécutifs max par même votant |
 | `reputation.server-vote-duration-minutes` | 60 | Int | Durée vote top-serveur avant expiration |
 | `reputation.server-vote-per-day` | 2 | Int | Votes top-serveur max par jour |
+| `reputation.server-vote-weekly-bonus` | 10 | Int | Bonus hebdo dédié aux votes, au-delà de la limite générale de 150 |
 | `reputation.down-penalty` | 2 | Int | Malus par Down infligé hors guerre |
 | `reputation.attack-penalty` | 1 | Int | Malus par attaque sans Down hors guerre |
 | `reputation.attack-daily-limit` | 3 | Int | Limite journalière attaques sans Down |

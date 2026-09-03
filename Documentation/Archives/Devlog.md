@@ -569,3 +569,22 @@ Tous les points ouverts correspondants nettoyés dans CDC_ReputationModule, CDC_
 - **Prospérité** — +2% revenus pour TOUTE la faction du joueur (branche altruiste)
 
 Robustesse plafonnée à 2 points utiles force un joueur à 5 points à diversifier sur au moins 2 branches — renforce le côté "vrai choix" plutôt qu'optimisation unique. Exemples de builds documentés (Magnat, Vétéran, Altruiste, Ambitieux).
+
+---
+
+## Session 15 — 2 septembre 2026
+
+### Réputation — Bonus votes top-serveur
+
++10 pts/semaine supplémentaires réservés exclusivement aux votes top-serveur, au-delà de la limite générale de ±150. Total max théorique via votes seuls : 160 pts/semaine.
+
+### Arbre de Prestige — Refonte (8 branches, plafond 3 points)
+
+- **Toutes les branches plafonnées à 3 points** (règle uniforme, remplace le cas spécial Robustesse à 2)
+- **Nouvelle branche Intelligence** : +5%/point sur l'XP de personnage (métiers/skills) — distincte de Savoir (XP de compte)
+- **Prospérité entièrement redesignée** : au lieu de bonus faction, devient un cashback au moment du wipe — chaque point = +10% de l'argent possédé avant le wipe, reversé après. **Seule branche sans plafond** (investissement utile uniquement au wipe suivant, pas de bonus immédiat)
+- Robustesse alignée sur la règle commune : +3 cœurs max (au lieu de +2)
+
+### Note sur les vérifications automatiques
+
+Claude ne peut pas se déclencher lui-même à minuit dans ce chat. Pour un contrôle quotidien automatique de cohérence sur le repo GitHub, **Claude Cowork** propose des "Scheduled Tasks" (tâches planifiées récurrentes, tournent même app fermée) — c'est l'outil adapté pour ce besoin, disponible sur les plans payants.
