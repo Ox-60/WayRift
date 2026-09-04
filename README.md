@@ -35,23 +35,37 @@
 
 ## 📐 Cahiers des Charges — Modules à développer
 
+Chaque CDC est préfixé par sa **version cible** (V1, V3, V5) — la version à partir de laquelle le module doit être fonctionnel.
+
+### V1 — Fondations (ouverture du serveur)
+
 | Module | Description |
 |---|---|
-| [CDC — WorldModule](Documentation/CDC/CDC_WorldModule.md) | Gestion des mondes, import, horaires, régénération |
-| [CDC — PortalModule](Documentation/CDC/CDC_PortalModule.md) | Portails (Instable/Stable/Temporel/Faille), états joueur |
-| [CDC — PlayerModule](Documentation/CDC/CDC_PlayerModule.md) | Identité RP, mort, coma, revive, wipe, profil |
-| [CDC — FactionModule](Documentation/CDC/CDC_FactionModule.md) | Groupe & Organisation — claims, Puissance & Alignement, hiérarchie |
-| [CDC — NationModule](Documentation/CDC/CDC_NationModule.md) | Nation — système séparé : Tier, mondes, guerres KOTH, capacité |
-| [CDC — EcoModule](Documentation/CDC/CDC_EcoModule.md) | Monnaie, HDV, taxes, commerce inter-entités |
-| [CDC — ReputationModule](Documentation/CDC/CDC_ReputationModule.md) | Réputation joueur (0-1200), seuils, LuckPerms |
-| [CDC — DisplayModule](Documentation/CDC/CDC_DisplayModule.md) | Nametags, affichages RP, couronne/tête de mort |
-| [CDC — Entreprises](Documentation/CDC/CDC_Entreprises.md) | Types d'entreprises, contrats, production, vente B2B |
-| [CDC — Permissions & Grades](Documentation/CDC/CDC_Permissions.md) | Grades staff, permissions sous-groupes, prestige, sanctions |
-| [CDC — Events GM](Documentation/CDC/CDC_Events_GM.md) | Events Game Master — La Traque et autres events narratifs |
-| [CDC — Housing & Parcelles](Documentation/CDC/CDC_Housing.md) | Plots, achat/location, catégories VIP, inactivité (V3) |
-| [CDC — Tebex & Rangs VIP](Documentation/CDC/CDC_Tebex.md) | Rangs joueur/VIP/VIP+/VIP Premium — avantages, tokens |
-| [CDC — Gameplay Layers](Documentation/CDC/CDC_Gameplay_Layers.md) | Pilier de design : Groupe/Organisation (RP intime) vs Nation (stratégie/puissance) |
-| [CDC — Recherche de Faction](Documentation/CDC/CDC_Recherche_Faction.md) | Recherche, boutique, artefacts — réservé Nations, V5+ |
+| [CDC — WorldModule](Documentation/CDC/V1.CDC_WorldModule.md) | Gestion des mondes, import, horaires, régénération |
+| [CDC — PortalModule](Documentation/CDC/V1.CDC_PortalModule.md) | Portails (Instable/Stable/Temporel/Faille), états joueur |
+| [CDC — PlayerModule](Documentation/CDC/V1.CDC_PlayerModule.md) | Identité RP, mort, coma, revive, wipe, profil |
+| [CDC — FactionModule](Documentation/CDC/V1.CDC_FactionModule.md) | Groupe & Organisation — claims, Puissance & Alignement, hiérarchie |
+| [CDC — NationModule](Documentation/CDC/V1.CDC_NationModule.md) | Nation — système séparé : Puissance Nation, mondes, guerres KOTH, capacité |
+| [CDC — EcoModule](Documentation/CDC/V1.CDC_EcoModule.md) | Monnaie, HDV, taxes, commerce inter-entités |
+| [CDC — ReputationModule](Documentation/CDC/V1.CDC_ReputationModule.md) | Réputation joueur (0-1200), seuils, LuckPerms |
+| [CDC — DisplayModule](Documentation/CDC/V1.CDC_DisplayModule.md) | Nametags, affichages RP, couronne/tête de mort |
+| [CDC — Entreprises](Documentation/CDC/V1.CDC_Entreprises.md) | Types d'entreprises, contrats, production, vente B2B |
+| [CDC — Permissions & Grades](Documentation/CDC/V1.CDC_Permissions.md) | Grades staff, permissions sous-groupes, prestige, sanctions |
+| [CDC — Events GM](Documentation/CDC/V1.CDC_Events_GM.md) | Events Game Master — La Traque et autres events narratifs |
+| [CDC — Tebex & Rangs VIP](Documentation/CDC/V1.CDC_Tebex.md) | Rangs joueur/VIP/VIP+/VIP Premium — avantages, tokens |
+| [CDC — Gameplay Layers](Documentation/CDC/V1.CDC_Gameplay_Layers.md) | Pilier de design : Groupe/Organisation (RP intime) vs Nation (stratégie/puissance) |
+
+### V3 — Suprématie
+
+| Module | Description |
+|---|---|
+| [CDC — Housing & Parcelles](Documentation/CDC/V3.CDC_Housing.md) | Plots, achat/location, catégories VIP, inactivité |
+
+### V5 — Corruption & Faille
+
+| Module | Description |
+|---|---|
+| [CDC — Recherche de Faction](Documentation/CDC/V5.CDC_Recherche_Faction.md) | Recherche, boutique, artefacts — réservé Nations |
 
 ---
 
