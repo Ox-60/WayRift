@@ -594,3 +594,32 @@ Claude ne peut pas se déclencher lui-même à minuit dans ce chat. Pour un cont
 - **Combat (PvP)** : plafonné à **1 point seulement** (+5% max) — évite qu'un bonus de dégâts prestige casse l'équilibre PvP entre joueurs
 - **Nouvelle branche Chasse (PvE)** : +5%/point sur mobs, plafond normal à 3 points (+15% max)
 - Arbre de prestige = 9 branches au total désormais
+
+---
+
+## Session 16 — 2 septembre 2026
+
+### Restructuration majeure du repo
+
+**Tous les CDC renommés avec préfixe de version** (convention alignée sur le reste du repo) :
+- 13 CDC → `V1.` (fondations)
+- CDC_Housing → `V3.`
+- CDC_Recherche_Faction → `V5.`
+
+**Section "Dépendances & Liaisons" ajoutée en bas de chaque CDC** (15 fichiers) — référencement croisé clair entre modules liés.
+
+### Puissance Nation — remplace le Tier 1-5
+
+Le Tier à paliers fixes (1 à 5) est remplacé par un **score compétitif illimité**, cohérent avec l'esprit de compétition permanente entre Nations : nombre de membres actifs + réputation cumulée + argent trésorerie + argent cumulé des membres + guerres KOTH + recherche débloquée + artefacts. Pas de plafond — toujours un objectif à viser, comme un vrai classement.
+
+### Wipe — Ce que le joueur perd (clarification complète)
+
+Ajouté au PlayerModule : le joueur perd son groupe, son logement, et ses relations RP construites au wipe. Mécanique de reconnaissance partielle documentée ("un cousin m'a parlé de vous" — vague, sans détails précis). Intention de design explicitée : pousser les joueurs à accepter la mort et à recommencer, pour prolonger la durée de vie du serveur.
+
+### Ticket Nation — gains ET pertes présentés
+
+Le message d'avertissement du ticket est réécrit pour présenter les deux faces : ce que la faction gagne (Recherche, politique, guerres, Puissance Nation) autant que ce qu'elle perd (attention GM dédiée). Évite l'effet "punition" pour un choix qui doit rester valorisant.
+
+### Corrections mineures
+- CDC_Permissions : hiérarchie corrigée (Nation 100 → 75+achat jusqu'à 100, Organisation simple 25 → 30)
+- Nettoyage d'un caractère d'encodage parasite dans PlayerModule
