@@ -717,3 +717,11 @@ Vol désormais géré via un **item consommable dédié**, sur le principe de l'
 ### Puissance Groupe/Organisation — Usage confirmé
 
 **Résolu : purement cosmétique.** Affichée dans `/f top` comme indicateur de prestige, aucun effet mécanique sur le jeu. Cohérent avec le fait que Groupe/Organisation fonctionnent sur du Free RP + events GM, pas sur des mécaniques économiques dures comme les Nations.
+
+### Correction — Puissance PAS purement cosmétique finalement
+
+**Retour en arrière sur la décision précédente** : la Puissance Groupe/Organisation débloque bien des events GM aux extrêmes — **< 200** (contenu "underdog/faction en difficulté") et **> 1000** (contenu "faction dominante") — en plus d'être affichée dans `/f top`.
+
+### Marché noir — Double condition précisée
+
+Accès nécessite : réputation INDIVIDUELLE Infâme (< 100) **ET** appartenance à une faction d'Alignement Infâme (★★★★★ rouge). Les deux doivent être alignés — un joueur Infâme dans une faction vertueuse n'y a pas accès, ni l'inverse.
