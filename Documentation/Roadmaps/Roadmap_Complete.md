@@ -27,11 +27,12 @@
 
 ## V2 — Rébellion
 
-- Métiers basiques (AdvancedJobs + AdvancedSkills)
-- Guerres KOTH GM — 3 points pour gagner
-- Boutique cosmétique EcoCrates + Tebex. Rubies.
+- Métiers basiques (AdvancedJobs + AdvancedSkills) — progression naturelle par la pratique (voir V1.CDC_Entreprises pour le principe)
+- Boutique cosmétique EcoCrates + Tebex. Rubies (achat internet uniquement).
 - Mondes instables — contenu aléatoire liste GM
 - **Clôture V2** : Destruction de la Capitale par les joueurs
+
+> ⚠️ Les Guerres KOTH sont exclusives aux Nations (voir V1.CDC_NationModule) — pas liées à une version précise, disponibles dès qu'une faction atteint le statut Nation, même en V1.
 
 ## V3+ — Phases suivantes
 
