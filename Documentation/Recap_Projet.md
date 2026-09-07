@@ -253,7 +253,7 @@ CALENDRIER :
 - Liste blanche des items autorisés à la vente
 - Taxes : 15% Capitale + 10% faction = 25%. Étalages loués : 15%
 - Durée listing : 7 jours + 7 jours récupération Ender Chest
-- Accès interdit aux joueurs réputation < 20
+- Accès interdit aux joueurs réputation < 200 (échelle 0-1200)
 
 ### Commerce inter-entités
 

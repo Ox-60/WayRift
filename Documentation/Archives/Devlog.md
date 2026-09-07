@@ -635,3 +635,29 @@ Les sections "Dépendances & Liaisons" ont été retravaillées : au lieu de sim
 ### Archétypes de réincarnation — EN SUSPENS
 
 Idée retenue en discussion (nouveau titre narratif à chaque wipe, points cumulés jamais perdus) mais **non confirmée pour développement** — documentée dans CDC_Permissions comme suspendue, pourrait être abandonnée.
+
+---
+
+## Session 18 — 2 septembre 2026
+
+### Trou majeur trouvé et corrigé — Prix items uniques vs coût minerais
+
+**Problème identifié** : le prix constructeur des items uniques (16-22¢) était incohérent avec les prix minerais recalibrés (Fer 76¢, Or/Diamant 95¢) — un crafteur utilisant ces minerais perdrait de l'argent.
+
+**Résolution** : abandon de la fourchette fixe universelle. Le prix constructeur et la recette de chaque item unique sont désormais **gérés manuellement par un GM**, au cas par cas, adaptés à l'utilité réelle de l'item. Nouvelles commandes GM ajoutées (`/e admin create/setprice/setrecipe/editprice`).
+
+### Nouveau principe structurant — Feuille de route par saison dans chaque CDC
+
+Suite à une demande explicite : chaque CDC doit désormais avoir une section **"Feuille de route"** en tête de document, précisant ce qui est nécessaire Saison 1 vs Saison 2+ vs plus tard. Objectif : ne pas surcharger le développement initial avec des systèmes qui ne servent à rien avant plusieurs mois.
+
+**Appliqué à V1.CDC_Entreprises** : tout le système (items customs, coffre, contrats) marqué **non actif en Saison 1-3**, activation prévue Saison 4+ seulement.
+
+**Appliqué à V1.CDC_Tebex** : les 5 points "en réflexion" (glow, fly mode, boosts, Gold XP, messages custom) clairement repoussés en Saison 2+.
+
+> Ce principe devra être étendu progressivement aux autres CDC au fil des prochaines sessions.
+
+### Autres corrections de cette session
+- **Contrats B2B** : plus de délai d'expiration fixe — annulation libre à tout moment par n'importe quelle partie (`/e contrat cancel`)
+- **Commandes HDV** ajoutées (`/ah sell/list/buy/my/cancel/collect/history/stats`) — utilisables uniquement dans la zone dédiée de la Capitale
+- **Incohérence "réputation < 20"** trouvée et corrigée dans EcoModule ET Recap_Projet (ancienne échelle 0-100, doit être < 200 sur l'échelle actuelle 0-1200)
+- **Saison Nation fixée à 3 mois**
