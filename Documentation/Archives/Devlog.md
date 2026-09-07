@@ -684,3 +684,32 @@ Clarification ajoutée dans Gameplay_Layers pour distinguer ce reset PROGRAMMÉ 
 ### Prix constructeur — Correction : la fourchette existe toujours
 
 Précision importante : le système précédent (GM fixe tout manuellement, sans fourchette) était incorrect. En réalité : **le GM fixe un prix initial** par item (adapté à sa recette/utilité), **une fourchette d'ajustement existe autour de cette valeur**, et le chef d'organisation peut l'ajuster dans cette marge. Tous les prix dérivés (vendeur, B2B, majoration) continuent de se calculer automatiquement en % du prix constructeur actuel. Nouvelle commande chef ajoutée (`/e setprice`).
+
+---
+
+## Session 20 — 2 septembre 2026
+
+### Réputation — Correction inactivité (2 règles distinctes)
+
+Correction d'une erreur de fusion précédente :
+- **Joueur individuel** : 7 jours sans connexion
+- **Faction** : moins de 40% de membres uniques connectés dans la semaine
+
+Ces deux règles avaient été incorrectement fusionnées en une seule ("7j avec <20%") — maintenant clairement séparées entre CDC_ReputationModule (joueur) et CDC_FactionModule (faction).
+
+### Vol de coffre — Nouvelle mécanique item-based
+
+Vol désormais géré via un **item consommable dédié**, sur le principe de l'inspection joueur : révèle 75% du contenu du coffre (aléatoire), le voleur peut prendre jusqu'à 25% du révélé. **Malus de réputation par PILE prise** (-3 pts/pile), pas un malus fixe unique — un vol massif coûte proportionnellement plus cher.
+
+### Claims — Refonte complète du système (Groupe/Organisation)
+
+**Remplace entièrement le système lié à la Puissance.** Nouveau système :
+- Claims **achetés** avec de l'argent (prix à définir)
+- Nombre max déterminé par la **taille du groupe** : 1 claim pour 2 membres (Groupe 15mb→7 claims, Org. simple 30mb→15, Org. avancée 50mb→25)
+- **Règle de contiguïté** : nouveau claim doit être adjacent à un claim existant
+- **Zones d'affluence non-claimables**
+- Un claim acheté **ne peut plus être retiré** par une chute de Puissance (le système de warning/pénalité 5%/jour est supprimé)
+
+**Nouvelle mécanique — Capture de territoire ("claim sur claim")** : possible uniquement en contexte de conflit validé (événement Organisation ou guerre KOTH Nation). L'attaquant doit rester présent sur la zone pendant un délai (façon point KOTH) pour capturer le claim ennemi. Défenseur peut interrompre en repoussant l'attaquant.
+
+**Conséquence** : la Puissance de Groupe/Organisation perd sa fonction mécanique principale (déterminer les claims). Son nouvel usage reste à définir — probablement un simple indicateur de classement affiché, sans effet mécanique direct pour l'instant (point ouvert prioritaire).
