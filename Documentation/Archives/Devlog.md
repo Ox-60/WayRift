@@ -713,3 +713,7 @@ Vol désormais géré via un **item consommable dédié**, sur le principe de l'
 **Nouvelle mécanique — Capture de territoire ("claim sur claim")** : possible uniquement en contexte de conflit validé (événement Organisation ou guerre KOTH Nation). L'attaquant doit rester présent sur la zone pendant un délai (façon point KOTH) pour capturer le claim ennemi. Défenseur peut interrompre en repoussant l'attaquant.
 
 **Conséquence** : la Puissance de Groupe/Organisation perd sa fonction mécanique principale (déterminer les claims). Son nouvel usage reste à définir — probablement un simple indicateur de classement affiché, sans effet mécanique direct pour l'instant (point ouvert prioritaire).
+
+### Puissance Groupe/Organisation — Usage confirmé
+
+**Résolu : purement cosmétique.** Affichée dans `/f top` comme indicateur de prestige, aucun effet mécanique sur le jeu. Cohérent avec le fait que Groupe/Organisation fonctionnent sur du Free RP + events GM, pas sur des mécaniques économiques dures comme les Nations.
