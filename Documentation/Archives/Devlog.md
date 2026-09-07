@@ -623,3 +623,15 @@ Le message d'avertissement du ticket est réécrit pour présenter les deux face
 ### Corrections mineures
 - CDC_Permissions : hiérarchie corrigée (Nation 100 → 75+achat jusqu'à 100, Organisation simple 25 → 30)
 - Nettoyage d'un caractère d'encodage parasite dans PlayerModule
+
+---
+
+## Session 17 — 2 septembre 2026
+
+### Dépendances CDC réécrites — focus équilibrage
+
+Les sections "Dépendances & Liaisons" ont été retravaillées : au lieu de simples références croisées, elles précisent maintenant **quoi vérifier et pourquoi** en cas de modification. Chaîne de dépendance économique identifiée : EcoModule (prix blocs/minerais) → FactionModule (coût Groupe), NationModule (prix mondes), Housing (prix plots), Tebex (prix token/kart/coffre banque). Toute modification des prix de base doit déclencher une revérification de tous ces montants dérivés.
+
+### Archétypes de réincarnation — EN SUSPENS
+
+Idée retenue en discussion (nouveau titre narratif à chaque wipe, points cumulés jamais perdus) mais **non confirmée pour développement** — documentée dans CDC_Permissions comme suspendue, pourrait être abandonnée.
