@@ -661,3 +661,26 @@ Suite à une demande explicite : chaque CDC doit désormais avoir une section **
 - **Commandes HDV** ajoutées (`/ah sell/list/buy/my/cancel/collect/history/stats`) — utilisables uniquement dans la zone dédiée de la Capitale
 - **Incohérence "réputation < 20"** trouvée et corrigée dans EcoModule ET Recap_Projet (ancienne échelle 0-100, doit être < 200 sur l'échelle actuelle 0-1200)
 - **Saison Nation fixée à 3 mois**
+
+---
+
+## Session 19 — 2 septembre 2026
+
+### Puissance Nation — Formule de pondération proposée (déséquilibre détecté)
+
+```
+Puissance = (argent/10 000) + (victoires×10) + (égalités×5) + (défaites×3)
+          + (membres×5) + (|réputation-500|×3) + (artefacts×10) + (recherches×5)
+```
+
+⚠️ **Déséquilibre trouvé par simulation** : le facteur réputation domine 4 à 5× tous les autres facteurs combinés (une Nation extrême Infâme/Légendaire écrase une Nation neutre indépendamment de ses guerres/recherche/argent). Asymétrie supplémentaire : distance max au neutre = 500 côté Infâme vs 700 côté Légendaire, avantage mécanique non voulu pour les Nations vertueuses. **Multiplicateur réputation à revoir avant calibrage final.**
+
+### Reset saisonnier Nation — CONFIRMÉ complet
+
+Tous les 3 mois (Saison Nation) : argent trésorerie, recherche débloquée (bonus inclus), artefacts (effets inclus), points de guerre → **remis à zéro intégralement**. Seuls les membres et leur réputation individuelle persistent (appartiennent aux joueurs, pas à la Nation). Chaque saison = vrai nouveau départ compétitif, aucun effet boule de neige permanent entre saisons.
+
+Clarification ajoutée dans Gameplay_Layers pour distinguer ce reset PROGRAMMÉ du principe "pas de rollback organique" (deux mécanismes différents, pas contradictoires).
+
+### Prix constructeur — Correction : la fourchette existe toujours
+
+Précision importante : le système précédent (GM fixe tout manuellement, sans fourchette) était incorrect. En réalité : **le GM fixe un prix initial** par item (adapté à sa recette/utilité), **une fourchette d'ajustement existe autour de cette valeur**, et le chef d'organisation peut l'ajuster dans cette marge. Tous les prix dérivés (vendeur, B2B, majoration) continuent de se calculer automatiquement en % du prix constructeur actuel. Nouvelle commande chef ajoutée (`/e setprice`).
