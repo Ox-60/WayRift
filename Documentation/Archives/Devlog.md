@@ -789,3 +789,19 @@ Première vraie pièce du chantier V2 : les 5 branches de métiers (Mysticisme, 
 ### Scope V2 confirmé
 
 Métiers, Boutique Tebex, HDV, Économie générale, Market — pas de Bas-Fonds en V2 (repoussé V3 avec marché noir/casino). Plugin Events GM doit arriver au plus tard en V2 — déjà satisfait (V1.CDC_Events_GM existe depuis longtemps).
+
+---
+
+## Session 23 — 2 septembre 2026
+
+### Casino — Deux niveaux résolus
+
+Confirmé : **Casino du Bas-Fonds** (double condition Infâme, mises modestes) et **Casino de la Ville Haute** (ouvert à tous, mises plus importantes) — deux versions du même système Rubies/machines à sous pour deux publics différents.
+
+### Métiers — Clarification technique des deux plugins
+
+Recherche effectuée sur AdvancedJobs et AdvancedSkills (documentation officielle) :
+- **AdvancedJobs** : système de jobs entièrement personnalisable, aucun nom de métier fixe imposé — nos métiers custom (Médecin, Assassin, etc.) sont construits ici
+- **AdvancedSkills** : 14 compétences RPG **natives et fixes** (Mining, Excavation, Fishing, Herbalism, Woodcutting, Swords, Axes, Archery, Crossbow, Trident, Defense, Acrobatics, Alchemy, Elytra) qui montent en niveau passivement en arrière-plan, indépendamment du métier choisi
+
+Table de correspondance ajoutée entre nos branches de métiers custom et les 14 compétences natives (ex: Guerrier ↔ Swords/Axes/Defense, Éclaireur ↔ Archery/Acrobatics, Herboriste ↔ Herbalism/Alchemy).
