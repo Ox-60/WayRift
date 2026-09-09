@@ -744,3 +744,13 @@ Remplace le modèle "5% à 20% du revenu" par : croissance exponentielle à part
 - **Sommets de dirigeants** : confirmé, organisé par les GM
 - **Trophées de guerre narratifs** : confirmé
 - **Blason** : pas besoin de nouveau système — déjà couvert par les bannières Minecraft des joueurs. Piste à creuser : afficher les bannières à plusieurs endroits (ambassade, entrée du monde, documents diplomatiques)
+
+### Claims — Système final validé (12 gratuits + 3×12 payants)
+
+Résultat final choisi : **24-36-48** (plus propre que 24-32-44). Système :
+- 12 claims gratuits pour toute nouvelle faction
+- Groupe : 12 claims payants de 2 500¢ à 10 000¢
+- Organisation simple : 12 claims payants de 10 000¢ à 25 000¢ (reprend où Groupe s'arrête)
+- Organisation avancée : 12 claims payants de 25 000¢ à 34 032¢ (reprend où Org. simple s'arrête)
+
+Une seule courbe exponentielle continue traverse les 3 paliers. Totaux cumulés : Groupe 24, Organisation simple 36, Organisation avancée 48.
