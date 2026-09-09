@@ -754,3 +754,38 @@ Résultat final choisi : **24-36-48** (plus propre que 24-32-44). Système :
 - Organisation avancée : 12 claims payants de 25 000¢ à 34 032¢ (reprend où Org. simple s'arrête)
 
 Une seule courbe exponentielle continue traverse les 3 paliers. Totaux cumulés : Groupe 24, Organisation simple 36, Organisation avancée 48.
+
+---
+
+## Session 22 — 2 septembre 2026
+
+### Nettoyage de points ouverts — nombreuses résolutions
+
+- **Contrats B2B** : confirmé aucune limite de contrats actifs simultanés
+- **Logs entreprise** : interface scrollable (GUI), pas une commande texte
+- **Ajustement prix constructeur** : fourchette fixée à ±10% autour du prix initial GM
+- **Coût capture de claim** : confirmé perdu définitivement si la capture échoue
+- **Diplomatie inter-nations** : résolu — pas de système dédié, gérée par déplacement physique des joueurs + sommets de dirigeants organisés par GM
+- **Mort RP** : confirmé via ticket (pas de contact direct GM)
+- **Redistribution prestige** : fixé à 25 tokens (12 500¢ — 10% du coût d'un point neuf, bien calibré)
+- **Housing** : revente de plot entre joueurs IMPOSSIBLE, construction interdite hors des plots
+
+### Recherche Nation — Coût évolutif par catégorie
+
+Confirmé : système de coût progressif façon jeux mobiles (RoK/Lords Mobile) — chaque palier coûte plus cher, catégories de recherche avec coûts de base différents (Économie mineure < Identité spécialisée < Ultime).
+
+### Artefacts — Catégories détaillées
+
+Bijoux/colliers (bonus passif, lore fort), armes/armures décoratives (**inutilisables en combat**, symboles de prestige), gemmes, sets multi-pièces avec bonus supplémentaire. Exemples : "Collier du Sage", "Lame du Roi Déchu", "Regalia de l'Ancien Monde".
+
+### Nouveau document — V3.CDC_BasFonds.md
+
+Marché noir (items exclusifs non-HDV), Receleur (rachat d'items volés à prix réduit), Casino (machines à sous, lien avec Rubies déjà établi). Accès double condition (réputation individuelle Infâme + faction Alignement Infâme). Point ouvert : le Casino nécessite-t-il la même double condition que le marché noir, ou est-il ouvert à tous ?
+
+### Nouveau document — V2.CDC_MetiersModule.md
+
+Première vraie pièce du chantier V2 : les 5 branches de métiers (Mysticisme, Guerre, Artisanat, Culture, Divers) déjà établies dans les sessions précédentes, formalisées en CDC dédié avec feuille de route. Confirme que Herboriste/Pêcheur nécessitent V3+ pour leurs mécaniques complètes.
+
+### Scope V2 confirmé
+
+Métiers, Boutique Tebex, HDV, Économie générale, Market — pas de Bas-Fonds en V2 (repoussé V3 avec marché noir/casino). Plugin Events GM doit arriver au plus tard en V2 — déjà satisfait (V1.CDC_Events_GM existe depuis longtemps).

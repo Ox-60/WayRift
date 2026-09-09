@@ -55,11 +55,18 @@ Chaque CDC est préfixé par sa **version cible** (V1, V3, V5) — la version à
 | [CDC — Tebex & Rangs VIP](Documentation/CDC/V1.CDC_Tebex.md) | Rangs joueur/VIP/VIP+/VIP Premium — avantages, tokens |
 | [CDC — Gameplay Layers](Documentation/CDC/V1.CDC_Gameplay_Layers.md) | Pilier de design : Groupe/Organisation (RP intime) vs Nation (stratégie/puissance) |
 
+### V2 — Rébellion
+
+| Module | Description |
+|---|---|
+| [CDC — MetiersModule](Documentation/CDC/V2.CDC_MetiersModule.md) | Arbre des métiers, 5 branches, progression par la pratique |
+
 ### V3 — Suprématie
 
 | Module | Description |
 |---|---|
 | [CDC — Housing & Parcelles](Documentation/CDC/V3.CDC_Housing.md) | Plots, achat/location, catégories VIP, inactivité |
+| [CDC — Bas-Fonds & Marché Noir](Documentation/CDC/V3.CDC_BasFonds.md) | Marché noir, Receleur, Casino — accès Infâmes uniquement |
 
 ### V5 — Corruption & Faille
 
