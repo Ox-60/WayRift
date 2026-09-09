@@ -725,3 +725,22 @@ Vol désormais géré via un **item consommable dédié**, sur le principe de l'
 ### Marché noir — Double condition précisée
 
 Accès nécessite : réputation INDIVIDUELLE Infâme (< 100) **ET** appartenance à une faction d'Alignement Infâme (★★★★★ rouge). Les deux doivent être alignés — un joueur Infâme dans une faction vertueuse n'y a pas accès, ni l'inverse.
+
+---
+
+## Session 21 — 2 septembre 2026
+
+### Claims — Nouveau modèle de prix (plafond absolu par palier)
+
+Remplace le modèle "5% à 20% du revenu" par : croissance exponentielle à partir de 5% du revenu hebdo, **plafonnée en ¢ absolus** selon le palier (Groupe 10 000¢, Org simple 20 000¢, Org avancée 30 000¢). Le nombre de claims accessibles n'est plus fixé par le nombre de membres — il se déduit du nombre de claims avant d'atteindre le plafond.
+
+**Résultat observé (à valider)** : Groupe obtient 6 claims, Org simple 5, Org avancée seulement 4 — contre-intuitif (la plus grosse faction a le moins de territoire). Flag ajouté dans la doc pour ajustement futur si besoin.
+
+**Nouvelle condition de montée de palier** : une faction doit avoir acheté tous ses claims accessibles au palier actuel avant de pouvoir passer au palier suivant.
+
+### Idées RP Nations — Confirmées
+
+- **Chroniques de Nation** : lié au rôle Journaliste déjà existant (CDC_Entreprises), pas un nouveau système
+- **Sommets de dirigeants** : confirmé, organisé par les GM
+- **Trophées de guerre narratifs** : confirmé
+- **Blason** : pas besoin de nouveau système — déjà couvert par les bannières Minecraft des joueurs. Piste à creuser : afficher les bannières à plusieurs endroits (ambassade, entrée du monde, documents diplomatiques)
