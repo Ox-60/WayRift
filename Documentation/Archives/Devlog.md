@@ -805,3 +805,15 @@ Recherche effectuée sur AdvancedJobs et AdvancedSkills (documentation officiell
 - **AdvancedSkills** : 14 compétences RPG **natives et fixes** (Mining, Excavation, Fishing, Herbalism, Woodcutting, Swords, Axes, Archery, Crossbow, Trident, Defense, Acrobatics, Alchemy, Elytra) qui montent en niveau passivement en arrière-plan, indépendamment du métier choisi
 
 Table de correspondance ajoutée entre nos branches de métiers custom et les 14 compétences natives (ex: Guerrier ↔ Swords/Axes/Defense, Éclaireur ↔ Archery/Acrobatics, Herboriste ↔ Herbalism/Alchemy).
+
+---
+
+## Session 24 — 2 septembre 2026
+
+### Métiers — Piste Expertise documentée EN DISCUSSION (non décidé)
+
+Idée explorée mais **pas encore validée par l'équipe Ox** : 2 métiers max (3 VIP, 4 Premium), mais 1 seule Expertise active à la fois (changement possible toutes les 2 semaines). Chaque métier divisé en partie Commune (toujours accessible) et Expertise (spécialisation verrouillée).
+
+Vérifié techniquement : compatibilité Expertise/AdvancedSkills faisable via PlaceholderAPI, personnalisation du plugin AdvancedSkills confirmée possible ("Create Your Own Skills").
+
+Documenté dans CDC_MetiersModule avec bandeau "EN DISCUSSION" clair — à ne pas développer avant confirmation explicite de l'équipe.
