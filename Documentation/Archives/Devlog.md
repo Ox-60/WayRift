@@ -817,3 +817,23 @@ Idée explorée mais **pas encore validée par l'équipe Ox** : 2 métiers max (
 Vérifié techniquement : compatibilité Expertise/AdvancedSkills faisable via PlaceholderAPI, personnalisation du plugin AdvancedSkills confirmée possible ("Create Your Own Skills").
 
 Documenté dans CDC_MetiersModule avec bandeau "EN DISCUSSION" clair — à ne pas développer avant confirmation explicite de l'équipe.
+
+---
+
+## Session 25 — 2 septembre 2026
+
+### Réorganisation — "CDC" réservé aux vrais développements
+
+Suite à une demande explicite : le préfixe "CDC" doit être réservé uniquement aux documents décrivant du contenu à développer (plugin, mécaniques codées). Le reste devient de simples documents descriptifs.
+
+**Renommé** : `CDC_Gameplay_Layers.md` → `Gameplay_Layers.md` (aucune commande, aucune config — pur pilier de design conceptuel, jamais eu de dev associé).
+
+**Nouveau document** : `Ajouts_Narratifs_V2.md` (pas un CDC) — regroupe Mondes Instables et Destruction de la Capitale, deux éléments purement narratifs/GM sans aucun développement requis. Évite de créer des CDC vides de contenu technique pour du pur RP.
+
+### Confirmations rapides
+
+- Passage d'accès au Bas-Fonds : géré par les builders (level design), pas de documentation nécessaire
+- Marché noir : pas d'idée de contenu pour l'instant, à définir plus tard
+- HDV : aucun changement prévu entre V1 et V2
+- Coût recherche Nation (15% → 45% du revenu hebdo, +5%/recherche) : validé, bien calibré face aux autres coûts établis (79k¢ à 238k¢, proportionné face aux mondes à 1.59M-3.71M¢)
+- "Économie générale/Market" : pas de trou réel identifié, déjà entièrement couvert par CDC_EcoModule

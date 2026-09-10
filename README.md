@@ -53,13 +53,14 @@ Chaque CDC est préfixé par sa **version cible** (V1, V3, V5) — la version à
 | [CDC — Permissions & Grades](Documentation/CDC/V1.CDC_Permissions.md) | Grades staff, permissions sous-groupes, prestige, sanctions |
 | [CDC — Events GM](Documentation/CDC/V1.CDC_Events_GM.md) | Events Game Master — La Traque et autres events narratifs |
 | [CDC — Tebex & Rangs VIP](Documentation/CDC/V1.CDC_Tebex.md) | Rangs joueur/VIP/VIP+/VIP Premium — avantages, tokens |
-| [CDC — Gameplay Layers](Documentation/CDC/V1.CDC_Gameplay_Layers.md) | Pilier de design : Groupe/Organisation (RP intime) vs Nation (stratégie/puissance) |
+| [Gameplay Layers](Documentation/CDC/V1.Gameplay_Layers.md) | Pilier de design (pas de dev) : Groupe/Organisation (RP intime) vs Nation (stratégie/puissance) |
 
 ### V2 — Rébellion
 
 | Module | Description |
 |---|---|
 | [CDC — MetiersModule](Documentation/CDC/V2.CDC_MetiersModule.md) | Arbre des métiers, 5 branches, progression par la pratique |
+| [Ajouts Narratifs & Events GM](Documentation/Ajouts_Narratifs_V2.md) | Mondes instables, Destruction de la Capitale — narratif pur, pas de dev |
 
 ### V3 — Suprématie
 
