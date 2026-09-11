@@ -847,3 +847,25 @@ Suite à une demande explicite : le préfixe "CDC" doit être réservé uniqueme
 Renommé et étendu `Ajouts_Narratifs_V2.md` → `Idees_Events_GM.md`, désormais un **hub central** regroupant toutes les idées GM/events discutées à travers les sessions : La Traque (résumé, détail complet reste dans son CDC), Mondes Instables, Destruction de la Capitale, Événements d'Organisation, Sommets de dirigeants, Trophées de guerre, Chroniques de Nation, Marché noir (statut).
 
 Contenu dupliqué nettoyé dans `Gameplay_Layers.md` — remplacé par un pointeur vers ce nouveau document central pour éviter toute divergence future entre les deux fichiers.
+
+---
+
+## Session 27 — 2 septembre 2026
+
+### Nœuds de permission — Passe complète sur toutes les commandes
+
+Ajout d'une colonne "Nœud" (`wayrift.<module>.<action>`) à **toutes** les tables de commandes du projet : FactionModule, NationModule, PlayerModule, PortalModule, ReputationModule, WorldModule, EcoModule (HDV), Entreprises (3 tables), Events_GM. Convention cohérente avec LuckPerms, prête à l'emploi pour les devs.
+
+### Nouveau document — Règle générale d'annulation
+
+`V1.Regle_Annulation_Generale.md` : règle transversale confirmée — toute action interrompue (déconnexion, faction supprimée, conflit de claim) est simplement annulée, pas de résolution complexe. Coûts déjà prélevés suivent la règle de leur contexte spécifique (ex: capture = perdu même en cas d'échec).
+
+### Discussion architecture technique
+
+- **Interconnexion des modules** : proposition d'un bus d'événements interne (pattern Bukkit Event) plutôt que des appels directs entre modules, pour limiter le couplage — architecture finale (1 jar vs plusieurs plugins) encore incertaine côté équipe
+- **GUI custom** : confirmé possible de personnaliser fortement le rendu via resource pack (textures d'items, fonds, titres colorés), mais impossible de sortir du système de conteneurs Minecraft sans mod client
+- **Performance** : principes proposés (recalcul sur événement plutôt qu'en boucle, écritures DB groupées/async, indexation spatiale pour les claims) — à discuter avec le responsable technique
+
+### Liste de questions fournie pour orienter le travail
+
+10 questions compilées pour aider à cadrer les décisions techniques avec l'équipe : architecture (jar unique vs multiple, base de données, serveur de test), équipe (devs assignés, versioning, resource pack), priorités (premier module, deadline), technique (framework GUI, dimensionnement VPS).
