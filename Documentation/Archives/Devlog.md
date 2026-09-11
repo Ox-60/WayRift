@@ -869,3 +869,16 @@ Ajout d'une colonne "Nœud" (`wayrift.<module>.<action>`) à **toutes** les tabl
 ### Liste de questions fournie pour orienter le travail
 
 10 questions compilées pour aider à cadrer les décisions techniques avec l'équipe : architecture (jar unique vs multiple, base de données, serveur de test), équipe (devs assignés, versioning, resource pack), priorités (premier module, deadline), technique (framework GUI, dimensionnement VPS).
+
+---
+
+## Session 28 — 2 septembre 2026
+
+### Architecture technique — Décisions confirmées
+
+- **Un seul plugin, modulaire** (pas de plugins séparés)
+- **MySQL** pour la base de données
+- **Code versionné sur GitHub** (comme la documentation)
+- Reste des décisions (équipe de dev, framework GUI, dimensionnement serveur) — à préciser avec le temps
+
+Nouveau document `V1.CDC_Architecture_Technique.md` créé pour centraliser ces décisions, avec la proposition de bus d'événements interne (rendue plus pertinente maintenant que l'architecture single-plugin est confirmée).

@@ -41,6 +41,7 @@ Chaque CDC est préfixé par sa **version cible** (V1, V3, V5) — la version à
 
 | Module | Description |
 |---|---|
+| [CDC — Architecture Technique](Documentation/CDC/V1.CDC_Architecture_Technique.md) | Décisions structurantes : plugin unique modulaire, MySQL, GitHub |
 | [CDC — WorldModule](Documentation/CDC/V1.CDC_WorldModule.md) | Gestion des mondes, import, horaires, régénération |
 | [CDC — PortalModule](Documentation/CDC/V1.CDC_PortalModule.md) | Portails (Instable/Stable/Temporel/Faille), états joueur |
 | [CDC — PlayerModule](Documentation/CDC/V1.CDC_PlayerModule.md) | Identité RP, mort, coma, revive, wipe, profil |
