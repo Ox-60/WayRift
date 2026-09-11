@@ -52,6 +52,7 @@ Chaque CDC est préfixé par sa **version cible** (V1, V3, V5) — la version à
 | [CDC — Entreprises](Documentation/CDC/V1.CDC_Entreprises.md) | Types d'entreprises, contrats, production, vente B2B |
 | [CDC — Permissions & Grades](Documentation/CDC/V1.CDC_Permissions.md) | Grades staff, permissions sous-groupes, prestige, sanctions |
 | [CDC — Events GM](Documentation/CDC/V1.CDC_Events_GM.md) | Events Game Master — La Traque et autres events narratifs |
+| [Idées & Events GM](Documentation/Idees_Events_GM.md) | Document central — toutes les idées GM/events (Mondes instables, Destruction Capitale, Sommets, Chroniques, Trophées) |
 | [CDC — Tebex & Rangs VIP](Documentation/CDC/V1.CDC_Tebex.md) | Rangs joueur/VIP/VIP+/VIP Premium — avantages, tokens |
 | [Gameplay Layers](Documentation/CDC/V1.Gameplay_Layers.md) | Pilier de design (pas de dev) : Groupe/Organisation (RP intime) vs Nation (stratégie/puissance) |
 
@@ -60,7 +61,7 @@ Chaque CDC est préfixé par sa **version cible** (V1, V3, V5) — la version à
 | Module | Description |
 |---|---|
 | [CDC — MetiersModule](Documentation/CDC/V2.CDC_MetiersModule.md) | Arbre des métiers, 5 branches, progression par la pratique |
-| [Ajouts Narratifs & Events GM](Documentation/Ajouts_Narratifs_V2.md) | Mondes instables, Destruction de la Capitale — narratif pur, pas de dev |
+
 
 ### V3 — Suprématie
 

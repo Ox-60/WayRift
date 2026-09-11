@@ -837,3 +837,13 @@ Suite à une demande explicite : le préfixe "CDC" doit être réservé uniqueme
 - HDV : aucun changement prévu entre V1 et V2
 - Coût recherche Nation (15% → 45% du revenu hebdo, +5%/recherche) : validé, bien calibré face aux autres coûts établis (79k¢ à 238k¢, proportionné face aux mondes à 1.59M-3.71M¢)
 - "Économie générale/Market" : pas de trou réel identifié, déjà entièrement couvert par CDC_EcoModule
+
+---
+
+## Session 26 — 2 septembre 2026
+
+### Consolidation — Document central "Idées & Events GM"
+
+Renommé et étendu `Ajouts_Narratifs_V2.md` → `Idees_Events_GM.md`, désormais un **hub central** regroupant toutes les idées GM/events discutées à travers les sessions : La Traque (résumé, détail complet reste dans son CDC), Mondes Instables, Destruction de la Capitale, Événements d'Organisation, Sommets de dirigeants, Trophées de guerre, Chroniques de Nation, Marché noir (statut).
+
+Contenu dupliqué nettoyé dans `Gameplay_Layers.md` — remplacé par un pointeur vers ce nouveau document central pour éviter toute divergence future entre les deux fichiers.
